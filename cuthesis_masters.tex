@@ -1,0 +1,152 @@
+\documentclass[12pt]{report}
+
+
+\usepackage{url}
+\usepackage{xspace}
+\usepackage{fancybox}
+\usepackage{cuthesis}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{csquotes}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{mathtools}
+
+
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+
+
+
+\linespread{1.6}
+
+\author{Sultan Wehaibi}
+\title {Thesis Title Here}
+\degree{Master of Applied Science in Software Engineering}
+\dept  {Computer Science and Software Engineering}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define commands for frequently used words or phrases
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\SATD}{self-admitted technical debt\xspace}
+\newcommand{\ie}{i.e.\xspace}
+\newcommand{\eg}{e.g.\xspace}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define commands for your RQs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\chapterIIIrqi}{\textbf{RQ1 - Do technical debt files have more bugs? Do files become more buggy after the introduction of technical debt?}}
+\newcommand{\chapterIIIrqii}{\textbf{RQ2 - Do technical debt related changes tend to introduce future bugs?}}
+\newcommand{\chapterIIIrqiii}{\textbf{RQ3 - Do technical debt related changes tend to be more difficult?}}
+
+
+\newcommand{\chapterIVrqI}{\textbf{RQ1: Do god files have more defects than non-god files?}}
+
+\newcommand{\chapterIVrqII}{\textbf{RQ2: Do god-related changes introduce future defects?}}
+
+\newcommand{\chapterIVrqIII}{\textbf{RQ3: Are god-related changes are more difficult than non-god changes?}}
+
+\newcommand{\chapterIVrqIV}{\textbf{RQ4: Is there an overlap between the comment-based vs. the metric based technical debt?}}
+
+
+\newcommand{\sultan}[1]{\textcolor{RoyalBlue}{{\it [Sultan: #1]}}}
+\newcommand{\emad}[1]{\textcolor{ForestGreen}{{\it [Emad: #1]}}}
+\newcommand{\todo}[1]{\textcolor{WildStrawberry}{\textbf{[#1]}}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define command to create a conclusion box to answer your RQs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\conclusionbox}[1]{%
+    \vspace{6mm}
+    \framebox[0.95\textwidth][c]{%
+        \parbox[b]{0.92\textwidth}{%
+            {\it #1}
+        }
+    }
+    \vspace{6mm}
+}
+
+
+\begin{document}
+
+\begin{abstract}
+	
+	
+Technical debt refers to incomplete or temporary workarounds that allow us to speed up software development in the short term at the cost of paying a higher price later on. Recently, studies have shown that technical debt can be detected from source code comments, referred to as "self-admitted technical debt." Researchers have examined the detection, classification and removal of self-admitted technical debt. However, to date, no empirical evidence has been compiled to assess the impact of self-admitted technical debt on software quality.
+
+Therefore, in this thesis, we examine the hypothetical trade-off between self-admitted technical debt and software quality by investigating whether (i) files with self-admitted technical debt have more defects compared to files without self-admitted technical debt, (ii) whether accumulation of self-admitted technical debt incurs future defects, and (iii) whether self-admitted technical debt-related changes tend to be more difficult. We quantify the difficulty of a change using well-known measures proposed in prior work, such as the amount of churn, the number of files, the number of modified modules in a change, as well as the entropy of a change. An empirical study using five open source projects, namely Hadoop, Chromium, Cassandra, Spark and Tomcat, showed that: i) there is no clear trend when it comes to defects and self-admitted technical debt, although the defectiveness of the technical debt files increases after the introduction of technical debt, ii) self-admitted technical debt-related changes induce less future defects than non-technical debt-related changes, however, iii) self-admitted technical debt changes are more difficult to perform, i.e., they are more complex. Our study indicates that although technical debt may have negative effects, its impact is not limited to defects, but rather extends to making the system more difficult to change in the future.
+
+
+\end{abstract}
+
+
+
+\begin{acknowledgments}
+
+I would like 
+
+\end{acknowledgments}
+
+
+
+\begin{dedication}
+	\begin{flushright}
+	always think critically and be skeptical of what you hear.\\
+	\end{flushright}
+\end{dedication}
+
+\begin{publications}
+
+The following publications are related to this thesis:
+
+\begin{enumerate}
+
+\item \textbf{Sultan Wehaibi}, Emad Shihab and Latifa Guerrouj. Examining the Impact of Self-admitted Technical Debt on Software Quality. In \textit{Proceedings of the 23rd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER’16)}, 10 pages, 2015. [Chapter 3]
+
+\item \textbf{Sultan Wehaibi}, Emad Shihab. TBA. In \textit{IEEE Transactions on Software Engineering}, XX pages, XXXXX revision submitted XXX 20XX. [Chapter 4] 
+
+\end{enumerate}
+
+\end{publications}
+
+\chapter{Introduction}
+\label{introduction}
+\input{introduction.tex}
+
+\chapter{Literature Review}
+\label{literature_review}
+\input{literature_review.tex}
+
+\chapter{Examining the Impact of Self-admitted Technical Debt on Software Quality}
+\label{chapter3}
+\input{chapter3.tex}
+
+\chapter{Comparing the Impact of Comment- vs. Metric-Based Technical Debt}
+\label{chapter4}
+\input{chapter4.tex}
+
+\chapter{Summary, Contributions and Future Work}
+\label{conclusion}
+\input{conclusion.tex}
+
+
+\chapter{Appendix}
+\label{appendix}
+\input{appendix.tex}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{bibliography.bib}  
+\bibliographystyle{abbrv}
+\end{document}
