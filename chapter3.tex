@@ -126,8 +126,9 @@ the corresponding issue tracking system, \ie{} Bugzilla\footnote{https://www.bug
 
 After grouping the SATD files and SATD changes, we proceed to identify the defects each contains. To do so, we follow the protocol previous research has adhered to in determining the number of defects in a file and locating defect-inducing changes~\cite{Kamei-tse-2013,Kim-tse-2008, sliwerski-msr-2005}.
 
-\noindent\textbf{Defects in files:} Comparing the defectiveness of SATD and non-SATD files hinges on having the number of file defects at our disposal. To ensure this, we extract all the changes that have touched a file throughout the system's entire history. Then, we search for keywords in the change logs that indicate defect fixing. A subset of the keywords we entered contains: ``fixed issue \#ID'', ``bug ID'',  ``fix'',  ``defect'',  ``patch'', ``crash'',  ``freeze'', ``breaks'', ``wrong'', ``glitch'', ``proper''. In cases where a defect identification is specified, we extract the defect report to verify that the defect corresponds to the system (\ie{} product) %we are studying, since some communities (\eg{} Apache) use the same issue tracking system for multiple products
-. Second, we establish whether the issue IDs identified in the change logs are true positives. Once we determine the defect fixing changes, we use these changes as an indication of the defect fixes that occur in a file, i.e., we count the number of defects in a file as the number of defect-fixing changes.
+\noindent\textbf{Defects in files:} Comparing the defectiveness of SATD and non-SATD files hinges on having the number of file defects at our disposal. To ensure this, we extract all the changes that have touched a file throughout the system's entire history. Then, we search for keywords in the change logs that indicate defect fixing as demonstrated in Figure~\ref{fig:indicating-a-bug-fixing-change}. A subset of the keywords we entered contains: ``fixed issue \#ID'', ``bug ID'',  ``fix'',  ``defect'',  ``patch'', ``crash'',  ``freeze'', ``breaks'', ``wrong'', ``glitch'', ``proper''. In cases where a defect identification is specified, we extract the defect report to verify that the defect corresponds to the system (\ie{} product).
+
+Second, we establish whether the issue IDs identified in the change logs are true positives. Once we determine the defect fixing changes, we use these changes as an indication of the defect fixes that occur in a file, i.e., we count the number of defects in a file as the number of defect-fixing changes.
 
 
 \noindent\textbf{Defect-inducing changes:} Similar to the process above, we first determine whether a change fixes a defect. To do so, we use regular expressions and specific keywords referencing a fix to search the change logs (i.e., commit messages) from the source code control versioning system. In particular, we search for the following keywords: ``fixed issue \#ID'', ``bug ID'',  ``fix'',  ``defect'',  ``patch'', ``crash'',  ``freeze'', ``breaks'', ``wrong'', ``glitch'', ``proper''. We also search for the existence of defect identification numbers in order to determine which defects, if specified, the changes actually fix.
@@ -141,7 +142,7 @@ Once we identify the defect-fixing changes, we map back (using the blame command
 	\caption{Indicating a bug-fixing change.}
 	\label{fig:indicating-a-bug-fixing-change}
 \end{figure}
-\todo{refer to this figure}
+
 
 
 \section{Mann-Whitney-Wilcoxon Rank Sum Test}

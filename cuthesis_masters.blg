@@ -3,60 +3,60 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cuthesis_masters.aux
 The style file: abbrv.bst
 Database file #1: bibliography.bib.bib
-I was expecting a `,' or a `}'---line 226 of file bibliography.bib.bib
+I was expecting a `,' or a `}'---line 259 of file bibliography.bib.bib
  :  
  :  author = {Marinescu, Radu},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "mcconnell" isn't style-file defined
---line 265 of file bibliography.bib.bib
+--line 298 of file bibliography.bib.bib
 Warning--entry type for "fowler" isn't style-file defined
---line 273 of file bibliography.bib.bib
+--line 306 of file bibliography.bib.bib
 Warning--entry type for "cloc" isn't style-file defined
---line 652 of file bibliography.bib.bib
-Repeated entry---line 743 of file bibliography.bib.bib
+--line 685 of file bibliography.bib.bib
+Repeated entry---line 776 of file bibliography.bib.bib
  : @inproceedings{Nagappan-icse-2005
  :                                  ,
 I'm skipping whatever remains of this entry
-You've used 44 entries,
+You've used 46 entries,
             2118 wiz_defined-function locations,
-            767 strings with 12387 characters,
-and the built_in function-call counts, 17660 in all, are:
-= -- 1764
-> -- 798
+            783 strings with 12691 characters,
+and the built_in function-call counts, 18322 in all, are:
+= -- 1831
+> -- 824
 < -- 25
-+ -- 323
-- -- 270
-* -- 1177
-:= -- 2726
-add.period$ -- 142
-call.type$ -- 44
-change.case$ -- 265
++ -- 334
+- -- 278
+* -- 1232
+:= -- 2835
+add.period$ -- 148
+call.type$ -- 46
+change.case$ -- 275
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 738
-empty$ -- 1424
-format.name$ -- 270
-if$ -- 3877
+cite$ -- 46
+duplicate$ -- 760
+empty$ -- 1478
+format.name$ -- 278
+if$ -- 4013
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 44
-newline$ -- 220
-num.names$ -- 88
-pop$ -- 337
+int.to.str$ -- 46
+missing$ -- 46
+newline$ -- 230
+num.names$ -- 92
+pop$ -- 343
 preamble$ -- 1
-purify$ -- 223
+purify$ -- 231
 quote$ -- 0
-skip$ -- 560
+skip$ -- 576
 stack$ -- 0
-substring$ -- 1091
-swap$ -- 255
+substring$ -- 1148
+swap$ -- 257
 text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
+type$ -- 178
 warning$ -- 0
-while$ -- 179
-width$ -- 46
-write$ -- 490
+while$ -- 186
+width$ -- 48
+write$ -- 512
 (There were 2 error messages)
