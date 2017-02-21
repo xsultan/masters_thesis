@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 FEB 2017 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 FEB 2017 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,7 +497,22 @@ Missing character: There is no ™ in font cmti12!
 Chapter 1.
 (./introduction.tex [1
 
-] [2] [3]) [4]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[2] [3]) [4]
 Chapter 2.
 (./literature_review.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -1100,7 +1115,7 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cuthesis_masters.pdf (100 pages, 8585975 bytes).
+Output written on cuthesis_masters.pdf (100 pages, 8586672 bytes).
 PDF statistics:
  908 PDF objects out of 1000 (max. 8388607)
  625 compressed objects within 7 object streams
