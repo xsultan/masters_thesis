@@ -44,6 +44,7 @@
 \contentsline {section}{\numberline {5.1}Summary of Addressed Topics}{67}
 \contentsline {section}{\numberline {5.2}Contributions}{68}
 \contentsline {section}{\numberline {5.3}Future Work}{68}
-\contentsline {chapter}{\numberline {6}Appendix}{69}
-\contentsline {section}{\numberline {6.1}List of Figures}{69}
-\contentsline {chapter}{Bibliography}{69}
+\contentsline {chapter}{Appendix \numberline {A}Defects on The File-level}{69}
+\contentsline {chapter}{Appendix \numberline {B}Defect Inducing Changes}{72}
+\contentsline {chapter}{Appendix \numberline {C}Complexity on The Change-level}{75}
+\contentsline {chapter}{Bibliography}{75}

@@ -17,6 +17,7 @@
 \usepackage{adjustbox}
 \usepackage{array}
 \usepackage{mathtools}
+\usepackage[titletoc]{appendix}
 
 
 
@@ -147,9 +148,10 @@ The following publications are related to this thesis:
 \input{conclusion.tex}
 
 
-\chapter{Appendix}
-\label{appendix}
-\input{appendix.tex}
+\begin{appendices}
+	\label{appendix}
+	\input{appendix.tex}
+\end{appendices}
 
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliography{bibliography.bib}  
