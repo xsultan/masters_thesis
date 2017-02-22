@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 FEB 2017 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.10)  22 FEB 2017 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cuthesis_masters.tex
 (./cuthesis_masters.tex
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/report.cls
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,14 +24,14 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fancybox/fancybox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
@@ -49,40 +49,40 @@ Concordia University Thesis Style, Steve Malowany <10 Jan 1992>
                           revised by Stan Swiercz <28 Mar 1995>
                         revised by Patrice Chalin <12 Sep 1995>
                           revised by Stan Swiercz <24 Sep 1996>
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 96.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen106
 \lightrulewidth=\dimen107
 \cmidrulewidth=\dimen108
@@ -101,10 +101,10 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count92
 \@thisrulewidth=\dimen118
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen119
 \extrarowheight=\dimen120
@@ -116,10 +116,10 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \c@nlinenum=\count93
 \TeXr@lab=\toks20
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count94
 )
@@ -131,33 +131,34 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \csq@tshold=\count100
 \csq@ltx@everypar=\toks21
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen122
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip45
 \subfigcapskip=\skip46
@@ -173,61 +174,61 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2016/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip49
 \subfig@bottom=\skip50
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 144.
+Package color Info: Driver file: pdftex.def on input line 143.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks22
 \XKV@tempa@toks=\toks23
 )
 \XKV@depth=\count105
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box28
 )
@@ -237,7 +238,7 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen128
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen129
@@ -245,21 +246,21 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 \adjbox@Depth=\dimen131
 \adjbox@Totalheight=\dimen132
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
 \c@checkoddpage=\count106
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box29
 \sift@deathcycles=\count107
 \@vwid@loff=\dimen133
 \@vwid@roff=\dimen134
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count108
 \calc@Bcount=\count109
@@ -272,28 +273,28 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count110
 \calc@Cskip=\skip53
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/10 v2.15b AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks24
 \ex@=\dimen137
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen138
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count111
 LaTeX Info: Redefining \frac on input line 199.
@@ -308,8 +309,8 @@ LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
 \big@size=\dimen139
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count116
 \c@MaxMatrixCols=\count117
 \dotsspace@=\muskip11
@@ -330,8 +331,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip55
 \multlinetaggap=\skip56
 \mathdisplay@stack=\toks28
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
@@ -347,7 +348,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen151
 \l_MT_below_shortintertext_sep=\dimen152
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/appendix/appendix.sty
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count124
 \c@@ppsavesec=\count125
@@ -372,7 +373,7 @@ LaTeX Font Info:    ... okay on input line 83.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
 LaTeX Font Info:    ... okay on input line 83.
 
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count127
 \scratchdimen=\dimen153
@@ -385,12 +386,12 @@ LaTeX Font Info:    ... okay on input line 83.
 \MPnumerator=\count131
 \makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks30
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -398,23 +399,23 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
@@ -423,15 +424,15 @@ Package etexcmds Info: Could not find \expanded.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/sc' in size <12> not available
@@ -440,7 +441,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
  [1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
@@ -605,9 +606,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
 [19]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter3/approach.
-pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/chapter3/approach.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/chapter3/approach.pdf, id=111, 478.78876pt x 135.50626pt>
 File: figures/chapter3/approach.pdf Graphic file (type pdf)
 
@@ -621,9 +621,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
 [20 <./figures/chapter3/approach.pdf>] [21] [22] [23]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter3/bug-fixin
-g-change.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
-> allowed
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/chapter3/bug-fixing-change.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/chapter3/bug-fixing-change.pdf, id=132, 483.8075pt x 237.88875pt>
 File: figures/chapter3/bug-fixing-change.pdf Graphic file (type pdf)
 
@@ -710,28 +709,31 @@ Chapter 4.
 (./chapter4.tex [39
 
 ] [40]
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-
- []
-
-
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+ [41]
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-[41]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter4/approach.
-pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/chapter4/approach.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures/chapter4/approach.pdf, id=485, 480.79625pt x 250.9375pt>
 File: figures/chapter4/approach.pdf Graphic file (type pdf)
 
 <use figures/chapter4/approach.pdf>
-Package pdftex.def Info: figures/chapter4/approach.pdf used on input line 42.
+Package pdftex.def Info: figures/chapter4/approach.pdf used on input line 44.
 (pdftex.def)             Requested size: 426.79134pt x 222.75548pt.
- [42 <./figures/chapter4/approach.pdf>]
-[43]
+ [42] [43 <./figures/chapter4/approach.pdf>] [44]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -740,9 +742,9 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
 
 
-LaTeX Warning: Float too large for page by 17.97472pt on input line 96.
+LaTeX Warning: Float too large for page by 17.97472pt on input line 98.
 
-[44]
+[45]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -751,138 +753,138 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
 
 
-LaTeX Warning: Float too large for page by 12.67293pt on input line 141.
+LaTeX Warning: Float too large for page by 12.67293pt on input line 143.
 
-[45] [46
-
-
+[46] [47
 
 
-] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+
+] [48]
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-[48]
-
-LaTeX Warning: Float too large for page by 44.45522pt on input line 231.
-
 [49]
 
-LaTeX Warning: Float too large for page by 39.03972pt on input line 277.
+LaTeX Warning: Float too large for page by 44.45522pt on input line 233.
 
 [50]
-Overfull \hbox (12.25095pt too wide) detected at line 300
+
+LaTeX Warning: Float too large for page by 39.03972pt on input line 279.
+
+[51]
+Overfull \hbox (12.25095pt too wide) detected at line 304
 \OML/cmm/m/it/12 GodClass\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 C\OT1/cmr/m/n/12 ) =
  []
  []
 
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-[51
+[52
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 326--328
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [53]
+Underfull \hbox (badness 10000) in paragraph at lines 330--332
 
  []
 
-[52]
-<figures/chapter4/rq1_defectivness_distrubution.pdf, id=527, 701.62125pt x 623.
+
+<figures/chapter4/rq1_defectivness_distrubution.pdf, id=530, 701.62125pt x 623.
 32875pt>
 File: figures/chapter4/rq1_defectivness_distrubution.pdf Graphic file (type pdf
 )
  <use figures/chapter4/rq1_defectivness_distrubution.pdf>
 Package pdftex.def Info: figures/chapter4/rq1_defectivness_distrubution.pdf use
-d on input line 336.
+d on input line 340.
 (pdftex.def)             Requested size: 398.33858pt x 353.89342pt.
- [53] [54 <./figures/chapter4/rq1_defectivness_distrubution.pdf>] [55]
-<figures/chapter4/rq2_distrubtion_god_and_td.pdf, id=547, 701.62125pt x 623.328
+ [54] [55 <./figures/chapter4/rq1_defectivness_distrubution.pdf>] [56]
+<figures/chapter4/rq2_distrubtion_god_and_td.pdf, id=550, 701.62125pt x 623.328
 75pt>
 File: figures/chapter4/rq2_distrubtion_god_and_td.pdf Graphic file (type pdf)
  <use figures/chapter4/rq2_distrubtion_god_and_td.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_distrubtion_god_and_td.pdf used o
-n input line 382.
+n input line 386.
 (pdftex.def)             Requested size: 398.33858pt x 353.89342pt.
- [56]
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+ [57] [58 <./figures/chapter4/rq2_distrubtion_god_and_td.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--399
+Underfull \hbox (badness 10000) in paragraph at lines 401--403
 
  []
 
-[57 <./figures/chapter4/rq2_distrubtion_god_and_td.pdf>] [58]
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
 
 
-<figures/chapter4/rq3_distribution_of_churn.pdf, id=563, 701.62125pt x 623.3287
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+[60]
+<figures/chapter4/rq3_distribution_of_churn.pdf, id=570, 701.62125pt x 623.3287
 5pt>
 File: figures/chapter4/rq3_distribution_of_churn.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_churn.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_churn.pdf used on
- input line 425.
+ input line 429.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_distribution_of_nf.pdf, id=564, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_distribution_of_nf.pdf, id=571, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_distribution_of_nf.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_nf.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_nf.pdf used on in
-put line 434.
+put line 438.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_distribution_of_nd.pdf, id=565, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_distribution_of_nd.pdf, id=572, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_distribution_of_nd.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_nd.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_nd.pdf used on in
-put line 441.
+put line 445.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_distribution_of_entropy.pdf, id=566, 701.62125pt x 623.32
+<figures/chapter4/rq3_distribution_of_entropy.pdf, id=573, 701.62125pt x 623.32
 875pt>
 File: figures/chapter4/rq3_distribution_of_entropy.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_entropy.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_entropy.pdf used 
-on input line 449.
+on input line 453.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
- [59]
-Underfull \hbox (badness 10000) in paragraph at lines 458--459
+ [61 <./figures/chapter4/rq3_distribution_of_churn.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
 
 
-LaTeX Warning: Reference `figure:ch4_number_of_directories' on page 60 undefine
-d on input line 463.
+LaTeX Warning: Reference `figure:ch4_number_of_directories' on page 62 undefine
+d on input line 467.
 
-[60 <./figures/chapter4/rq3_distribution_of_churn.pdf>] [61 <./figures/chapter4
-/rq3_distribution_of_nf.pdf>] [62 <./figures/chapter4/rq3_distribution_of_nd.pd
-f>] [63] [64 <./figures/chapter4/rq3_distribution_of_entropy.pdf>] [65])
-[66]
+[62 <./figures/chapter4/rq3_distribution_of_nf.pdf>] [63 <./figures/chapter4/rq
+3_distribution_of_nd.pdf>] [64 <./figures/chapter4/rq3_distribution_of_entropy.
+pdf>] [65] [66]) [67] [68]
 Chapter 5.
-(./conclusion.tex [67
+(./conclusion.tex [69
 
-]) (./appendix.tex [68]
+]) (./appendix.tex [70]
 Appendix A.
-<figures/chapter4/RQ1_boxplots_god_1.pdf, id=623, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_god_1.pdf, id=630, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_god_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_god_1.pdf>
@@ -890,7 +892,7 @@ Package pdftex.def Info: figures/chapter4/RQ1_boxplots_god_1.pdf used on input
 line 5.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/RQ1_boxplots_god_2.pdf, id=624, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_god_2.pdf, id=631, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_god_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_god_2.pdf>
@@ -898,7 +900,7 @@ Package pdftex.def Info: figures/chapter4/RQ1_boxplots_god_2.pdf used on input
 line 6.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/RQ1_boxplots_td_1.pdf, id=625, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_td_1.pdf, id=632, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_td_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_td_1.pdf>
@@ -906,20 +908,20 @@ Package pdftex.def Info: figures/chapter4/RQ1_boxplots_td_1.pdf used on input l
 ine 15.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/RQ1_boxplots_td_2.pdf, id=626, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_td_2.pdf, id=633, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_td_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_td_2.pdf>
 Package pdftex.def Info: figures/chapter4/RQ1_boxplots_td_2.pdf used on input l
 ine 16.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
- [69
+ [71
 
-] [70 <./figures/chapter4/RQ1_boxplots_god_1.pdf> <./figures/chapter4/RQ1_boxpl
-ots_god_2.pdf>] [71 <./figures/chapter4/RQ1_boxplots_td_1.pdf> <./figures/chapt
+] [72 <./figures/chapter4/RQ1_boxplots_god_1.pdf> <./figures/chapter4/RQ1_boxpl
+ots_god_2.pdf>] [73 <./figures/chapter4/RQ1_boxplots_td_1.pdf> <./figures/chapt
 er4/RQ1_boxplots_td_2.pdf>]
 Appendix B.
-<figures/chapter4/rq2_god_boxplots_1.pdf, id=661, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_god_boxplots_1.pdf, id=668, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_god_boxplots_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_god_boxplots_1.pdf>
@@ -927,7 +929,7 @@ Package pdftex.def Info: figures/chapter4/rq2_god_boxplots_1.pdf used on input
 line 26.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq2_god_boxplots_2.pdf, id=662, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_god_boxplots_2.pdf, id=669, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_god_boxplots_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_god_boxplots_2.pdf>
@@ -935,7 +937,7 @@ Package pdftex.def Info: figures/chapter4/rq2_god_boxplots_2.pdf used on input
 line 27.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq2_boxplots_1.pdf, id=663, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_boxplots_1.pdf, id=670, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_boxplots_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_boxplots_1.pdf>
@@ -943,21 +945,21 @@ Package pdftex.def Info: figures/chapter4/rq2_boxplots_1.pdf used on input line
  35.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq2_boxplots_2.pdf, id=664, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_boxplots_2.pdf, id=671, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_boxplots_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_boxplots_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_boxplots_2.pdf used on input line
  36.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
- [72
+ [74
 
-] [73 <./figures/chapter4/rq2_god_boxplots_1.pdf> <./figures/chapter4/rq2_god_b
-oxplots_2.pdf>] [74 <./figures/chapter4/rq2_boxplots_1.pdf> <./figures/chapter4
+] [75 <./figures/chapter4/rq2_god_boxplots_1.pdf> <./figures/chapter4/rq2_god_b
+oxplots_2.pdf>] [76 <./figures/chapter4/rq2_boxplots_1.pdf> <./figures/chapter4
 /rq2_boxplots_2.pdf>]
 Appendix C.
 
-<figures/chapter4/rq3_god_churn_logged_1.pdf, id=699, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_god_churn_logged_1.pdf, id=705, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_god_churn_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_churn_logged_1.pdf>
@@ -965,7 +967,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_churn_logged_1.pdf used on in
 put line 46.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_churn_logged_2.pdf, id=700, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_god_churn_logged_2.pdf, id=706, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_god_churn_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_churn_logged_2.pdf>
@@ -973,21 +975,21 @@ Package pdftex.def Info: figures/chapter4/rq3_god_churn_logged_2.pdf used on in
 put line 47.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_churn_logged_1.pdf, id=701, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_churn_logged_1.pdf, id=707, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_churn_logged_1.pdf Graphic file (type pdf)
 <use figures/chapter4/rq3_td_churn_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_churn_logged_1.pdf used on inp
 ut line 55.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_churn_logged_2.pdf, id=702, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_churn_logged_2.pdf, id=708, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_churn_logged_2.pdf Graphic file (type pdf)
 <use figures/chapter4/rq3_td_churn_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_churn_logged_2.pdf used on inp
 ut line 56.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_nd_logged_1.pdf, id=703, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nd_logged_1.pdf, id=709, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nd_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nd_logged_1.pdf>
@@ -995,7 +997,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_nd_logged_1.pdf used on input
  line 64.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_nd_logged_2.pdf, id=704, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nd_logged_2.pdf, id=710, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nd_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nd_logged_2.pdf>
@@ -1003,7 +1005,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_nd_logged_2.pdf used on input
  line 65.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_nd_logged_1.pdf, id=705, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nd_logged_1.pdf, id=711, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nd_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nd_logged_1.pdf>
@@ -1011,7 +1013,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_nd_logged_1.pdf used on input
 line 73.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_nd_logged_2.pdf, id=706, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nd_logged_2.pdf, id=712, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nd_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nd_logged_2.pdf>
@@ -1019,7 +1021,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_nd_logged_2.pdf used on input
 line 74.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_nf_logged_1.pdf, id=707, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nf_logged_1.pdf, id=713, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nf_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nf_logged_1.pdf>
@@ -1027,7 +1029,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_nf_logged_1.pdf used on input
  line 83.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_nf_logged_2.pdf, id=708, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nf_logged_2.pdf, id=714, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nf_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nf_logged_2.pdf>
@@ -1035,7 +1037,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_nf_logged_2.pdf used on input
  line 84.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_nf_logged_1.pdf, id=709, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nf_logged_1.pdf, id=715, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nf_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nf_logged_1.pdf>
@@ -1043,7 +1045,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_nf_logged_1.pdf used on input
 line 92.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_nf_logged_2.pdf, id=710, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nf_logged_2.pdf, id=716, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nf_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nf_logged_2.pdf>
@@ -1051,7 +1053,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_nf_logged_2.pdf used on input
 line 93.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_entropy_logged_1.pdf, id=711, 701.62125pt x 623.32875
+<figures/chapter4/rq3_god_entropy_logged_1.pdf, id=717, 701.62125pt x 623.32875
 pt>
 File: figures/chapter4/rq3_god_entropy_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_entropy_logged_1.pdf>
@@ -1059,7 +1061,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_entropy_logged_1.pdf used on
 input line 101.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_entropy_logged_2.pdf, id=712, 701.62125pt x 623.32875
+<figures/chapter4/rq3_god_entropy_logged_2.pdf, id=718, 701.62125pt x 623.32875
 pt>
 File: figures/chapter4/rq3_god_entropy_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_entropy_logged_2.pdf>
@@ -1067,7 +1069,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_entropy_logged_2.pdf used on
 input line 102.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_entropy_logged_1.pdf, id=713, 701.62125pt x 623.32875p
+<figures/chapter4/rq3_td_entropy_logged_1.pdf, id=719, 701.62125pt x 623.32875p
 t>
 File: figures/chapter4/rq3_td_entropy_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_td_entropy_logged_1.pdf>
@@ -1075,7 +1077,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_entropy_logged_1.pdf used on i
 nput line 110.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_entropy_logged_2.pdf, id=714, 701.62125pt x 623.32875p
+<figures/chapter4/rq3_td_entropy_logged_2.pdf, id=720, 701.62125pt x 623.32875p
 t>
 File: figures/chapter4/rq3_td_entropy_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_td_entropy_logged_2.pdf>
@@ -1083,53 +1085,52 @@ Package pdftex.def Info: figures/chapter4/rq3_td_entropy_logged_2.pdf used on i
 nput line 111.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 ) (./cuthesis_masters.bbl
-[75
+[77
 
-] [76 <./figures/chapter4/rq3_god_churn_logged_1.pdf> <./figures/chapter4/rq3_g
-od_churn_logged_2.pdf>] [77 <./figures/chapter4/rq3_td_churn_logged_1.pdf> <./f
-igures/chapter4/rq3_td_churn_logged_2.pdf>] [78 <./figures/chapter4/rq3_god_nd_
-logged_1.pdf> <./figures/chapter4/rq3_god_nd_logged_2.pdf>] [79 <./figures/chap
+] [78 <./figures/chapter4/rq3_god_churn_logged_1.pdf> <./figures/chapter4/rq3_g
+od_churn_logged_2.pdf>] [79 <./figures/chapter4/rq3_td_churn_logged_1.pdf> <./f
+igures/chapter4/rq3_td_churn_logged_2.pdf>] [80 <./figures/chapter4/rq3_god_nd_
+logged_1.pdf> <./figures/chapter4/rq3_god_nd_logged_2.pdf>] [81 <./figures/chap
 ter4/rq3_td_nd_logged_1.pdf> <./figures/chapter4/rq3_td_nd_logged_2.pdf>]
-[80 <./figures/chapter4/rq3_god_nf_logged_1.pdf> <./figures/chapter4/rq3_god_nf
-_logged_2.pdf>] [81 <./figures/chapter4/rq3_td_nf_logged_1.pdf> <./figures/chap
-ter4/rq3_td_nf_logged_2.pdf>] [82 <./figures/chapter4/rq3_god_entropy_logged_1.
-pdf> <./figures/chapter4/rq3_god_entropy_logged_2.pdf>] [83 <./figures/chapter4
+[82 <./figures/chapter4/rq3_god_nf_logged_1.pdf> <./figures/chapter4/rq3_god_nf
+_logged_2.pdf>] [83 <./figures/chapter4/rq3_td_nf_logged_1.pdf> <./figures/chap
+ter4/rq3_td_nf_logged_2.pdf>] [84 <./figures/chapter4/rq3_god_entropy_logged_1.
+pdf> <./figures/chapter4/rq3_god_entropy_logged_2.pdf>] [85 <./figures/chapter4
 /rq3_td_entropy_logged_1.pdf> <./figures/chapter4/rq3_td_entropy_logged_2.pdf>]
-[84
+[86
 
-] [85] [86] [87] [88]) [89] (./cuthesis_masters.aux)
+] [87] [88] [89] [90] [91]) [92] (./cuthesis_masters.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6065 strings out of 493014
- 93258 string characters out of 6133351
- 189042 words of memory out of 5000000
- 9403 multiletter control sequences out of 15000+600000
+ 6071 strings out of 493029
+ 92585 string characters out of 6136234
+ 189100 words of memory out of 5000000
+ 9404 multiletter control sequences out of 15000+600000
  12800 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,35p,1934b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cuthesis_masters.pdf (102 pages, 8588882 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on cuthesis_masters.pdf (105 pages, 8593063 bytes).
 PDF statistics:
- 914 PDF objects out of 1000 (max. 8388607)
- 629 compressed objects within 7 object streams
+ 924 PDF objects out of 1000 (max. 8388607)
+ 636 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

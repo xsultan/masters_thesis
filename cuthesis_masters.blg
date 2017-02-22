@@ -1,62 +1,62 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cuthesis_masters.aux
 The style file: abbrv.bst
 Database file #1: bibliography.bib.bib
-I was expecting a `,' or a `}'---line 259 of file bibliography.bib.bib
+I was expecting a `,' or a `}'---line 289 of file bibliography.bib.bib
  :  
  :  author = {Marinescu, Radu},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "mcconnell" isn't style-file defined
---line 298 of file bibliography.bib.bib
+--line 328 of file bibliography.bib.bib
 Warning--entry type for "fowler" isn't style-file defined
---line 306 of file bibliography.bib.bib
+--line 336 of file bibliography.bib.bib
 Warning--entry type for "cloc" isn't style-file defined
---line 685 of file bibliography.bib.bib
-Repeated entry---line 776 of file bibliography.bib.bib
+--line 715 of file bibliography.bib.bib
+Repeated entry---line 806 of file bibliography.bib.bib
  : @inproceedings{Nagappan-icse-2005
  :                                  ,
 I'm skipping whatever remains of this entry
-You've used 46 entries,
+You've used 52 entries,
             2118 wiz_defined-function locations,
-            783 strings with 12691 characters,
-and the built_in function-call counts, 18322 in all, are:
-= -- 1831
-> -- 824
-< -- 25
-+ -- 334
-- -- 278
-* -- 1232
-:= -- 2835
-add.period$ -- 148
-call.type$ -- 46
-change.case$ -- 275
+            814 strings with 13766 characters,
+and the built_in function-call counts, 20564 in all, are:
+= -- 2060
+> -- 905
+< -- 28
++ -- 367
+- -- 304
+* -- 1365
+:= -- 3175
+add.period$ -- 169
+call.type$ -- 52
+change.case$ -- 304
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 760
-empty$ -- 1478
-format.name$ -- 278
-if$ -- 4013
+cite$ -- 52
+duplicate$ -- 864
+empty$ -- 1673
+format.name$ -- 304
+if$ -- 4522
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 46
-newline$ -- 230
-num.names$ -- 92
-pop$ -- 343
+int.to.str$ -- 52
+missing$ -- 54
+newline$ -- 260
+num.names$ -- 104
+pop$ -- 387
 preamble$ -- 1
-purify$ -- 231
+purify$ -- 256
 quote$ -- 0
-skip$ -- 576
+skip$ -- 652
 stack$ -- 0
-substring$ -- 1148
-swap$ -- 257
-text.length$ -- 25
+substring$ -- 1295
+swap$ -- 293
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 178
+type$ -- 198
 warning$ -- 0
-while$ -- 186
-width$ -- 48
-write$ -- 512
+while$ -- 207
+width$ -- 54
+write$ -- 579
 (There were 2 error messages)

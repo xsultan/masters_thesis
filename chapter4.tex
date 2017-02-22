@@ -19,7 +19,9 @@ Our work closes this gap as we study forty open-source projects that bring into 
 
 \section{Related Work}
 \label{chap4:sec:related_work}
-\todo{TBC}
+
+\subsection{Identifying and Detecting What Constitutes Code Smells}
+Fowler and Beck \cite{fowler1999refactoring} originated the term "code smell" to designate various indicators of object-oriented design flaws which can undermine software maintenance. Code smells respond to the internal and external properties of the system elements they monitor. Though manual code smell detection warns developers of potential vulnerabilities, Marinescu \cite{Marinescu_ICETOOLS} observes that it is time-consuming, non-repeatable and non-scalable. Apart from this, the more familiar the software system is to a developer, the higher the risk of a subjective appraisal of its efficiencies and shortcomings, according to Mäntylä \cite{mantyla2003taxonomy} \cite{mantyla2004bad}, and one important corollary of this is that a developer's chances of overlooking design flaws increase. In order to surmount these drawbacks, Marinescu recommends enlisting code metrics to detect system volatilities, and in this spirit, several implementations of this departure from manual detection have been devised \cite{marinescu2004detection} \cite{Marinescu_PhD} \cite{Marinescu_IBM_JRD} \cite{lanza2007object}.
 
 \section{Approach}
 \label{chap4:sec:approach}
@@ -278,6 +280,8 @@ At the change level, all the files touched by the same change are scrutinized fo
 	
 \end{landscape}
 
+\subsection{God Class}
+God classes are classes that consolidate trivial class workloads and avoid task delegation for all but the simplest of operations and are distinguishable on account of their high complexity, low inner-class cohesion and frequent foreign class data access \cite{lanza2007object}. Object-oriented design advocates a one-to-one correspondence between classes and responsibilities, which god classes violate by definition \cite{lanza2007object}. Due to their size and the extent to which they are tied to other classes, god classes can make it more difficult to understand the system \cite{fowler1999refactoring} and are expected to be more susceptible to defects during system maintenance. The higher the incidence of defects, the more often changes will have to be performed and the bigger those changes will be, compounding maintenance over time \cite{fowler1999refactoring} \cite{lanza2007object}.
 
 \subsection{Identifying God Classes}
 \label{ch4_god}

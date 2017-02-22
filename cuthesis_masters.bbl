@@ -61,6 +61,11 @@ F.~A. Fontana, M.~Zanoni, A.~Marino, and M.~V. Mantyla.
 M.~Fowler.
 \newblock Technical debt quadrant, 2007.
 
+\bibitem{fowler1999refactoring}
+M.~Fowler and K.~Beck.
+\newblock {\em Refactoring: Improving the Design of Existing Code}.
+\newblock Component software series. Addison-Wesley, 1999.
+
 \bibitem{Cliff:2005}
 R.~J. Grissom and J.~J. Kim.
 \newblock {\em Effect sizes for research: A broad practical approach}.
@@ -113,6 +118,12 @@ P.~Kruchten, R.~L. Nord, I.~Ozkaya, and D.~Falessi.
   international workshop on managing technical debt.
 \newblock {\em ACM SIGSOFT Software Engineering Notes}, 38(5):51--54, 2013.
 
+\bibitem{lanza2007object}
+M.~Lanza, S.~Ducasse, and R.~Marinescu.
+\newblock {\em Object-Oriented Metrics in Practice: Using Software Metrics to
+  Characterize, Evaluate, and Improve the Design of Object-Oriented Systems}.
+\newblock Springer Berlin Heidelberg, 2007.
+
 \bibitem{lawrie2006leveraged}
 D.~J. Lawrie, H.~Feild, and D.~Binkley.
 \newblock Leveraged quality assessment using information retrieval techniques.
@@ -143,6 +154,25 @@ H.~B. Mann and D.~R. Whitney.
   larger than the other.
 \newblock {\em The annals of mathematical statistics}, pages 50--60, 1947.
 
+\bibitem{mantyla2003taxonomy}
+M.~Mantyla, J.~Vanhanen, and C.~Lassenius.
+\newblock A taxonomy and an initial empirical study of bad smells in code.
+\newblock In {\em Software Maintenance, 2003. ICSM 2003. Proceedings.
+  International Conference on}, pages 381--384. IEEE, 2003.
+
+\bibitem{mantyla2004bad}
+M.~V. Mantyla, J.~Vanhanen, and C.~Lassenius.
+\newblock Bad smells-humans as code critics.
+\newblock In {\em Software Maintenance, 2004. Proceedings. 20th IEEE
+  International Conference on}, pages 399--408. IEEE, 2004.
+
+\bibitem{Marinescu_ICETOOLS}
+R.~Marinescu.
+\newblock Detecting design flaws via metrics in object-oriented systems.
+\newblock In {\em Proceedings 39th International Conference and Exhibition on
+  Technology of Object-Oriented Languages and Systems. TOOLS 39}, pages
+  173--182, 2001.
+
 \bibitem{marinescu2004detection}
 R.~Marinescu.
 \newblock Detection strategies: Metrics-based rules for detecting design flaws.
@@ -154,6 +184,13 @@ R.~Marinescu.
 \newblock Measurement and quality in object-oriented design.
 \newblock In {\em 21st IEEE International Conference on Software Maintenance
   (ICSM'05)}, pages 701--704, Sept 2005.
+
+\bibitem{Marinescu_IBM_JRD}
+R.~Marinescu.
+\newblock Assessing technical debt by identifying design flaws in software
+  systems.
+\newblock {\em IBM Journal of Research and Development}, 56(5):9:1--9:13, Sept
+  2012.
 
 \bibitem{McCabe_1976}
 T.~J. McCabe.

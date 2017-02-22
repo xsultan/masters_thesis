@@ -30,21 +30,23 @@
 \contentsline {chapter}{\numberline {4}Comparing the Impact of Comment- vs. Metric-Based Technical Debt}{39}
 \contentsline {section}{\numberline {4.1}Introduction}{39}
 \contentsline {section}{\numberline {4.2}Related Work}{41}
-\contentsline {section}{\numberline {4.3}Approach}{41}
-\contentsline {subsection}{\numberline {4.3.1}Data Extraction}{42}
-\contentsline {subsection}{\numberline {4.3.2}Scanning Code and Extracting Comments}{46}
-\contentsline {subsection}{\numberline {4.3.3}Filter Comments}{46}
-\contentsline {subsection}{\numberline {4.3.4}Identifying Self-Admitted Technical Debt}{48}
-\contentsline {subsection}{\numberline {4.3.5}Identifying God Classes}{51}
-\contentsline {subsection}{\numberline {4.3.6}Identifying Defects in SATD Files and SATD Changes}{52}
-\contentsline {section}{\numberline {4.4}Case Study Results}{53}
-\contentsline {section}{\numberline {4.5}Threats to Validity}{64}
-\contentsline {section}{\numberline {4.6}Conclusion}{65}
-\contentsline {chapter}{\numberline {5}Summary, Contributions and Future Work}{67}
-\contentsline {section}{\numberline {5.1}Summary of Addressed Topics}{67}
-\contentsline {section}{\numberline {5.2}Contributions}{68}
-\contentsline {section}{\numberline {5.3}Future Work}{68}
-\contentsline {chapter}{Appendix \numberline {A}Defects on The File-level}{69}
-\contentsline {chapter}{Appendix \numberline {B}Defect Inducing Changes}{72}
-\contentsline {chapter}{Appendix \numberline {C}Complexity on The Change-level}{75}
-\contentsline {chapter}{Bibliography}{75}
+\contentsline {subsection}{\numberline {4.2.1}Identifying and Detecting What Constitutes Code Smells}{41}
+\contentsline {section}{\numberline {4.3}Approach}{42}
+\contentsline {subsection}{\numberline {4.3.1}Data Extraction}{43}
+\contentsline {subsection}{\numberline {4.3.2}Scanning Code and Extracting Comments}{47}
+\contentsline {subsection}{\numberline {4.3.3}Filter Comments}{47}
+\contentsline {subsection}{\numberline {4.3.4}Identifying Self-Admitted Technical Debt}{49}
+\contentsline {subsection}{\numberline {4.3.5}God Class}{52}
+\contentsline {subsection}{\numberline {4.3.6}Identifying God Classes}{52}
+\contentsline {subsection}{\numberline {4.3.7}Identifying Defects in SATD Files and SATD Changes}{53}
+\contentsline {section}{\numberline {4.4}Case Study Results}{55}
+\contentsline {section}{\numberline {4.5}Threats to Validity}{66}
+\contentsline {section}{\numberline {4.6}Conclusion}{67}
+\contentsline {chapter}{\numberline {5}Summary, Contributions and Future Work}{69}
+\contentsline {section}{\numberline {5.1}Summary of Addressed Topics}{69}
+\contentsline {section}{\numberline {5.2}Contributions}{70}
+\contentsline {section}{\numberline {5.3}Future Work}{70}
+\contentsline {chapter}{Appendix \numberline {A}Defects on The File-level}{71}
+\contentsline {chapter}{Appendix \numberline {B}Defect Inducing Changes}{74}
+\contentsline {chapter}{Appendix \numberline {C}Complexity on The Change-level}{77}
+\contentsline {chapter}{Bibliography}{77}
