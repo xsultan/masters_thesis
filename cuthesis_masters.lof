@@ -22,17 +22,17 @@
 \contentsline {figure}{\numberline {18}{\ignorespaces Distribution of the change across the SATD and NSATD files.}}{64}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {19}{\ignorespaces Percentage of defect fixing changes for GOD and NGOD files.}}{72}
-\contentsline {figure}{\numberline {20}{\ignorespaces Percentage of defect fixing changes for TD and NTD files.}}{73}
+\contentsline {figure}{\numberline {19}{\ignorespaces Percentage of defect fixing changes for GOD and NGOD files.}}{73}
+\contentsline {figure}{\numberline {20}{\ignorespaces Percentage of defect fixing changes for TD and NTD files.}}{74}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {21}{\ignorespaces Percentage of defect inducing changes for GOD and NGOD files.}}{75}
-\contentsline {figure}{\numberline {22}{\ignorespaces Percentage of defect inducing changes for TD and NTD files.}}{76}
+\contentsline {figure}{\numberline {21}{\ignorespaces Percentage of defect inducing changes for GOD and NGOD files.}}{76}
+\contentsline {figure}{\numberline {22}{\ignorespaces Percentage of defect inducing changes for TD and NTD files.}}{77}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {23}{\ignorespaces Total number of lines modified per change (GOD vs. NGOD).}}{78}
-\contentsline {figure}{\numberline {24}{\ignorespaces Total number of lines modified per change (TD vs. NTD).}}{79}
-\contentsline {figure}{\numberline {25}{\ignorespaces Total number of modified directories per GOD and NGOD change}}{80}
-\contentsline {figure}{\numberline {26}{\ignorespaces Total number of modified directories per SATD and NSATD change.}}{81}
-\contentsline {figure}{\numberline {27}{\ignorespaces Total number of files modified per change (GOD vs. NGOD).}}{82}
-\contentsline {figure}{\numberline {28}{\ignorespaces Total number of files modified per change (SATD vs. NSATD).}}{83}
-\contentsline {figure}{\numberline {29}{\ignorespaces Total number of entropy modified per change (GOD vs. NGOD).}}{84}
-\contentsline {figure}{\numberline {30}{\ignorespaces Total number of entropy modified per change (SATD vs. NSATD).}}{85}
+\contentsline {figure}{\numberline {23}{\ignorespaces Total number of lines modified per change (GOD vs. NGOD).}}{79}
+\contentsline {figure}{\numberline {24}{\ignorespaces Total number of lines modified per change (TD vs. NTD).}}{80}
+\contentsline {figure}{\numberline {25}{\ignorespaces Total number of modified directories per GOD and NGOD change}}{81}
+\contentsline {figure}{\numberline {26}{\ignorespaces Total number of modified directories per SATD and NSATD change.}}{82}
+\contentsline {figure}{\numberline {27}{\ignorespaces Total number of files modified per change (GOD vs. NGOD).}}{83}
+\contentsline {figure}{\numberline {28}{\ignorespaces Total number of files modified per change (SATD vs. NSATD).}}{84}
+\contentsline {figure}{\numberline {29}{\ignorespaces Total number of entropy modified per change (GOD vs. NGOD).}}{85}
+\contentsline {figure}{\numberline {30}{\ignorespaces Total number of entropy modified per change (SATD vs. NSATD).}}{86}
