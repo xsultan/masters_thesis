@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.10)  24 FEB 2017 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.10)  24 FEB 2017 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,7 +774,7 @@ LaTeX Warning: Float too large for page by 44.45522pt on input line 233.
 LaTeX Warning: Float too large for page by 39.03972pt on input line 279.
 
 [51]
-Overfull \hbox (12.25095pt too wide) detected at line 304
+Overfull \hbox (12.25095pt too wide) detected at line 303
 \OML/cmm/m/it/12 GodClass\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 C\OT1/cmr/m/n/12 ) =
  []
  []
@@ -789,59 +789,59 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [53]
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
 
  []
 
-
-<figures/chapter4/rq1_defectivness_distrubution.pdf, id=530, 701.62125pt x 623.
+[54]
+<figures/chapter4/rq1_defectivness_distrubution.pdf, id=535, 701.62125pt x 623.
 32875pt>
 File: figures/chapter4/rq1_defectivness_distrubution.pdf Graphic file (type pdf
 )
  <use figures/chapter4/rq1_defectivness_distrubution.pdf>
 Package pdftex.def Info: figures/chapter4/rq1_defectivness_distrubution.pdf use
-d on input line 340.
+d on input line 338.
 (pdftex.def)             Requested size: 398.33858pt x 353.89342pt.
- [54] [55 <./figures/chapter4/rq1_defectivness_distrubution.pdf>] [56]
-<figures/chapter4/rq2_distrubtion_god_and_td.pdf, id=550, 701.62125pt x 623.328
+ [55 <./figures/chapter4/rq1_defectivness_distrubution.pdf>] [56] [57]
+<figures/chapter4/rq2_distrubtion_god_and_td.pdf, id=553, 701.62125pt x 623.328
 75pt>
 File: figures/chapter4/rq2_distrubtion_god_and_td.pdf Graphic file (type pdf)
  <use figures/chapter4/rq2_distrubtion_god_and_td.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_distrubtion_god_and_td.pdf used o
-n input line 386.
+n input line 384.
 (pdftex.def)             Requested size: 398.33858pt x 353.89342pt.
- [57] [58 <./figures/chapter4/rq2_distrubtion_god_and_td.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 401--403
+ [58 <./figures/chapter4/rq2_distrubtion_god_and_td.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--403
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--403
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
  []
 
 [60]
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
+ []
+
+
 <figures/chapter4/rq3_distribution_of_churn.pdf, id=570, 701.62125pt x 623.3287
 5pt>
 File: figures/chapter4/rq3_distribution_of_churn.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_churn.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_churn.pdf used on
- input line 429.
+ input line 427.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
 <figures/chapter4/rq3_distribution_of_nf.pdf, id=571, 701.62125pt x 623.32875pt
@@ -849,7 +849,7 @@ Package pdftex.def Info: figures/chapter4/rq3_distribution_of_churn.pdf used on
 File: figures/chapter4/rq3_distribution_of_nf.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_nf.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_nf.pdf used on in
-put line 438.
+put line 436.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
 <figures/chapter4/rq3_distribution_of_nd.pdf, id=572, 701.62125pt x 623.32875pt
@@ -857,7 +857,7 @@ put line 438.
 File: figures/chapter4/rq3_distribution_of_nd.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_nd.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_nd.pdf used on in
-put line 445.
+put line 443.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
 <figures/chapter4/rq3_distribution_of_entropy.pdf, id=573, 701.62125pt x 623.32
@@ -865,23 +865,23 @@ put line 445.
 File: figures/chapter4/rq3_distribution_of_entropy.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_entropy.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_entropy.pdf used 
-on input line 453.
+on input line 451.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
  [61 <./figures/chapter4/rq3_distribution_of_churn.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
 
 LaTeX Warning: Reference `figure:ch4_number_of_directories' on page 62 undefine
-d on input line 467.
+d on input line 465.
 
 [62 <./figures/chapter4/rq3_distribution_of_nf.pdf>] [63 <./figures/chapter4/rq
 3_distribution_of_nd.pdf>] [64 <./figures/chapter4/rq3_distribution_of_entropy.
 pdf>]
 
 LaTeX Warning: Reference `ch4_amount_of_overlap' on page 65 undefined on input 
-line 497.
+line 495.
 
 [65] [66] [67]) [68]
 Chapter 5.
@@ -1132,7 +1132,7 @@ cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cuthesis_masters.pdf (106 pages, 8596529 bytes).
+Output written on cuthesis_masters.pdf (106 pages, 8596948 bytes).
 PDF statistics:
  927 PDF objects out of 1000 (max. 8388607)
  638 compressed objects within 7 object streams

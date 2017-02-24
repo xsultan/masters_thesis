@@ -288,12 +288,11 @@ God classes are classes that consolidate trivial class workloads and avoid task 
 
 To perform our analysis, we need to identify god classes at two levels: (i) file level and (ii) change level.
 
-\textbf{god files:} To identify god classes, we followed the methodology outlined by Marinescu \cite{marinescu2004detection} who proposed an approach to specify and detect
-code smells, specifically ``god classes'' based on metric-based heuristics where god classes identified according to sets of rules and thresholds defined on various object oriented metrics.
+\noindent\textbf{god files:} To identify god classes, we followed the methodology outlined by Marinescu \cite{marinescu2004detection}, who proposed an approach to specify and detect
+code smells, specifically ``god classes'', based on metric-based heuristics where god classes are identified according to sets of rules and thresholds defined on various object-oriented metrics. The formula provided below \ref{equation:1} operates on three metrics, namely, weighted method count (WMC), tight class cohesion (TCC) and access to foreign data (ATFD), and generates one of two outputs. If the output is 1, then the class to which the formula is applied is a god class; if 0, it is a non-god class.
 
 \noindent\textbf{god changes:}
-To study the impact of god classes at the change level, we need 
-
+To study the impact of god classes at the change level, we must first identify which classes are god classes and which are non-god classes. By analogy with the technique used to identify SATD and non-SATD changes, we consider any change containing at least one god file to be a god change and those containing no god files to be non-god changes. 
 
 
 \begin{figure}[h]
@@ -306,10 +305,9 @@ To study the impact of god classes at the change level, we need
 \label{equation:1}
 \end{figure}
 
-The equation above \ref{equation:1} describes how we identify a god class, where 
+The equation in Figure~\ref{equation:1} above describes how we detect a god class, where 
 
 
-\todo{eleborate more here}
 \begin{itemize}
 \item[$\bullet$] \textbf{Weighted Method Count (WMC)} is the sum of the statistical complexity of all methods in a class \cite{Chidamber_Kemerer_94}. McCabe’s cyclomatic complexity \cite{McCabe_1976} is used as a complexity measure for all class methods.
 \item[$\bullet$] \textbf{Tight Class Cohesion (TCC)} is the number of directly connected public methods in a class \cite{Bieman:1995:CRO:223427.211856}.
