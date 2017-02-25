@@ -4,7 +4,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2}{\ignorespaces Approach overview.}}{20}
 \contentsline {figure}{\numberline {3}{\ignorespaces Indicating a bug-fixing change.}}{25}
-\contentsline {figure}{\numberline {4}{\ignorespaces Percentage of defect fixing changes for SATD and NSATD files.}}{26}
+\contentsline {figure}{\numberline {4}{\ignorespaces Percentage of defect-fixing changes for SATD and NSATD files.}}{26}
 \contentsline {figure}{\numberline {5}{\ignorespaces Percentage of defect fixing changes for pre-SATD and post SATD.}}{28}
 \contentsline {figure}{\numberline {6}{\ignorespaces Percentage of defect inducing changes with SATD and NSATD.}}{31}
 \contentsline {figure}{\numberline {7}{\ignorespaces Total number of lines modified per change (SATD vs. NSATD).}}{33}
@@ -14,12 +14,12 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {11}{\ignorespaces Approach overview.}}{43}
 \contentsline {figure}{\numberline {12}{\ignorespaces God Class Detection Equation}}{53}
-\contentsline {figure}{\numberline {13}{\ignorespaces Percentage of defect fixing changes for SATD and NSATD files.}}{55}
-\contentsline {figure}{\numberline {14}{\ignorespaces Percentage of defect inducing changes for (god vs. NGod) and (SATD and NSATD).}}{58}
-\contentsline {figure}{\numberline {15}{\ignorespaces Total number of lines modified per change (SATD vs. NSATD).}}{61}
-\contentsline {figure}{\numberline {16}{\ignorespaces Total number of files modified per change (SATD vs. NSATD).}}{62}
-\contentsline {figure}{\numberline {17}{\ignorespaces Total number of modified directories per SATD and NSATD change.}}{63}
-\contentsline {figure}{\numberline {18}{\ignorespaces Distribution of the change across the SATD and NSATD files.}}{64}
+\contentsline {figure}{\numberline {13}{\ignorespaces Percentage of defect-fixing changes for SATD and NSATD files.}}{55}
+\contentsline {figure}{\numberline {14}{\ignorespaces Percentage of defect-inducing changes for GOD vs. NGOD and SATD vs. NSATD.}}{58}
+\contentsline {figure}{\numberline {15}{\ignorespaces Total number of lines modified per change (SATD vs. NSATD).}}{62}
+\contentsline {figure}{\numberline {16}{\ignorespaces Total number of files modified per change (SATD vs. NSATD).}}{63}
+\contentsline {figure}{\numberline {17}{\ignorespaces Total number of modified directories per SATD and NSATD change.}}{64}
+\contentsline {figure}{\numberline {18}{\ignorespaces Distribution of the change across the SATD and NSATD files.}}{65}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {19}{\ignorespaces Percentage of defect fixing changes for GOD and NGOD files.}}{73}

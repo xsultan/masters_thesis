@@ -56,9 +56,9 @@
 
 \newcommand{\chapterIVrqII}{\textbf{RQ2: Do god-related changes introduce future defects?}}
 
-\newcommand{\chapterIVrqIII}{\textbf{RQ3: Are god-related changes are more difficult than non-god changes?}}
+\newcommand{\chapterIVrqIII}{\textbf{RQ3: Are god-related changes more difficult than non-god changes?}}
 
-\newcommand{\chapterIVrqIV}{\textbf{RQ4: Is there an overlap between the comment-based vs. the metric based technical debt?}}
+\newcommand{\chapterIVrqIV}{\textbf{RQ4: Is there an overlap between comment- and metric-based technical debt?}}
 
 
 \newcommand{\sultan}[1]{\textcolor{RoyalBlue}{{\it [Sultan: #1]}}}
@@ -87,11 +87,13 @@
 	
 %Technical debt refers to incomplete or temporary workarounds that allow us to speed up software development in the short term at the cost of paying a higher price later on. Recently, studies have shown that technical debt can be detected from source code comments, referred to as "self-admitted technical debt." Researchers have examined the detection, classification and removal of self-admitted technical debt. However, to date, no empirical evidence has been compiled to assess the impact of self-admitted technical debt on software quality.
 
-Sometimes developers contributing to a software project settle for a non-optimal solution under pressure to meet deadlines and quotas despite the potential pitfalls that might ensue at later stages in development, on account of which this phenomenon has been called ``technical debt." And like its financial analogue, if not carefully monitored and mediated, technical debt can compromise the very project it was intended to expedite. Several approaches have been proposed to aid developers in tracking the technical debt they incur, and one pioneered in a recent study leverages source code comments to detect (self-admitted) technical debt. Therefore, in this thesis we use empirical studies to examine the impact of self-admitted technical debt and code smells (i.e. god class) on software quality.
+Sometimes developers contributing to a software project settle for a non-optimal solution under pressure to meet deadlines and quotas despite the potential pitfalls that might ensue at later stages in development, on account of which this phenomenon has been called ``technical debt." And like its financial analogue, if not carefully monitored and mediated, technical debt can compromise the very project it was intended to expedite. Several approaches have been proposed to aid developers in tracking the technical debt they incur, and one pioneered in a recent study leverages source code comments to detect (self-admitted) technical debt. Therefore, in this thesis we use empirical studies to examine the impact of self-admitted technical debt and code smells (god classes) on software quality.
 
-First, we examine the impact of \SATD on software quality for five open-source projects. To measure this, we take into account three criteria commonly associated with quality: (i) on the file level, the relationship between defects and \SATD, (ii) on the change level, the potential of \SATD to introduce future defects and (iii) the complexity \SATD changes impose on the system. In short, the results of our inquiry indicate that (i) \SATD and defects exhibit no correlation at the file level, though (ii) SATD changes make the system less susceptible to future defects than non-SATD changes do and (iii) SATD changes are more difficult to execute.
+First, we examine the impact of \SATD on software quality for five open-source projects. To measure this, we take into account three criteria commonly associated with quality: (i) on the file level, the relationship between defects and \SATD; (ii) on the change level, the potential of \SATD to introduce future defects and (iii) the complexity SATD changes impose on the system. In short, the results of our inquiry indicate that (i) \SATD and defects exhibit no correlation at the file level, though (ii) SATD changes make the system less susceptible to future defects than non-SATD changes do and (iii) SATD changes are more difficult to execute.
 
-Second, we expand the scope of our investigation to include another aspect of technical debt---code smells, i.e. god classes. Compiling forty open-source projects, we assess the impact of two variables, namely, god classes and \SATD, on software quality by determining: (i) whether variable-positive files have more defects than variable-negative files, (ii) whether variable-positive changes induce future defects at a higher rate, (iii) whether variable-positive changes are more difficult to perform and (iv) how much the metric- and comment-based approaches to technical debt file identification overlap. Our observations are consistent with the following generalizations: (i) neither god nor SATD files are correlated with defects, (ii) introduction of future defects is higher for god and SATD changes, (iii) god and SATD changes are more difficult to effect and (iv) the metric-comment technical debt file overlap ranges between 11\% and 34\%.
+Second, we expand the scope of our investigation to include another aspect of technical debt---code smells, i.e. god classes. Compiling 40 open-source projects, we assess the impact of two variables---namely, god classes and \SATD---on software quality by determining: (i) whether variable-positive files have more defects than variable-negative files, (ii) whether variable-positive changes induce future defects at a higher rate than variable-negative changes, (iii) whether variable-positive changes are more difficult to perform than variable-negative changes and (iv) how much the metric- and comment-based approaches to technical debt file identification overlap.
+
+Our observations are consistent with the following generalizations: (i) neither god nor SATD files are correlated with defects, (ii) introduction of future defects is higher for god and SATD changes, (iii) god and SATD changes are more difficult to effect and (iv) the metric-comment technical debt file overlap ranges from 11\% to 34\%.
 
 
 \end{abstract}
@@ -135,11 +137,11 @@ The following publications are related to this thesis:
 \label{literature_review}
 \input{literature_review.tex}
 
-\chapter{Examining the Impact of Self-admitted Technical Debt on Software Quality}
+\chapter{Examining the Impact of Self-Admitted Technical Debt on Software Quality}
 \label{chapter3}
 \input{chapter3.tex}
 
-\chapter{Comparing the Impact of Comment- vs. Metric-Based Technical Debt}
+\chapter{Comparing the Impact of Comment- Versus Metric-Based Technical Debt}
 \label{chapter4}
 \input{chapter4.tex}
 

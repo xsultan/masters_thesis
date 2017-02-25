@@ -6,16 +6,16 @@
 \contentsline {section}{\numberline {1.3}Thesis Contributions}{4}
 \contentsline {chapter}{\numberline {2}Literature Review}{5}
 \contentsline {section}{\numberline {2.1}The Popularization of the Technical Debt Metaphor}{6}
-\contentsline {subsection}{\numberline {2.1.1}Unintentionally Incurred Debt Versus Intentionally Incurred debt}{7}
-\contentsline {subsection}{\numberline {2.1.2}Technical Debt Quadrant}{8}
-\contentsline {subsection}{\numberline {2.1.3}Other Insights on the Technical Debt Metaphor}{9}
-\contentsline {section}{\numberline {2.2}Technical Debt Indicators and Ramifications}{11}
-\contentsline {subsection}{\numberline {2.2.1}Leveraging Source Code and Static Analysis Tools}{11}
-\contentsline {subsection}{\numberline {2.2.2}Leveraging Source Code Comments (Self-Admitted Technical Debt)}{12}
+\contentsline {subsection}{\numberline {2.1.1}Intentionally vs. Unintentionally Incurred Debt}{7}
+\contentsline {subsection}{\numberline {2.1.2}The Technical Debt Quadrant}{7}
+\contentsline {subsection}{\numberline {2.1.3}Other Insights on the Technical Debt Metaphor}{8}
+\contentsline {section}{\numberline {2.2}Technical Debt Indicators and Ramifications}{10}
+\contentsline {subsection}{\numberline {2.2.1}Leveraging Source Code and Static Analysis Tools}{10}
+\contentsline {subsection}{\numberline {2.2.2}Leveraging Source Code Comments (Self-Admitted Technical Debt)}{11}
 \contentsline {subsection}{\numberline {2.2.3}Research Leveraging Source Code Comments}{13}
-\contentsline {subsection}{\numberline {2.2.4}Technical Debt}{15}
+\contentsline {subsection}{\numberline {2.2.4}Technical Debt}{14}
 \contentsline {subsection}{\numberline {2.2.5}Software Quality}{15}
-\contentsline {chapter}{\numberline {3}Examining the Impact of Self-admitted Technical Debt on Software Quality}{17}
+\contentsline {chapter}{\numberline {3}Examining the Impact of Self-Admitted Technical Debt on Software Quality}{17}
 \contentsline {section}{\numberline {3.1}Introduction}{17}
 \contentsline {section}{\numberline {3.2}Related Work}{19}
 \contentsline {section}{\numberline {3.3}Approach}{19}
@@ -27,16 +27,16 @@
 \contentsline {section}{\numberline {3.5}Case Study Results}{26}
 \contentsline {section}{\numberline {3.6}Threats to Validity}{35}
 \contentsline {section}{\numberline {3.7}Conclusion and Future Work}{37}
-\contentsline {chapter}{\numberline {4}Comparing the Impact of Comment- vs. Metric-Based Technical Debt}{39}
+\contentsline {chapter}{\numberline {4}Comparing the Impact of Comment- Versus Metric-Based Technical Debt}{39}
 \contentsline {section}{\numberline {4.1}Introduction}{39}
 \contentsline {section}{\numberline {4.2}Related Work}{41}
-\contentsline {subsection}{\numberline {4.2.1}Identifying and Detecting What Constitutes Code Smells}{41}
+\contentsline {subsection}{\numberline {4.2.1}Identifying and Detecting Code Smells}{41}
 \contentsline {section}{\numberline {4.3}Approach}{42}
 \contentsline {subsection}{\numberline {4.3.1}Data Extraction}{43}
 \contentsline {subsection}{\numberline {4.3.2}Scanning Code and Extracting Comments}{47}
 \contentsline {subsection}{\numberline {4.3.3}Filter Comments}{47}
 \contentsline {subsection}{\numberline {4.3.4}Identifying Self-Admitted Technical Debt}{49}
-\contentsline {subsection}{\numberline {4.3.5}God Class}{52}
+\contentsline {subsection}{\numberline {4.3.5}God Classes}{52}
 \contentsline {subsection}{\numberline {4.3.6}Identifying God Classes}{52}
 \contentsline {subsection}{\numberline {4.3.7}Identifying Defects in SATD Files and SATD Changes}{53}
 \contentsline {section}{\numberline {4.4}Case Study Results}{55}
