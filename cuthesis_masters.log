@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 FEB 2017 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 FEB 2017 09:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,176 +542,190 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[6] [7]
-<figures/chapter2/technicalDebtQuadrant.png, id=72, 513.92pt x 385.44pt>
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+[7] <figures/chapter2/technicalDebtQuadrant.png, id=72, 513.92pt x 385.44pt>
 File: figures/chapter2/technicalDebtQuadrant.png Graphic file (type png)
 
 <use figures/chapter2/technicalDebtQuadrant.png>
 Package pdftex.def Info: figures/chapter2/technicalDebtQuadrant.png used on inp
-ut line 38.
-(pdftex.def)             Requested size: 227.62204pt x 170.71745pt.
- [8] [9 <./figures/chapter2/technicalDebtQuadrant.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+ut line 37.
+(pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
+ [8 <./figures/chapter2/technicalDebtQuadrant.png (PNG copy)>] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[13] [14] [15]) [16]
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+[12] [13] [14]) [15] [16]
 Chapter 3.
 (./chapter3.tex [17
 
-] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+] [18] [19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-[19]
+[21]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter3/approach.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/chapter3/approach.pdf, id=111, 478.78876pt x 135.50626pt>
+<figures/chapter3/approach.pdf, id=117, 478.78876pt x 135.50626pt>
 File: figures/chapter3/approach.pdf Graphic file (type pdf)
 
 <use figures/chapter3/approach.pdf>
-Package pdftex.def Info: figures/chapter3/approach.pdf used on input line 44.
+Package pdftex.def Info: figures/chapter3/approach.pdf used on input line 59.
 (pdftex.def)             Requested size: 426.79134pt x 120.79039pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[20 <./figures/chapter3/approach.pdf>] [21] [22] [23]
+[22 <./figures/chapter3/approach.pdf>] [23] [24] [25]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter3/bug-fixin
 g-change.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-<figures/chapter3/bug-fixing-change.pdf, id=132, 483.8075pt x 237.88875pt>
+<figures/chapter3/bug-fixing-change.pdf, id=139, 483.8075pt x 237.88875pt>
 File: figures/chapter3/bug-fixing-change.pdf Graphic file (type pdf)
 
 <use figures/chapter3/bug-fixing-change.pdf>
 Package pdftex.def Info: figures/chapter3/bug-fixing-change.pdf used on input l
-ine 141.
+ine 156.
 (pdftex.def)             Requested size: 426.79134pt x 209.8618pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-[24] <figures/chapter3/rq1_correction.pdf, id=137, 614.295pt x 794.97pt>
+[26] <figures/chapter3/rq1_correction.pdf, id=144, 614.295pt x 794.97pt>
 File: figures/chapter3/rq1_correction.pdf Graphic file (type pdf)
 
 <use figures/chapter3/rq1_correction.pdf>
 Package pdftex.def Info: figures/chapter3/rq1_correction.pdf used on input line
- 159.
+ 174.
 (pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
- [25 <./figures/chapter3/bug-fixing-change.pdf>] [26 <./figures/chapter3/rq1_co
+ [27 <./figures/chapter3/bug-fixing-change.pdf>] [28 <./figures/chapter3/rq1_co
 rrection.pdf>]
-<figures/chapter3/rq1-2_correction.pdf, id=194, 614.295pt x 794.97pt>
+<figures/chapter3/rq1-2_correction.pdf, id=201, 614.295pt x 794.97pt>
 File: figures/chapter3/rq1-2_correction.pdf Graphic file (type pdf)
 
 <use figures/chapter3/rq1-2_correction.pdf>
 Package pdftex.def Info: figures/chapter3/rq1-2_correction.pdf used on input li
-ne 185.
+ne 200.
 (pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
- [27] [28 <./figures/chapter3/rq1-2_correction.pdf>] [29]
-<figures/chapter3/bug_inducing_changes.pdf, id=257, 614.295pt x 794.97pt>
+ [29] [30 <./figures/chapter3/rq1-2_correction.pdf>] [31]
+<figures/chapter3/bug_inducing_changes.pdf, id=265, 614.295pt x 794.97pt>
 File: figures/chapter3/bug_inducing_changes.pdf Graphic file (type pdf)
 
 <use figures/chapter3/bug_inducing_changes.pdf>
 Package pdftex.def Info: figures/chapter3/bug_inducing_changes.pdf used on inpu
-t line 232.
+t line 247.
 (pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
- [30]
-Overfull \hbox (11.32762pt too wide) in paragraph at lines 260--270
+ [32]
+Overfull \hbox (11.32762pt too wide) in paragraph at lines 275--285
  [][] 
  []
 
-[31 <./figures/chapter3/bug_inducing_changes.pdf>] [32]
-<figures/chapter3/churn_for_all_projects.pdf, id=274, 614.295pt x 794.97pt>
+[33 <./figures/chapter3/bug_inducing_changes.pdf>] [34]
+<figures/chapter3/churn_for_all_projects.pdf, id=281, 614.295pt x 794.97pt>
 File: figures/chapter3/churn_for_all_projects.pdf Graphic file (type pdf)
 
 <use figures/chapter3/churn_for_all_projects.pdf>
 Package pdftex.def Info: figures/chapter3/churn_for_all_projects.pdf used on in
-put line 289.
+put line 304.
 (pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
 
-<figures/chapter3/number_of_files_changed_all_projects.pdf, id=275, 614.295pt x
+<figures/chapter3/number_of_files_changed_all_projects.pdf, id=282, 614.295pt x
  794.97pt>
 File: figures/chapter3/number_of_files_changed_all_projects.pdf Graphic file (t
 ype pdf)
  <use figures/chapter3/number_of_files_changed_all_projects.pdf>
 Package pdftex.def Info: figures/chapter3/number_of_files_changed_all_projects.
-pdf used on input line 299.
+pdf used on input line 314.
 (pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
 
-<figures/chapter3/number_of_directories.pdf, id=276, 614.295pt x 794.97pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/chapter3/number_of_directories.pdf, id=283, 614.295pt x 794.97pt>
 File: figures/chapter3/number_of_directories.pdf Graphic file (type pdf)
 
 <use figures/chapter3/number_of_directories.pdf>
 Package pdftex.def Info: figures/chapter3/number_of_directories.pdf used on inp
-ut line 306.
+ut line 321.
 (pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
 
-<figures/chapter3/entropy_for_all_projects.pdf, id=277, 614.295pt x 794.97pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/chapter3/entropy_for_all_projects.pdf, id=284, 614.295pt x 794.97pt>
 File: figures/chapter3/entropy_for_all_projects.pdf Graphic file (type pdf)
 
 <use figures/chapter3/entropy_for_all_projects.pdf>
 Package pdftex.def Info: figures/chapter3/entropy_for_all_projects.pdf used on 
-input line 314.
+input line 329.
 (pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
- [33 <./figures/chapter3/churn_for_all_projects.pdf>] [34 <./figures/chapter3/n
-umber_of_files_changed_all_projects.pdf>] [35 <./figures/chapter3/number_of_dir
-ectories.pdf>] [36 <./figures/chapter3/entropy_for_all_projects.pdf>] [37]) [38
-]
-Chapter 4.
-(./chapter4.tex [39
 
-] [40]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35 <./figures/chapter3/churn_for_all_projects.pdf>] [36 <./figures/chapter3/nu
+mber_of_files_changed_all_projects.pdf>] [37 <./figures/chapter3/number_of_dire
+ctories.pdf>] [38 <./figures/chapter3/entropy_for_all_projects.pdf>] [39])
+[40]
+Chapter 4.
+(./chapter4.tex [41
+
+] [42] [43] [44]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
- [41]
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
@@ -720,13 +734,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter4/approach.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/chapter4/approach.pdf, id=485, 480.79625pt x 250.9375pt>
+<figures/chapter4/approach.pdf, id=499, 480.79625pt x 250.9375pt>
 File: figures/chapter4/approach.pdf Graphic file (type pdf)
 
 <use figures/chapter4/approach.pdf>
-Package pdftex.def Info: figures/chapter4/approach.pdf used on input line 44.
+Package pdftex.def Info: figures/chapter4/approach.pdf used on input line 60.
 (pdftex.def)             Requested size: 426.79134pt x 222.75548pt.
- [42] [43 <./figures/chapter4/approach.pdf>] [44]
+ [46] [47 <./figures/chapter4/approach.pdf>] [48]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -735,9 +749,9 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
 
 
-LaTeX Warning: Float too large for page by 17.97472pt on input line 98.
+LaTeX Warning: Float too large for page by 17.97472pt on input line 114.
 
-[45]
+[49]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -746,131 +760,146 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
 
 
-LaTeX Warning: Float too large for page by 12.67293pt on input line 143.
+LaTeX Warning: Float too large for page by 12.67293pt on input line 159.
 
-[46] [47
-
-
+[50] [51
 
 
-] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+
+] [52]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
-[49]
+[53]
 
-LaTeX Warning: Float too large for page by 44.45522pt on input line 233.
+LaTeX Warning: Float too large for page by 44.45522pt on input line 249.
 
-[50]
+[54]
 
-LaTeX Warning: Float too large for page by 39.03972pt on input line 279.
+LaTeX Warning: Float too large for page by 39.03972pt on input line 295.
 
-[51]
-Overfull \hbox (12.25095pt too wide) detected at line 303
+[55]
+Overfull \hbox (12.25095pt too wide) detected at line 319
 \OML/cmm/m/it/12 GodClass\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 C\OT1/cmr/m/n/12 ) =
  []
  []
 
-[52
+[56
 
 
 
 
-] [53]
-Underfull \hbox (badness 10000) in paragraph at lines 328--330
+] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 344--346
 
  []
 
-[54]
-<figures/chapter4/rq1_defectivness_distrubution.pdf, id=535, 701.62125pt x 623.
+[58] [59]
+<figures/chapter4/rq1_defectivness_distrubution.pdf, id=550, 701.62125pt x 623.
 32875pt>
 File: figures/chapter4/rq1_defectivness_distrubution.pdf Graphic file (type pdf
 )
  <use figures/chapter4/rq1_defectivness_distrubution.pdf>
 Package pdftex.def Info: figures/chapter4/rq1_defectivness_distrubution.pdf use
-d on input line 338.
+d on input line 387.
 (pdftex.def)             Requested size: 398.33858pt x 353.89342pt.
- [55 <./figures/chapter4/rq1_defectivness_distrubution.pdf>] [56] [57]
-<figures/chapter4/rq2_distrubtion_god_and_td.pdf, id=553, 701.62125pt x 623.328
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[60] [61 <./figures/chapter4/rq1_defectivness_distrubution.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+
+ []
+
+[62]
+<figures/chapter4/rq2_distrubtion_god_and_td.pdf, id=569, 701.62125pt x 623.328
 75pt>
 File: figures/chapter4/rq2_distrubtion_god_and_td.pdf Graphic file (type pdf)
  <use figures/chapter4/rq2_distrubtion_god_and_td.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_distrubtion_god_and_td.pdf used o
-n input line 384.
+n input line 420.
 (pdftex.def)             Requested size: 398.33858pt x 353.89342pt.
- [58 <./figures/chapter4/rq2_distrubtion_god_and_td.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
+ [63 <./figures/chapter4/rq2_distrubtion_god_and_td.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
+
+ []
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
-
- []
-
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
-
- []
-
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
-
- []
-
-
-<figures/chapter4/rq3_distribution_of_churn.pdf, id=570, 701.62125pt x 623.3287
+<figures/chapter4/rq3_distribution_of_churn.pdf, id=582, 701.62125pt x 623.3287
 5pt>
 File: figures/chapter4/rq3_distribution_of_churn.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_churn.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_churn.pdf used on
- input line 427.
+ input line 445.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_distribution_of_nf.pdf, id=571, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_distribution_of_nf.pdf, id=583, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_distribution_of_nf.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_nf.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_nf.pdf used on in
-put line 436.
+put line 454.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_distribution_of_nd.pdf, id=572, 701.62125pt x 623.32875pt
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<figures/chapter4/rq3_distribution_of_nd.pdf, id=584, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_distribution_of_nd.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_nd.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_nd.pdf used on in
-put line 443.
+put line 461.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_distribution_of_entropy.pdf, id=573, 701.62125pt x 623.32
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<figures/chapter4/rq3_distribution_of_entropy.pdf, id=585, 701.62125pt x 623.32
 875pt>
 File: figures/chapter4/rq3_distribution_of_entropy.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_distribution_of_entropy.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_distribution_of_entropy.pdf used 
-on input line 451.
+on input line 469.
 (pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[65 <./figures/chapter4/rq3_distribution_of_churn.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
-[61] [62 <./figures/chapter4/rq3_distribution_of_churn.pdf>] [63 <./figures/cha
-pter4/rq3_distribution_of_nf.pdf>] [64 <./figures/chapter4/rq3_distribution_of_
-nd.pdf>] [65 <./figures/chapter4/rq3_distribution_of_entropy.pdf>] [66]
-[67]) [68]
+[66 <./figures/chapter4/rq3_distribution_of_nf.pdf>] [67 <./figures/chapter4/rq
+3_distribution_of_nd.pdf>] [68 <./figures/chapter4/rq3_distribution_of_entropy.
+pdf>] [69] [70] [71]) [72] [73]
 Chapter 5.
-(./conclusion.tex [69
+(./conclusion.tex [74
 
-] [70]) (./appendix.tex [71]
+] [75]) (./appendix.tex [76]
 Appendix A.
-<figures/chapter4/RQ1_boxplots_god_1.pdf, id=633, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_god_1.pdf, id=649, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_god_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_god_1.pdf>
@@ -878,7 +907,7 @@ Package pdftex.def Info: figures/chapter4/RQ1_boxplots_god_1.pdf used on input
 line 5.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/RQ1_boxplots_god_2.pdf, id=634, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_god_2.pdf, id=650, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_god_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_god_2.pdf>
@@ -886,7 +915,7 @@ Package pdftex.def Info: figures/chapter4/RQ1_boxplots_god_2.pdf used on input
 line 6.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/RQ1_boxplots_td_1.pdf, id=635, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_td_1.pdf, id=651, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_td_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_td_1.pdf>
@@ -894,20 +923,20 @@ Package pdftex.def Info: figures/chapter4/RQ1_boxplots_td_1.pdf used on input l
 ine 15.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/RQ1_boxplots_td_2.pdf, id=636, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_td_2.pdf, id=652, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_td_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_td_2.pdf>
 Package pdftex.def Info: figures/chapter4/RQ1_boxplots_td_2.pdf used on input l
 ine 16.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
- [72
+ [77
 
-] [73 <./figures/chapter4/RQ1_boxplots_god_1.pdf> <./figures/chapter4/RQ1_boxpl
-ots_god_2.pdf>] [74 <./figures/chapter4/RQ1_boxplots_td_1.pdf> <./figures/chapt
+] [78 <./figures/chapter4/RQ1_boxplots_god_1.pdf> <./figures/chapter4/RQ1_boxpl
+ots_god_2.pdf>] [79 <./figures/chapter4/RQ1_boxplots_td_1.pdf> <./figures/chapt
 er4/RQ1_boxplots_td_2.pdf>]
 Appendix B.
-<figures/chapter4/rq2_god_boxplots_1.pdf, id=671, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_god_boxplots_1.pdf, id=687, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_god_boxplots_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_god_boxplots_1.pdf>
@@ -915,7 +944,7 @@ Package pdftex.def Info: figures/chapter4/rq2_god_boxplots_1.pdf used on input
 line 26.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq2_god_boxplots_2.pdf, id=672, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_god_boxplots_2.pdf, id=688, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_god_boxplots_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_god_boxplots_2.pdf>
@@ -923,7 +952,7 @@ Package pdftex.def Info: figures/chapter4/rq2_god_boxplots_2.pdf used on input
 line 27.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq2_boxplots_1.pdf, id=673, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_boxplots_1.pdf, id=689, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_boxplots_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_boxplots_1.pdf>
@@ -931,21 +960,21 @@ Package pdftex.def Info: figures/chapter4/rq2_boxplots_1.pdf used on input line
  35.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq2_boxplots_2.pdf, id=674, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_boxplots_2.pdf, id=690, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_boxplots_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_boxplots_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_boxplots_2.pdf used on input line
  36.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
- [75
+ [80
 
-] [76 <./figures/chapter4/rq2_god_boxplots_1.pdf> <./figures/chapter4/rq2_god_b
-oxplots_2.pdf>] [77 <./figures/chapter4/rq2_boxplots_1.pdf> <./figures/chapter4
+] [81 <./figures/chapter4/rq2_god_boxplots_1.pdf> <./figures/chapter4/rq2_god_b
+oxplots_2.pdf>] [82 <./figures/chapter4/rq2_boxplots_1.pdf> <./figures/chapter4
 /rq2_boxplots_2.pdf>]
 Appendix C.
 
-<figures/chapter4/rq3_god_churn_logged_1.pdf, id=708, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_god_churn_logged_1.pdf, id=724, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_god_churn_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_churn_logged_1.pdf>
@@ -953,7 +982,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_churn_logged_1.pdf used on in
 put line 46.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_churn_logged_2.pdf, id=709, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_god_churn_logged_2.pdf, id=725, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_god_churn_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_churn_logged_2.pdf>
@@ -961,21 +990,21 @@ Package pdftex.def Info: figures/chapter4/rq3_god_churn_logged_2.pdf used on in
 put line 47.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_churn_logged_1.pdf, id=710, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_churn_logged_1.pdf, id=726, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_churn_logged_1.pdf Graphic file (type pdf)
 <use figures/chapter4/rq3_td_churn_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_churn_logged_1.pdf used on inp
 ut line 55.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_churn_logged_2.pdf, id=711, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_churn_logged_2.pdf, id=727, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_churn_logged_2.pdf Graphic file (type pdf)
 <use figures/chapter4/rq3_td_churn_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_churn_logged_2.pdf used on inp
 ut line 56.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_nd_logged_1.pdf, id=712, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nd_logged_1.pdf, id=728, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nd_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nd_logged_1.pdf>
@@ -983,7 +1012,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_nd_logged_1.pdf used on input
  line 64.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_nd_logged_2.pdf, id=713, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nd_logged_2.pdf, id=729, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nd_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nd_logged_2.pdf>
@@ -991,7 +1020,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_nd_logged_2.pdf used on input
  line 65.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_nd_logged_1.pdf, id=714, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nd_logged_1.pdf, id=730, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nd_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nd_logged_1.pdf>
@@ -999,7 +1028,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_nd_logged_1.pdf used on input
 line 73.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_nd_logged_2.pdf, id=715, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nd_logged_2.pdf, id=731, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nd_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nd_logged_2.pdf>
@@ -1007,7 +1036,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_nd_logged_2.pdf used on input
 line 74.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_nf_logged_1.pdf, id=716, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nf_logged_1.pdf, id=732, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nf_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nf_logged_1.pdf>
@@ -1015,7 +1044,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_nf_logged_1.pdf used on input
  line 83.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_nf_logged_2.pdf, id=717, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nf_logged_2.pdf, id=733, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nf_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nf_logged_2.pdf>
@@ -1023,7 +1052,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_nf_logged_2.pdf used on input
  line 84.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_nf_logged_1.pdf, id=718, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nf_logged_1.pdf, id=734, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nf_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nf_logged_1.pdf>
@@ -1031,7 +1060,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_nf_logged_1.pdf used on input
 line 92.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_nf_logged_2.pdf, id=719, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nf_logged_2.pdf, id=735, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nf_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nf_logged_2.pdf>
@@ -1039,7 +1068,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_nf_logged_2.pdf used on input
 line 93.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_entropy_logged_1.pdf, id=720, 701.62125pt x 623.32875
+<figures/chapter4/rq3_god_entropy_logged_1.pdf, id=736, 701.62125pt x 623.32875
 pt>
 File: figures/chapter4/rq3_god_entropy_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_entropy_logged_1.pdf>
@@ -1047,7 +1076,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_entropy_logged_1.pdf used on
 input line 101.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_god_entropy_logged_2.pdf, id=721, 701.62125pt x 623.32875
+<figures/chapter4/rq3_god_entropy_logged_2.pdf, id=737, 701.62125pt x 623.32875
 pt>
 File: figures/chapter4/rq3_god_entropy_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_entropy_logged_2.pdf>
@@ -1055,7 +1084,7 @@ Package pdftex.def Info: figures/chapter4/rq3_god_entropy_logged_2.pdf used on
 input line 102.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_entropy_logged_1.pdf, id=722, 701.62125pt x 623.32875p
+<figures/chapter4/rq3_td_entropy_logged_1.pdf, id=738, 701.62125pt x 623.32875p
 t>
 File: figures/chapter4/rq3_td_entropy_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_td_entropy_logged_1.pdf>
@@ -1063,7 +1092,7 @@ Package pdftex.def Info: figures/chapter4/rq3_td_entropy_logged_1.pdf used on i
 nput line 110.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 
-<figures/chapter4/rq3_td_entropy_logged_2.pdf, id=723, 701.62125pt x 623.32875p
+<figures/chapter4/rq3_td_entropy_logged_2.pdf, id=739, 701.62125pt x 623.32875p
 t>
 File: figures/chapter4/rq3_td_entropy_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_td_entropy_logged_2.pdf>
@@ -1071,25 +1100,25 @@ Package pdftex.def Info: figures/chapter4/rq3_td_entropy_logged_2.pdf used on i
 nput line 111.
 (pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
 ) (./cuthesis_masters.bbl
-[78
+[83
 
-] [79 <./figures/chapter4/rq3_god_churn_logged_1.pdf> <./figures/chapter4/rq3_g
-od_churn_logged_2.pdf>] [80 <./figures/chapter4/rq3_td_churn_logged_1.pdf> <./f
-igures/chapter4/rq3_td_churn_logged_2.pdf>] [81 <./figures/chapter4/rq3_god_nd_
-logged_1.pdf> <./figures/chapter4/rq3_god_nd_logged_2.pdf>] [82 <./figures/chap
+] [84 <./figures/chapter4/rq3_god_churn_logged_1.pdf> <./figures/chapter4/rq3_g
+od_churn_logged_2.pdf>] [85 <./figures/chapter4/rq3_td_churn_logged_1.pdf> <./f
+igures/chapter4/rq3_td_churn_logged_2.pdf>] [86 <./figures/chapter4/rq3_god_nd_
+logged_1.pdf> <./figures/chapter4/rq3_god_nd_logged_2.pdf>] [87 <./figures/chap
 ter4/rq3_td_nd_logged_1.pdf> <./figures/chapter4/rq3_td_nd_logged_2.pdf>]
-[83 <./figures/chapter4/rq3_god_nf_logged_1.pdf> <./figures/chapter4/rq3_god_nf
-_logged_2.pdf>] [84 <./figures/chapter4/rq3_td_nf_logged_1.pdf> <./figures/chap
-ter4/rq3_td_nf_logged_2.pdf>] [85 <./figures/chapter4/rq3_god_entropy_logged_1.
-pdf> <./figures/chapter4/rq3_god_entropy_logged_2.pdf>] [86 <./figures/chapter4
+[88 <./figures/chapter4/rq3_god_nf_logged_1.pdf> <./figures/chapter4/rq3_god_nf
+_logged_2.pdf>] [89 <./figures/chapter4/rq3_td_nf_logged_1.pdf> <./figures/chap
+ter4/rq3_td_nf_logged_2.pdf>] [90 <./figures/chapter4/rq3_god_entropy_logged_1.
+pdf> <./figures/chapter4/rq3_god_entropy_logged_2.pdf>] [91 <./figures/chapter4
 /rq3_td_entropy_logged_1.pdf> <./figures/chapter4/rq3_td_entropy_logged_2.pdf>]
-[87
+[92
 
-] [88] [89] [90] [91] [92]) [93] (./cuthesis_masters.aux) ) 
+] [93] [94] [95] [96] [97]) [98] (./cuthesis_masters.aux) ) 
 Here is how much of TeX's memory you used:
  6071 strings out of 493014
  93364 string characters out of 6133351
- 188060 words of memory out of 5000000
+ 189085 words of memory out of 5000000
  9409 multiletter control sequences out of 15000+600000
  12800 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1111,10 +1140,10 @@ s/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cuthesis_masters.pdf (106 pages, 8597675 bytes).
+Output written on cuthesis_masters.pdf (111 pages, 8605748 bytes).
 PDF statistics:
- 927 PDF objects out of 1000 (max. 8388607)
- 638 compressed objects within 7 object streams
+ 944 PDF objects out of 1000 (max. 8388607)
+ 650 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,22 @@ Our work closes this gap as we study 40 open-source projects that bring into foc
 
 \section{Related Work}
 \label{chap4:sec:related_work}
+Our work uses code comments and object-oriented metrics  to identify technical debt. Therefore, we divide the related work into four categories: source code comments, technical debt, software quality, and identifying and detecting code smells.
+\subsection{Source Code Comments}
+Developers have tapped into the many advantages of source code comments in prioritizing, delegating and finalizing personal and team tasks~\cite{Storey:2008}. Another benefit has to do with how comments contribute to a greater understanding of the programs with which they are affiliated~\cite{TakangGM96}; without them, pinpointing program defects quickly becomes a ``needle in a haystack" kind of scenario. In order to avoid such situations, developers must monitor code-comment consistency, ensuring that changes in the code are updated in the comments and vice versa, and to this end, Tan \textit{et al.} recommend @iComment for detecting lock- and call-related inconsistencies~\cite{tan07icomment}, @aComment for interrupt context synchronization inconsistencies~\cite{acomment} and @tComment for inconsistencies emanating from exceptions to inferred Javadoc properties~\cite{tcomment}. Even so, code-comment inconsistencies are not as prevalent as one might expect, Fluri \textit{et al.}~\cite{fluri2007code} having determined the rate of co-changed code and comments to be 97\%.
+
+Malik \textit{et al.}~\cite{malik2008understanding} identify the rate of changed call dependencies and control statements, modified function age and the amount of co-changed dependent functions as the foremost attributes leading to source code comment updates. Given the importance of keeping comments consistent with high-level artifacts and stabilizing source code identifiers, De Lucia \textit{et al.}~\cite{DeLucia2011} conducted a study that verified---through a series of controlled experiments---that a resemblance between source code and high-level software artifacts does improve comment and identifier quality.
+
+Source code comments are also salient in the arena of \SATD detection, as Potdar and Shihab~\cite{ICSM_PotdarS14} demonstrated in researching to what extent and for what reasons SATD is introduced and how often it is subsequently removed. In fact, comments served as the basis of Maldonado and Shihab's~\cite{MTD15p9} SATD classification system and allowed them to quantify the incidence of the five types they identified. At a rate of 42\% to 84\% of 33,000 classified comments, design debt was easily the most common.
+
+\subsection{Technical Debt}
+
+Several major studies have centered on technical debt besides SATD---technical debt that source code analysis tools are deployed to detect. Zazworka \textit{et al.}~\cite{Zazworka:2013}, weighing the merits of automated and manual detection strategies, concur that the returns on engineering more tools and heuristics capable of detecting technical debt would greatly advance the field as it now stands. Looking at how god classes influence maintainability later in the development process, Zazworka \textit{et al.}~\cite{zazworka2011investigating} established that god classes are changed more frequently and harbor more defects than their non-god counterparts and thus that the undesirable ramifications of technical debt might extend to software quality. Guo \textit{et al.}~\cite{GuoSGCTSSS11} monitored the lifecycle of one delayed task and specified how some of the consequences of technical debt surface in real time.
+
+\subsection{Software Quality}
+Studies in the same vein as~\cite{Zimmerman2008Springer} have been devoted to outlining the factors that either do detract or could detract from software quality and raising awareness among project contributors. However, metrics, too, have been used to isolate defects, including: design and code~\cite{Jiang-promise-2008}, code churn~\cite{Nagappan-icse-2005} and process metrics~\cite{Moser-icse-2008,Rahman-icse-2013}.
+
+The likes of the SZZ algorithm originated by Sliwerski \textit{et al.}~\cite{Sliwerski-fse-2005} and Kim \textit{et al.}'s~\cite{Kim-tse-2008} defect-proneness identifiers excerpted from change logs and added or deleted source code mark a shift in defect prediction towards the change level. The former links a version archive to a bug database in order to isolate fix-inducing changes~\cite{Sliwerski-fse-2005}, whereas Kamei's~\cite{Kamei-tse-2013} ``Just-In-Time Quality Assurance" approach exemplifies how process metrics outdo product metrics in identifying risky software changes.
 
 \subsection{Identifying and Detecting Code Smells}
 Fowler and Beck \cite{fowler1999refactoring} originated the term \textit{code smell} to designate various indicators of object-oriented design flaws which can undermine software maintenance. Code smells respond to the internal and external properties of the system elements they monitor. Though manual code smell detection warns developers of potential vulnerabilities, Marinescu \cite{Marinescu_ICETOOLS} observes that it is time-consuming, non-repeatable and non-scalable. Apart from this, the more familiar the software system is to a developer, the higher the risk of a subjective appraisal of its efficiencies and shortcomings, according to Mäntylä \cite{mantyla2003taxonomy, mantyla2004bad}, and one important corollary of this is that a developer's chances of overlooking design flaws increase. In order to surmount these drawbacks, Marinescu recommends enlisting code metrics to detect system volatilities, and in this spirit, several implementations of this departure from manual detection have been devised \cite{lanza2007object, marinescu2004detection, Marinescu_PhD, Marinescu_IBM_JRD}.
@@ -333,23 +349,17 @@ After the corrective changes have been obtained, we find all prior changes that 
 \section{Case Study Results}
 \label{chap4:sec:case_study_results}
 
-\begin{figure}[tb]
-	\centering
-	\includegraphics[width=140mm]{figures/chapter4/rq1_defectivness_distrubution}
-	\caption{Percentage of defect-fixing changes for SATD and NSATD files.}
-	\label{figure:ch4_number_of_fixing_changes_TD_vs_NTD}
-\end{figure}
-
 In this section, we present the empirical outcomes of our inquiry into the correlation between both self-admitted technical debt and god classes and software quality. Statistics and results are listed for all individual projects, accompanied by cross-project comparisons.
 
 Each of the three research questions is restated below, where we summarize its motivation, our approach in treating it and the conclusions we reached as a result.
 
-\sultan{stopped here}
+%\sultan{stopped here}
 \subsection*{\chapterIVrqI}
 
 
 \noindent{\textbf{Motivation:}}
-Reluctance to resort to code smells and technical debt suggests that most developers believe these adversely affect software quality, and what research has been conducted supports this conviction~\cite{zazworka2011investigating}. \sultan{I'm not sure how to incorporate god classes in this case since there has been a lot of work that studied their impact on software quality} The potential drawbacks of SATD, meanwhile, have remained unexplored despite its research-affirmed ubiquity in software projects \cite{ICSM_PotdarS14}.
+Reluctance to resort to code smells and technical debt suggests that most developers believe these adversely affect software quality, and what research has been conducted supports this conviction~\cite{zazworka2011investigating}. %\sultan{I'm not sure how to incorporate god classes in this case since there has been a lot of work that studied their impact on software quality}
+ The potential drawbacks of SATD, meanwhile, have remained unexplored despite its research-affirmed ubiquity in software projects \cite{ICSM_PotdarS14}.
 
 Researchers and developers should be better equipped to negotiate the long-term risks of SATD and have empirical evidence in hand that identifies concrete issues its use can bring about and raises SATD literacy within the community at large.
 
@@ -372,19 +382,19 @@ We elected to conduct the non-parametric Mann-Whitney~\cite{mann1947test} test t
 
 \noindent{\textbf{Results - Defects in god files vs. non-god files and SATD files vs. non-SATD files:}}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=140mm]{figures/chapter4/rq1_defectivness_distrubution}
+	\caption{Percentage of defect-fixing changes for SATD and NSATD files.}
+	\label{figure:ch4_number_of_fixing_changes_TD_vs_NTD}
+\end{figure}
+
 The beanplots in Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD} display the distribution of \textit{median corrective change rates} for god files versus non-god files and SATD files versus non-SATD files \textit{in each project}. A comparison of \textit{distribution medians} indicates that the defectiveness rates for god and SATD files are lower than the corresponding rates for non-god and non-SATD files.
 
 Figure 18 shows boxplots for the individual projects which compare the distribution of defectiveness rates for god and non-god files. We can see that the rate is higher for non-god files than god files within each project and that this difference is statistically significant such that $p < 0.0001$, which holds when all project medians are consolidated in the distribution in Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD}.
 
 Although Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD} indicates that non-SATD files have a higher median defectiveness rate than SATD files, this trend is not borne out in every individual project. In Figure 19, we observe that projects OpenNLP, Curator and Tiles constitute exceptions where the defectiveness rate is higher among SATD files.
 
-
-\begin{figure}[tb!]
-	\centering
-	\includegraphics[width=140mm]{figures/chapter4/rq2_distrubtion_god_and_td}
-	\caption{Percentage of defect-inducing changes for GOD vs. NGOD and SATD vs. NSATD.}
-	\label{figure:ch4_bug_inducing_changes}
-\end{figure}
 
 \subsection*{\chapterIVrqII}
 
@@ -402,7 +412,15 @@ We identify defect-inducing changes utilizing the SZZ algorithm~\cite{sliwerski-
 
 \noindent{\textbf{Results:}}
 
+
 God and non-god distributions of defect-inducing change rates in each project share a common \textit{y}-axis in the first plot in Figure \ref{figure:ch4_bug_inducing_changes}, as do SATD and non-SATD defect-inducing change rate distributions in the second. For each plot, the distribution median (i.e., the median of the individual project medians) is higher for the variable-positive groups (god changes and SATD changes) than for the variable-negative groups (non-god changes and non-SATD changes). This indicates that god and SATD changes have more of a tendency to induce future defects than their non-god and non-SATD counterparts.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=140mm]{figures/chapter4/rq2_distrubtion_god_and_td}
+	\caption{Percentage of defect-inducing changes for GOD vs. NGOD and SATD vs. NSATD.}
+	\label{figure:ch4_bug_inducing_changes}
+\end{figure}
 
 As a general rule, what is true of the distribution medians is also true of individual project medians, though exceptions exist---among them Apache Hbase, Apache Kafka, Apache Mina, Apache Shiro, Apache Oozie, Apache Flink, Apache Deltaspike and Apache curator in Figures \ref{figure:percentage_of_bug_inducing_god_vs_ngod} and \ref{figure:percentage_of_bug_inducing_td_vs_ntd}---in which the variable-negative groups appeared to induce more future defects than the variable-positive groups. These isolated counterexamples, while in conflict with the trend observed in Figure \ref{figure:ch4_bug_inducing_changes}, are compatible with our findings in chapter 3, where we report that SATD changes have less of a tendency to induce future defects.
 
@@ -422,7 +440,7 @@ To measure the change churn, number of files and number of directories, we extra
 
 
 
-\begin{figure}[tb!]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=120mm]{figures/chapter4/rq3_distribution_of_churn}
 	\caption{Total number of lines modified per change (SATD vs. NSATD).}
@@ -431,14 +449,14 @@ To measure the change churn, number of files and number of directories, we extra
 
 
 
-\begin{figure}[tb!]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=120mm]{figures/chapter4/rq3_distribution_of_nf}
 	\caption{Total number of files modified per change (SATD vs. NSATD).}
 	\label{figure:ch4_tfcpc}
 \end{figure}
 
-\begin{figure}[!tb]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=120mm]{figures/chapter4/rq3_distribution_of_nd}
 	\caption{Total number of modified directories per SATD and NSATD change.}
@@ -446,7 +464,7 @@ To measure the change churn, number of files and number of directories, we extra
 \end{figure}
 
 
-\begin{figure}[!tb]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=120mm]{figures/chapter4/rq3_distribution_of_entropy}
 	\caption{Distribution of the change across the SATD and NSATD files.}
@@ -473,7 +491,7 @@ In summary, we surmise that effecting god and SATD changes is more difficult tha
 
 \subsection*{\chapterIVrqIV}
 
-\todo{finish this research question}
+%\todo{finish this research question}
 
 
 \noindent{\textbf{Motivation:}}
@@ -481,68 +499,68 @@ Thus far, we have compared the impact of technical debt identified by comment- a
 
 
 \noindent{\textbf{Approach:}}
-To address RQ4, we take the list of SATD files generated by the comment-based approach and the list of god files generated by the metric-based approach and isolate the files that made both lists. We count how many of these files meet the criteria for both approaches and then divide by the total number of files in both lists. The result represents the share of comment-based technical debt that complements metric-based technical debt (overlap), expressed as a percentage.
+To address RQ4, we take the list of \SATD files generated by the comment-based approach and the list of god files generated by the metric-based approach and isolate the files that made both lists. We count how many of these files meet the criteria for both approaches and then divide by the total number of files in both lists. The result represents the share of comment-based technical debt that complements metric-based technical debt (overlap), expressed as a percentage.
 
 
 \noindent{\textbf{Results:}}
-Table~\ref{ch4_amount_of_overlap} displays the percentage overlap by project. We see that the values range from 11\% to 34\%. Our findings confirm that the comment-based approach, which uses source code comment patterns to detect technical debt, complements the metric-based approach, which relies on thresholds of object-oriented metrics. Despite the considerable overlap, each approach identifies some additional sources of technical debt that the other fails to detect.
-
-	\begin{table}[htbp]
+	\begin{table}[!htbp]
 	\small
 	\centering
-
-		\begin{tabular}{l|c}
-			\hline
-			\textbf{Project}           & \textbf{Overlap (\%)} \\ \hline
-			\textbf{Apache OpenNLP}    &    24.39     \\ \hline
-			\textbf{Apache Camel}      &    16.57     \\ \hline
-			\textbf{Apache Habse}      &    33.88     \\ \hline
-			\textbf{Apache Groovy}     &    30.10     \\ \hline
-			\textbf{Apache Oltu}       &    16.68     \\ \hline
-			\textbf{Apache Maven}      &    26.08     \\ \hline
-			\textbf{Apache Karaf}      &    23.65     \\ \hline
-			\textbf{Apache Hama}       &    29.51     \\ \hline
-			\textbf{Apache Tomee}      &    21.61     \\ \hline
-			\textbf{Apache Deltaspike} &    20.46     \\ \hline
-			\textbf{Apache Curator}    &    25.23     \\ \hline
-			\textbf{Apache Calcite}    &    31.12     \\ \hline
-			\textbf{Apache Poi}        &    31.36     \\ \hline
-			\textbf{Apache Zeppelin}   &    23.37     \\ \hline
-			\textbf{Apache Ant}        &    28.86     \\ \hline
-			\textbf{Apache Stanbol}    &    32.95     \\ \hline
-			\textbf{Apache Kafka}      &    20.64     \\ \hline
-			\textbf{Apache Tika}       &    33.56     \\ \hline
-			\textbf{Apache Felix}      &    26.00     \\ \hline
-			\textbf{Apache Phoenix}    &    30.99     \\ \hline
-		\end{tabular}
-\quad \quad \quad
-\begin{tabular}{l|c}
-	\hline
-			\textbf{Project}           & \textbf{Overlap (\%)} \\ \hline
-			\textbf{Apache Wicket}     &    19.33     \\ \hline
-			\textbf{Apache Aurora}     &    26.44     \\ \hline
-			\textbf{Apache Ignite}     &    14.28     \\ \hline
-			\textbf{Apache Helix}      &    25.45     \\ \hline
-			\textbf{Apache Archiva}    &    30.33     \\ \hline
-			\textbf{Apache Struts}     &    24.74     \\ \hline
-			\textbf{Apache Derby}      &    32.56     \\ \hline
-			\textbf{Apache Ambari}     &    25.59     \\ \hline
-			\textbf{Apache Nifi}       &    18.92     \\ \hline
-			\textbf{Apache Tiles}      &    11.37     \\ \hline
-			\textbf{Apache Shiro}      &    31.03     \\ \hline
-			\textbf{Apache Usergrid}   &    26.90     \\ \hline
-			\textbf{Apache Nutch}      &    32.11     \\ \hline
-			\textbf{Apache Zookeeper}  &    26.70     \\ \hline
-			\textbf{Apache Mina}       &    16.78     \\ \hline
-			\textbf{Apache Cxf}        &    22.25     \\ \hline
-			\textbf{Apache CloudStack} &    27.91     \\ \hline
-			\textbf{Apache Oozie}      &    21.88     \\ \hline
-			\textbf{Apache Kylin}      &    22.54     \\ \hline
-			\textbf{Apache Flink}      &    15.37     \\ \hline
-\end{tabular}
+	
+	\begin{tabular}{l|c}
+		\hline
+		\textbf{Project}           & \textbf{Overlap (\%)} \\ \hline
+		\textbf{Apache OpenNLP}    &    24.39     \\ \hline
+		\textbf{Apache Camel}      &    16.57     \\ \hline
+		\textbf{Apache Habse}      &    33.88     \\ \hline
+		\textbf{Apache Groovy}     &    30.10     \\ \hline
+		\textbf{Apache Oltu}       &    16.68     \\ \hline
+		\textbf{Apache Maven}      &    26.08     \\ \hline
+		\textbf{Apache Karaf}      &    23.65     \\ \hline
+		\textbf{Apache Hama}       &    29.51     \\ \hline
+		\textbf{Apache Tomee}      &    21.61     \\ \hline
+		\textbf{Apache Deltaspike} &    20.46     \\ \hline
+		\textbf{Apache Curator}    &    25.23     \\ \hline
+		\textbf{Apache Calcite}    &    31.12     \\ \hline
+		\textbf{Apache Poi}        &    31.36     \\ \hline
+		\textbf{Apache Zeppelin}   &    23.37     \\ \hline
+		\textbf{Apache Ant}        &    28.86     \\ \hline
+		\textbf{Apache Stanbol}    &    32.95     \\ \hline
+		\textbf{Apache Kafka}      &    20.64     \\ \hline
+		\textbf{Apache Tika}       &    33.56     \\ \hline
+		\textbf{Apache Felix}      &    26.00     \\ \hline
+		\textbf{Apache Phoenix}    &    30.99     \\ \hline
+	\end{tabular}
+	\quad \quad \quad
+	\begin{tabular}{l|c}
+		\hline
+		\textbf{Project}           & \textbf{Overlap (\%)} \\ \hline
+		\textbf{Apache Wicket}     &    19.33     \\ \hline
+		\textbf{Apache Aurora}     &    26.44     \\ \hline
+		\textbf{Apache Ignite}     &    14.28     \\ \hline
+		\textbf{Apache Helix}      &    25.45     \\ \hline
+		\textbf{Apache Archiva}    &    30.33     \\ \hline
+		\textbf{Apache Struts}     &    24.74     \\ \hline
+		\textbf{Apache Derby}      &    32.56     \\ \hline
+		\textbf{Apache Ambari}     &    25.59     \\ \hline
+		\textbf{Apache Nifi}       &    18.92     \\ \hline
+		\textbf{Apache Tiles}      &    11.37     \\ \hline
+		\textbf{Apache Shiro}      &    31.03     \\ \hline
+		\textbf{Apache Usergrid}   &    26.90     \\ \hline
+		\textbf{Apache Nutch}      &    32.11     \\ \hline
+		\textbf{Apache Zookeeper}  &    26.70     \\ \hline
+		\textbf{Apache Mina}       &    16.78     \\ \hline
+		\textbf{Apache Cxf}        &    22.25     \\ \hline
+		\textbf{Apache CloudStack} &    27.91     \\ \hline
+		\textbf{Apache Oozie}      &    21.88     \\ \hline
+		\textbf{Apache Kylin}      &    22.54     \\ \hline
+		\textbf{Apache Flink}      &    15.37     \\ \hline
+	\end{tabular}
 	\caption{Percentage of overlap between god and SATD files of the analyzed projects.}
 	\label{ch4_amount_of_overlap}
 \end{table}
+Table~\ref{ch4_amount_of_overlap} displays the percentage overlap by project. We see that the values range from 11\% to 34\%. Our findings confirm that the comment-based approach, which uses source code comment patterns to detect technical debt, complements the metric-based approach, which relies on thresholds of object-oriented metrics. Despite the considerable overlap, each approach identifies some additional sources of technical debt that the other fails to detect.
+\pagebreak
 
 
 

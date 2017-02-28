@@ -16,7 +16,22 @@ Therefore, in this chapter, we investigate the empirical relation between SATD a
 
 \section{Related Work}
 \label{chap3:sec:related_work}
-\todo{TBC}
+Our work focuses on \SATD, which analyzes comments to detect technical debt, we discuss the work related to three main topics: (i) source code comments, (ii) technical debt, and (iii) software quality.
+
+\subsection{Source Code Comments}
+The well-attested utility of source code comments rests on facilitation of personal and team task management as well as the greater understandability of commented programs relative to uncommented programs \cite{lawrie2006leveraged, Storey:2008, TakangGM96,tan07icomment}. Source code comment quality, meanwhile, depends in large part on code-comment consistency, which developers optimize when they revise comments and code in tandem. Three techniques that Tan \textit{et al.} advocate for detection of code-comment inconsistencies are @iComment, @aComment and @tComment---specialized to detect lock- and call-related, interrupt context synchronization and inferred property violation inconsistencies, respectively \cite{tan07icomment, acomment, tcomment}. Nonetheless, a study by Fluri \textit{et al.} put the co-change (code-comment consistency) rate at 97\%
+
+As for the impetuses that compel developers to revise source code comments in the first place, the work of Malik \textit{et al.}~\cite{malik2008understanding} points to the share of changed call dependencies and control statements, the age of the modified function and the number of co-changed dependent functions. In another study, De Lucia \textit{et al.}~\cite{DeLucia2011} offered proof that correspondence between source code and high-level software artifacts is beneficial both in terms of comment quality and reliability of source code identifiers.
+
+Another factor contributing to the utility of source code comments is how amenable they are to the identification of \SATD, which Potdar and Shihab~\cite{ICSM_PotdarS14} took advantage of in determining how widespread the phenomenon of SATD is, why developers resort to it and at what rate it is removed once introduced. In addition, Maldonado and Shihab~\cite{MTD15p9} employed source code comments to categorize \SATD and determine the relative incidence of each variety: 13,800 to 27,800 of the 33,000 comments inspected turned out to be attributable to design debt---the most common SATD category.
+
+\subsection{Technical Debt}
+Other types of technical debt, i.e. technical debt identified by source code analysis tools, has attracted its own research. Comparing automated and manual detection methods, Zazworka \textit{et al.}~\cite{Zazworka:2013} concluded that it would behoove the software development community to build additional tools and innovate heuristics for the express purpose of detecting technical debt. In another study, Zazworka \textit{et al.}~\cite{zazworka2011investigating} assessed the effect of god class design debt on long-term software maintenance and found that god classes are more change-prone and defective than non-god classes, suggesting that technical debt adversely impacts software quality. Zooming in on the lifecycle of one delayed task, Guo \textit{et al.}~\cite{GuoSGCTSSS11} figured out in what ways these adverse effects manifest themselves in individual software projects.
+
+\subsection{Software Quality}
+Much foregoing work has sought to improve software quality by enumerating and forecasting software quality issues and threats, e.g.~\cite{Zimmerman2008Springer}. Other work has honed in on defect indicator metrics, among them: design and code~\cite{Jiang-promise-2008}, code churn~\cite{Nagappan-icse-2005} and process metrics~\cite{Moser-icse-2008,Rahman-icse-2013}.
+
+Yet change-level defect prediction has been steadily gaining ground, with Sliwerski \textit{et al.}'s SZZ algorithm, which locates fix-inducing changes by linking a version archive to a bug database~\cite{Sliwerski-fse-2005}, and Kim \textit{et al.}'s~\cite{Kim-tse-2008} modified source code and change log identifiers of defect-proneness. Additionally, the ``Just-In-Time Quality Assurance" approach developed by Kamei~\cite{Kamei-tse-2013} flags risky software changes. It was found that process metrics are better at identifying risky changes than product metrics.
 
 \section{Approach}
 \label{chap3:sec:approach}
@@ -133,7 +148,7 @@ Second, we establish whether the issue IDs identified in the change logs are tru
 
 \noindent\textbf{Defect-inducing changes:} Similar to the process above, we first determine whether a change fixes a defect. To do so, we use regular expressions and specific keywords referencing a fix to search the change logs (i.e., commit messages) from the source code control versioning system. In particular, we search for the following keywords: ``\textit{fixed issue \#ID, bug ID, fix, defect,  patch, crash, freeze, breaks, wrong, glitch, proper}." We also search for the existence of defect identification numbers in order to determine which defects, if specified, the changes actually fix.
 
-Once we identify the defect-fixing changes, we map back (using the blame~\todo{special font for commands?} command) to determine all the changes that altered the fixed code in the past. We take the defect-inducing change to be the change that is closest to but still before the defect report date. In essence, this tells us that this was the last change before a defect showed up in the code. If no defect report is specified in the fixing change, then following the precedent of prior work~\cite{Kamei-tse-2013}, we assume that the last change before the fixing change was the change that introduced the defect. This approach is often referred to as the SZZ~\cite{sliwerski-msr-2005} or approximate (ASZZ) algorithm~\cite{Kamei-tse-2013} and is to date the state of the art in identifying defect-inducing changes.
+Once we identify the defect-fixing changes, we map back (using the \texttt{blame} command) to determine all the changes that altered the fixed code in the past. We take the defect-inducing change to be the change that is closest to but still before the defect report date. In essence, this tells us that this was the last change before a defect showed up in the code. If no defect report is specified in the fixing change, then following the precedent of prior work~\cite{Kamei-tse-2013}, we assume that the last change before the fixing change was the change that introduced the defect. This approach is often referred to as the SZZ~\cite{sliwerski-msr-2005} or approximate (ASZZ) algorithm~\cite{Kamei-tse-2013} and is to date the state of the art in identifying defect-inducing changes.
 
 
 \begin{figure}[h]
@@ -146,7 +161,7 @@ Once we identify the defect-fixing changes, we map back (using the blame~\todo{s
 
 
 \section{Mann-Whitney-Wilcoxon Rank Sum Test}
-The Mann-Whitney-Wilcoxon Rank Sum Test is used to analyze the differences between two groups of the same attribute for a data set~\cite{mann1947test}. This statistical test makes use of median values for its comparison rather than mean values, allowing it to characterize populations that do not follow a normal curve distribution. The main result of the test is the \textit{p}-value it generates, which quantifies the probability of the null hypothesis being true, with the null hypothesis in this case being that both groups have the same central tendency. In our study we use this test to determine if the distinction between SATD and non-SATD files results in a difference in relevant statistical properties. If it does, then whatever caused a noticeable distinction between the file categories is meaningful to the statistical property. \todo{was the ``iffalse" stuff supposed to show up before section 3.5?}\iffalse After calculating how statistically significant the two sets are (\textbf{SATD vs. NSATD}) we proceed to perform our analysis, which we discuss in the next section.\fi \\
+The Mann-Whitney-Wilcoxon Rank Sum Test is used to analyze the differences between two groups of the same attribute for a data set~\cite{mann1947test}. This statistical test makes use of median values for its comparison rather than mean values, allowing it to characterize populations that do not follow a normal curve distribution. The main result of the test is the \textit{p}-value it generates, which quantifies the probability of the null hypothesis being true, with the null hypothesis in this case being that both groups have the same central tendency. In our study we use this test to determine if the distinction between SATD and non-SATD files results in a difference in relevant statistical properties. If it does, then whatever caused a noticeable distinction between the file categories is meaningful to the statistical property. 
 
 
 
@@ -284,7 +299,7 @@ To measure the change churn, number of files and number of directories, we use d
 
 
 
-\begin{figure}[!tb]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=90mm]{figures/chapter3/churn_for_all_projects}
 	\caption{Total number of lines modified per change (SATD vs. NSATD).}
@@ -294,14 +309,14 @@ To measure the change churn, number of files and number of directories, we use d
 
 
 
-\begin{figure}[!tb]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=90mm]{figures/chapter3/number_of_files_changed_all_projects}
 	\caption{Total number of files modified per change (SATD vs. NSATD).}
 	\label{figure:tfcpc}
 \end{figure}
 
-\begin{figure}[!tb]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=90mm]{figures/chapter3/number_of_directories}
 	\caption{Total number of modified directories per SATD and NSATD change.}
@@ -309,7 +324,7 @@ To measure the change churn, number of files and number of directories, we use d
 \end{figure}
 
 
-\begin{figure}[tb]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=90mm]{figures/chapter3/entropy_for_all_projects}
 	\caption{Distribution of the change across the SATD and NSATD files.}
@@ -365,6 +380,7 @@ We examined the relationship between self-admitted technical debt and software q
 
 
 Our findings suggest that there is no reliable trend when it comes to defects and self-admitted technical debt. In some of the projects, self-admitted technical debt files had more bug-fixing changes, while in others, files without it had more defects. We also found that SATD changes are less correlated with future defects than non-SATD changes, but more difficult to perform. 
-\sultan{Our study demonstrates that although defects are not among the negative effects of technical debt, it can make the system more difficult to change in the future.}  Our study demonstrates that although technical debt may have negative effects, its impact does not extend to defects, but rather to making the system more difficult to change in the future.
+%\sultan{Our study demonstrates that although defects are not among the negative effects of technical debt, it can make the system more difficult to change in the future.}
+Our study demonstrates that although technical debt may have negative effects, its impact does not extend to defects, but rather to making the system more difficult to change in the future.
 
 We enlist empirical evidence in showcasing some of the drawbacks of technical debt that plague the software development process, in particular increases in system complexity. As a takeaway, practitioners would do well to keep technical debt in check and avoid its unwanted consequences. In the future, we intend to expound upon this research by studying the nature of defective SATD files more closely.
