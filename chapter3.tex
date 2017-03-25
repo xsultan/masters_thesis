@@ -2,36 +2,36 @@
 
 \section{Introduction}
 \label{chap3:sec:introduction}
-Software companies and organizations have a common goal when developing software projects: both aim to deliver high-quality, useful software in a timely manner. However, in most practical settings, developers and development companies are saddled with deadlines, giving them every incentive to release earlier than the ideal date, were product quality alone taken into account. Such situations are all too common and in many cases force developers to take shortcuts \cite{kruchten2013technical} \cite{seaman2015technical}. Recently, the term \emph{technical debt} was coined to denote the phenomenon of ``doing something that is beneficial in the short term but will incur a cost later on''~\cite{cunningham1993wycash}. Prior work has shown that practitioners cite numerous reasons for assuming technical debt, among them: rushing to compensate for delays and still deliver on time or to make deadlines for incorporating with a partner product before release, alleviating time-to-market pressure and meeting customer demands in a time-sensitive industry~\cite{lim2012balancing}.
+Software companies and organizations have a common goal when developing software projects: both aim to deliver high-quality, useful software in a timely manner. However, in most practical settings, developers and development companies are saddled with deadlines, giving them every incentive to release earlier than the date that would be ideal if product quality alone were taken into account. Such situations are all too common and in many cases force developers to take shortcuts \cite{kruchten2013technical} \cite{seaman2015technical}. Recently, the term \emph{technical debt} was coined to denote the phenomenon of ``doing something that is beneficial in the short term but will incur a cost later on''~\cite{cunningham1993wycash}. Prior work has shown that practitioners cite numerous reasons for assuming technical debt, among them: rushing to compensate for delays and still deliver on time or to make deadlines for incorporating with a partner product before release, alleviating time-to-market pressure and meeting customer demands in a time-sensitive industry~\cite{lim2012balancing}.
 
 
 % People studied different aspects of TD
 More recently, a study by Potdar and Shihab \cite{ICSM_PotdarS14} introduced a novel method of identifying technical debt reported by developers. This so-called ``self-admitted technical debt," abbreviated SATD, is declared in developer source code comments. Prior work \cite{MTD15p9} has demonstrated that accrual of SATD is commonplace in software projects, where reviewing source code comments can identify different types of technical debt (e.g. design, defect and requirement debt).
 
-Intuition and general belief concur that inducing a technical debt, which many developers resort to in a time crunch, negatively impacts software maintenance and overall quality~\cite{zazworka2011investigating,spinola2013investigating,GuoSGCTSSS11,seaman2015technical,kruchten2013technical}. However, to the best of our knowledge, there is no empirical study that examines the impact of SATD on software quality. Such a study is critical since it will help us to confirm or refute entrenched preconceptions regarding the technique and better understand how to manage SATD.
+Intuition and general belief concur that inducing technical debt, which many developers resort to in a time crunch, negatively impacts software maintenance and overall quality~\cite{zazworka2011investigating,spinola2013investigating,GuoSGCTSSS11,seaman2015technical,kruchten2013technical}. However, to the best of our knowledge, there is no empirical study that examines the impact of SATD on software quality. Such a study is critical since it will help us to confirm or refute entrenched preconceptions regarding the technique and better understand how to manage SATD.
 
 
 Therefore, in this chapter, we investigate the empirical relation between SATD and software quality in five open-source projects. In particular, we examine whether (i) files with SATD have more defects compared to files without SATD, (ii) whether SATD changes introduce more future defects and (iii) whether SATD-related changes tend to be more difficult. We measured the difficulty of a change in terms of the amount of churn, number of files, number of modified modules, and change entropy. Our findings show that: i) while it is true that SATD files have more bug-fixing changes in a number of the studied projects, in other projects, files without SATD have more defects, thus there is no clear relationship between defects and SATD; ii) SATD changes are associated with less future defects than non-SATD changes and iii) SATD changes (i.e., changes touching SATD files) are more difficult to perform. Our study indicates that although technical debt has negative effects, its impact is not related to defects, but rather to making the system more difficult to change in the future.
 
 
-\section{Related Work}
-\label{chap3:sec:related_work}
-Our work focuses on \SATD, which analyzes comments to detect technical debt, we discuss the work related to three main topics: (i) source code comments, (ii) technical debt, and (iii) software quality.
+%\section{Related Work}
+%\label{chap3:sec:related_work}
+%Our work focuses on \SATD, which analyzes comments to detect technical debt, we discuss the work related to three main topics: (i) source code comments, (ii) technical debt, and (iii) software quality.
 
-\subsection{Source Code Comments}
-The well-attested utility of source code comments rests on facilitation of personal and team task management as well as the greater understandability of commented programs relative to uncommented programs \cite{lawrie2006leveraged, Storey:2008, TakangGM96,tan07icomment}. Source code comment quality, meanwhile, depends in large part on code-comment consistency, which developers optimize when they revise comments and code in tandem. Three techniques that Tan \textit{et al.} advocate for detection of code-comment inconsistencies are @iComment, @aComment and @tComment---specialized to detect lock- and call-related, interrupt context synchronization and inferred property violation inconsistencies, respectively \cite{tan07icomment, acomment, tcomment}. Nonetheless, a study by Fluri \textit{et al.} put the co-change (code-comment consistency) rate at 97\%
+%\subsection{Source Code Comments}
+%The well-attested utility of source code comments rests on facilitation of personal and team task management as well as the greater understandability of commented programs relative to uncommented programs \cite{lawrie2006leveraged, Storey:2008, TakangGM96,tan07icomment}. Source code comment quality, meanwhile, depends in large part on code-comment consistency, which developers optimize when they revise comments and code in tandem. Three techniques that Tan \textit{et al.} advocate for detection of code-comment inconsistencies are @iComment, @aComment and @tComment---specialized to detect lock- and call-related, interrupt context synchronization and inferred property violation inconsistencies, respectively \cite{tan07icomment, acomment, tcomment}. Nonetheless, a study by Fluri \textit{et al.} put the co-change (code-comment consistency) rate at 97\%.
 
-As for the impetuses that compel developers to revise source code comments in the first place, the work of Malik \textit{et al.}~\cite{malik2008understanding} points to the share of changed call dependencies and control statements, the age of the modified function and the number of co-changed dependent functions. In another study, De Lucia \textit{et al.}~\cite{DeLucia2011} offered proof that correspondence between source code and high-level software artifacts is beneficial both in terms of comment quality and reliability of source code identifiers.
+%As for what compels developers to revise source code comments in the first place, the work of Malik \textit{et al.}~\cite{malik2008understanding} points to the share of changed call dependencies and control statements, the age of the modified function and the number of co-changed dependent functions. In another study, De Lucia \textit{et al.}~\cite{DeLucia2011} offered proof that correspondence between source code and high-level software artifacts is beneficial both in terms of comment quality and reliability of source code identifiers.
 
-Another factor contributing to the utility of source code comments is how amenable they are to the identification of \SATD, which Potdar and Shihab~\cite{ICSM_PotdarS14} took advantage of in determining how widespread the phenomenon of SATD is, why developers resort to it and at what rate it is removed once introduced. In addition, Maldonado and Shihab~\cite{MTD15p9} employed source code comments to categorize \SATD and determine the relative incidence of each variety: 13,800 to 27,800 of the 33,000 comments inspected turned out to be attributable to design debt---the most common SATD category.
+%Another factor contributing to the utility of source code comments is how amenable they are to the identification of \SATD, which Potdar and Shihab~\cite{ICSM_PotdarS14} took advantage of in determining how widespread the phenomenon of SATD is, why developers resort to it and at what rate it is removed once introduced. In addition, Maldonado and Shihab~\cite{MTD15p9} employed source code comments to categorize \SATD and determine the relative incidence of each variety: 13,800 to 27,800 of the 33,000 comments inspected turned out to be attributable to design debt---the most common SATD category.
 
-\subsection{Technical Debt}
-Other types of technical debt, i.e. technical debt identified by source code analysis tools, has attracted its own research. Comparing automated and manual detection methods, Zazworka \textit{et al.}~\cite{Zazworka:2013} concluded that it would behoove the software development community to build additional tools and innovate heuristics for the express purpose of detecting technical debt. In another study, Zazworka \textit{et al.}~\cite{zazworka2011investigating} assessed the effect of god class design debt on long-term software maintenance and found that god classes are more change-prone and defective than non-god classes, suggesting that technical debt adversely impacts software quality. Zooming in on the lifecycle of one delayed task, Guo \textit{et al.}~\cite{GuoSGCTSSS11} figured out in what ways these adverse effects manifest themselves in individual software projects.
+%\subsection{Technical Debt}
+%Other types of technical debt, i.e. technical debt identified by source code analysis tools, has attracted its own research. Comparing automated and manual detection methods, Zazworka \textit{et al.}~\cite{Zazworka:2013} concluded that it would behoove the software development community to build additional tools and innovate heuristics for the express purpose of detecting technical debt. In another study, Zazworka \textit{et al.}~\cite{zazworka2011investigating} assessed the effect of god class design debt on long-term software maintenance and found that god classes are more change-prone and defective than non-god classes, suggesting that technical debt adversely impacts software quality. Zooming in on the lifecycle of one delayed task, Guo \textit{et al.}~\cite{GuoSGCTSSS11} figured out in what ways these adverse effects manifest themselves in individual software projects.
 
-\subsection{Software Quality}
-Much foregoing work has sought to improve software quality by enumerating and forecasting software quality issues and threats, e.g.~\cite{Zimmerman2008Springer}. Other work has honed in on defect indicator metrics, among them: design and code~\cite{Jiang-promise-2008}, code churn~\cite{Nagappan-icse-2005} and process metrics~\cite{Moser-icse-2008,Rahman-icse-2013}.
+%\subsection{Software Quality}
+%Much foregoing work has sought to improve software quality by enumerating and forecasting software quality issues and threats, e.g.~\cite{Zimmerman2008Springer}. Other work has honed in on defect indicator metrics, among them: design and code~\cite{Jiang-promise-2008}, code churn~\cite{Nagappan-icse-2005} and process metrics~\cite{Moser-icse-2008,Rahman-icse-2013}.
 
-Yet change-level defect prediction has been steadily gaining ground, with Sliwerski \textit{et al.}'s SZZ algorithm, which locates fix-inducing changes by linking a version archive to a bug database~\cite{Sliwerski-fse-2005}, and Kim \textit{et al.}'s~\cite{Kim-tse-2008} modified source code and change log identifiers of defect-proneness. Additionally, the ``Just-In-Time Quality Assurance" approach developed by Kamei~\cite{Kamei-tse-2013} flags risky software changes. It was found that process metrics are better at identifying risky changes than product metrics.
+%Yet change-level defect prediction has been steadily gaining ground, with Sliwerski \textit{et al.}'s SZZ algorithm, which locates fix-inducing changes by linking a version archive to a bug database~\cite{Sliwerski-fse-2005}, and Kim \textit{et al.}'s~\cite{Kim-tse-2008} modified source code and change log identifiers of defect-proneness. Additionally, the ``Just-In-Time Quality Assurance" approach developed by Kamei~\cite{Kamei-tse-2013} flags risky software changes. It was found that process metrics are better at identifying risky changes than product metrics.
 
 \section{Approach}
 \label{chap3:sec:approach}
@@ -57,7 +57,7 @@ To address our research questions, we followed the general procedure enumerated 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=150mm]{figures/chapter3/approach}
-	\caption{Approach overview.}
+	\caption{Comment-based (SATD) approach overview.}
 	\label{fig:Process_overview}
 \end{figure}
 
@@ -65,7 +65,7 @@ To address our research questions, we followed the general procedure enumerated 
 \subsection{Data Extraction}
 Our study analyzes five large open-source software systems---namely Chromium, Hadoop, Spark, Cassandra and Tomcat. We chose these projects because they represent different domains and programming languages (\ie{}, Java, C, C++,  Scala, Python and Javascript) and have a large number of contributors. More importantly, these projects are well-commented (since our approach for the detection of SATD is based on source code comments). Moreover, they are all available to the research community as well as industry practitioners and have considerable development history.
 
-Our analysis requires the source code as input. We downloaded the latest publicly available releases of the systems under consideration, \ie{}, Chromium, Hadoop, Spark, Cassandra and Tomcat. Then, we filtered the data to extract the source code at the level of each project release. Files not consisting of source code (\eg{} CSS, XML, JSON) were excluded from our analysis as they do not contain the comments our analysis relies on.\\
+Our analysis requires the source code as input. We downloaded release 45 for Chromium, 2.7.1 for Hadoop, 2.3 for Spark, 2.2.2 for Cassandra and 8.0.27 for Tomcat as shown in Table~\ref{table:projects_statistics}. Then, we filtered the data to extract the source code at the level of each project release. Files not consisting of source code (\eg{} CSS, XML, JSON) were excluded from our analysis as they do not contain the comments our analysis relies on.\\
 
 Table~\ref{table:projects_statistics} summarizes the main characteristics of these projects. It reports for each: (i) the relevant project release, (ii) the date of the release, (iii) the number of lines of code, (iv)  the number of comment lines, (v)  the number of source code files, (vi)  the number of committers and (vii) the number of commits.
 
@@ -94,13 +94,14 @@ Table~\ref{table:projects_statistics} summarizes the main characteristics of the
 %\end{landscape}
 
 \subsection{Scanning Code and Extracting Comments}
+\label{ch3_scanningCodeAndExtracting}
 After obtaining the source code of the five software projects, we extracted the comments from their source code files. To this end, we developed a Python-based tool that identifies comments based on the use of regular expressions. This tool also indicates comment type (\ie{}, single-line or block comments), the name of the file where the comment appears and the line number of the comment. To ensure our tool's accuracy, we employ the Count Lines of Code (CLOC) tool~\cite{cloc}. As long as the total number of lines of comments is the same according to both tools, then the tool we developed can be considered independently reliable.
 
 In total, we found 879,142 comments for Chromium; 71,609 for Hadoop; 31,796 for Spark; 20,310 for Cassandra and 39,024 for Tomcat. Of these, SATD comments numbered 18,435 for Chromium; 2,442 for Hadoop; 1,205 for Spark; 550 for Cassandra and 1,543 for Tomcat. To enable easy processing, we store all of our processed data in a PostgreSQL database, which we query to answer our RQs.
 
 
 \subsection{Identifying Self-Admitted Technical Debt}
-\label{td}
+\label{ch3_td}
 To perform our analysis, we need to identify \SATD at two levels: (i) the file level and (ii) the change level.
 
 
@@ -132,7 +133,7 @@ To study the impact of SATD at the change level, we need to identify SATD change
 
 
 \subsection{Identifying Defects in SATD Files and SATD Changes}
-\label{bugs}
+\label{ch3_bugs}
 To determine whether a change fixes a defect, we search for co-occurrences of defect identifiers in change logs from the Git Version control system using regular expressions like ``\textit{fixed issue \#ID, bug ID, fix, defect, patch, crash,  freeze, breaks, wrong, glitch, properly, proper}."
 Sliwersky \textit{et al.}~\cite{sliwerski-msr-2005} showed that the use of such keywords in the change logs usually indicates the correction of a mistake or failure.
 A similar  approach  was applied  to  identify  fault-fixing  and
@@ -151,6 +152,7 @@ Second, we establish whether the issue IDs identified in the change logs are tru
 Once we identify the defect-fixing changes, we map back (using the \texttt{blame} command) to determine all the changes that altered the fixed code in the past. We take the defect-inducing change to be the change that is closest to but still before the defect report date. In essence, this tells us that this was the last change before a defect showed up in the code. If no defect report is specified in the fixing change, then following the precedent of prior work~\cite{Kamei-tse-2013}, we assume that the last change before the fixing change was the change that introduced the defect. This approach is often referred to as the SZZ~\cite{sliwerski-msr-2005} or approximate (ASZZ) algorithm~\cite{Kamei-tse-2013} and is to date the state of the art in identifying defect-inducing changes.
 
 
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=150mm]{figures/chapter3/bug-fixing-change}
@@ -159,11 +161,9 @@ Once we identify the defect-fixing changes, we map back (using the \texttt{blame
 \end{figure}
 
 
-
-\section{Mann-Whitney-Wilcoxon Rank Sum Test}
+\subsection{Mann-Whitney-Wilcoxon Rank Sum Test}
+\label{ch3_wilcox}
 The Mann-Whitney-Wilcoxon Rank Sum Test is used to analyze the differences between two groups of the same attribute for a data set~\cite{mann1947test}. This statistical test makes use of median values for its comparison rather than mean values, allowing it to characterize populations that do not follow a normal curve distribution. The main result of the test is the \textit{p}-value it generates, which quantifies the probability of the null hypothesis being true, with the null hypothesis in this case being that both groups have the same central tendency. In our study we use this test to determine if the distinction between SATD and non-SATD files results in a difference in relevant statistical properties. If it does, then whatever caused a noticeable distinction between the file categories is meaningful to the statistical property. 
-
-
 
 
 \section{Case Study Results}
@@ -171,7 +171,7 @@ The Mann-Whitney-Wilcoxon Rank Sum Test is used to analyze the differences betwe
 
 \begin{figure}[tb]
 	\centering
-	\includegraphics[width=90mm]{figures/chapter3/rq1_correction}
+	\includegraphics[width=100mm]{figures/chapter3/rq1_correction}
 	\caption{Percentage of defect-fixing changes for SATD and NSATD files.}
 	\label{figure:number_of_fixing_changes_TD_vs_NTD}
 \end{figure}
@@ -197,7 +197,7 @@ In addition to comparing the defect-proneness of SATD and non-SATD files, we com
 
 \begin{figure}[tb]
 	\centering
-	\includegraphics[width=90mm]{figures/chapter3/rq1-2_correction}
+	\includegraphics[width=100mm]{figures/chapter3/rq1-2_correction}
 	\caption{Percentage of defect fixing changes for  pre-SATD and post SATD.}
 	\label{figure:preVpost}
 \end{figure}
@@ -206,17 +206,18 @@ In addition to comparing the defect-proneness of SATD and non-SATD files, we com
 
 \noindent\textbf{Comparing SATD and non-SATD files.} To perform this analysis, we follow the procedure for identifying SATD files summarized earlier in section~\ref{td}. In a nutshell, we determine which files contain at least one SATD comment and label them as SATD files. Files that do not contain any SATD are labeled as non-SATD files. Once we sort the files, we determine the percentage of defect-fixing changes in each file category (SATD and non-SATD). We opt for percentages over raw numbers so as to normalize our data, since files can have different amounts of changes. To answer the first part of RQ1, we plot the distribution of defects by file category and perform statistical tests to compare the differences.
 
-We perform the Mann-Whitney~\cite{mann1947test} test to determine if a statistical difference exists between the categories and Cliff's delta~\cite{Cliff:2005} to compute the effect size. We use the Mann-Whitney test instead of other statistical difference tests because it is a non-parametric test that accommodates non-normal distribution (and as we will see later, our data is not normally distributed). We consider the results of the Mann-Whitney test to be statistically significant if the \textit{p}-value is such that $p <= 0.05$. In addition, we compute the effect size of the difference using the Cliff's delta ($d$) non-parametric effect size measure, which measures how often values in one distribution are larger than the values in another. Cliff's $d$ ranges in  the interval $[-1,1]$ and is considered small for $0.148 \le d < 0.33$, medium for $0.33 \le d < 0.474$ and large for $d \ge 0.474$.
+We perform the Mann-Whitney~\cite{mann1947test} test to determine if a statistical difference exists between the categories and Cliff's delta~\cite{Cliff:2005} to compute the effect size. We use the Mann-Whitney test instead of other statistical difference tests because it is a non-parametric test that accommodates non-normal distribution (and as we will see later, our data is not normally distributed). We consider the results of the Mann-Whitney test to be statistically significant if the \textit{p}-value is such that $p <= 0.05$. In addition, we compute the effect size of the difference using the Cliff's delta ($d$) non-parametric effect size measure, which measures how often values in one distribution are larger than the values in another. Cliff's $d$ ranges in  the interval $[-1,1]$ and is considered small for $0.148 \le d < 0.33$, medium for $0.33 \le d < 0.474$ and large for $d \ge 0.474$ \cite{grissom2005effect}.
 
-
-
+\begin{myboxii}[RQ1 - Interim Summary]
+	There is no clear relationship between defects and SATD.
+\end{myboxii}
 
 \noindent\textbf{Comparing files pre- and post-SATD.} To compare SATD files pre- and post-SATD, we first determine all the changes that touched a file and then identify the change that introduced the SATD. Next, we measure the percentage of defects (i.e., $\frac{\#~of~fixing~changes}{total~\#~changes}$) in the file before and after the introduction of the SATD. We compare percentage of defects instead of raw numbers since SATD could be introduced at different times, i.e., we may not have the same total number of changes before and after the SATD-inducing change. Once we determine the percentage of defects in a file pre- and post-SATD, we perform the same statistical test and effect size measure, \ie{}, Mann-Whitney and Cliff's delta.
 
 
 \noindent{\textbf{Results - Defects in SATD and non-SATD files:}} Figure \ref{figure:number_of_fixing_changes_TD_vs_NTD} shows the percentage of defect-fixing changes in SATD and non-SATD files for the five projects. We observe that in four out of five cases, the non-SATD (NSATD) files have a slightly higher percentage of defect-fixing changes---in Chromium, Hadoop, Spark and Cassandra. However, in Tomcat, SATD files have a slightly higher percentage of defects. For all projects, the $p$-values were such that $p < 0.05$, indicating that the difference is statistically significant. However, when we closely examine the Cliff's delta values in Table~\ref{table:cliff_deltas_RQ1}, we see a different trend for Chromium. In Chromium and Tomcat, SATD files often have higher defect percentages than non-SATD files and the effect size is medium for Chromium and small for Tomcat. On the other hand, in Hadoop, Cassandra and Spark, SATD files have lower defect percentages than non-SATD files and this effect is large for Hadoop, medium for Cassandra and small for Spark.
 
-Our findings here underscore that there is no clear trend when it comes to the percentage of defects in SATD versus non-SATD files. In some projects, SATD files have more bug-fixing changes, while in others, it is the non-SATD files that have a higher percentage of defects.
+Our findings underscore that there is no clear trend when it comes to the percentage of defects in SATD versus non-SATD files. In some projects, SATD files have more bug-fixing changes, while in others, it is the non-SATD files that have a higher percentage of defects.
 
 \begin{table}[tb]
 	\setlength{\tabcolsep}{.7\tabcolsep}
@@ -244,7 +245,7 @@ These findings contend that although it is not always clear whether SATD or non-
 
 \begin{figure}[tb!]
 	\centering
-	\includegraphics[width=90mm]{figures/chapter3/bug_inducing_changes}
+	\includegraphics[width=100mm]{figures/chapter3/bug_inducing_changes}
 	\caption{Percentage of defect inducing changes with SATD and NSATD.}
 	\label{figure:bug_inducing_changes}
 \end{figure}
@@ -253,7 +254,7 @@ These findings contend that although it is not always clear whether SATD or non-
 
 \noindent{\textbf{Motivation:}} After investigating the relationship between SATD and non-SATD at the file level, we would like to conclude whether SATD changes are more likely to introduce future defects. Whereas the file-level analysis looked at files as a whole, our analysis here is more fine-grained and tailored to assess individual changes.
 
-Studying the propensity of SATD changes to introduce future defects is important, as it informs us as to how SATD and non-SATD changes compare in terms of future introduction of defects and how quickly the impact of \SATD on quality can be felt. For example, if SATD changes introduce defects in the very next change, then this tells us that there is essentially no latent stage and the impact of SATD is felt almost immediately. Our conjecture is that SATD changes tend to be more complex and lead to the introduction of defects.
+Studying the propensity of SATD changes to introduce future defects is important since it tells us how SATD and non-SATD changes compare in terms of future introduction of defects and how quickly the impact of SATD on quality can be felt. For example, if SATD changes introduce defects in the very next change, this tells us that the impact of SATD is felt almost immediately. Our conjecture is that SATD changes tend to lead to the introduction of defects.
 
 
 \noindent{\textbf{Approach:}}
@@ -264,6 +265,10 @@ To address RQ2, we applied the SZZ algorithm~\cite{sliwerski-msr-2005} in order 
 
 \noindent{\textbf{Results:}}
 Figure \ref{figure:bug_inducing_changes} demonstrates that non-SATD changes have a higher incidence of defect-inducing changes relative to SATD changes.  In Chromium, for example, roughly 10\% of the SATD changes induce future defects, compared to about 27\% of the non-SATD changes. Our findings here show that contrary to our conjecture, SATD changes actually have a lower chance of inducing future defects.
+
+\begin{myboxii}[RQ2 - Interim Summary]
+	SATD changes are associated with less future defects than non-SATD changes.
+\end{myboxii}
 
 
 
@@ -291,7 +296,7 @@ Figure \ref{figure:bug_inducing_changes} demonstrates that non-SATD changes have
 Answering this question will help us understand the impact of SATD on future changes and provide us with a different view on how SATD impacts a software project.
 
 
-\noindent{\textbf{Approach:}}  To answer this question, we classify the changes into two groups, \ie{}, SATD and non-SATD changes. Then, we compare the difficulty of performing the two types of changes. We quantify the difficulty of a change using four different metrics: the total number of modified lines in the change (churn), the number of modified directories, the number of modified files and change entropy. The first three are motivated by earlier work in which Eick \emph{et al.}~\cite{eick2001decay} measure software decay. The change entropy metric is motivated by the work of Hassan~\cite{hassan2009predicting}, in which it measures change complexity.
+\noindent{\textbf{Approach:}}  To answer this question, we classify the changes into two groups, \ie{}, SATD and non-SATD changes. Then, we compare the difficulty of performing the two types of changes. We quantify the difficulty of a change using four different metrics: the total number of modified lines in the change (churn), the number of modified directories, the number of modified files and change entropy. The first three are motivated by earlier work in which Eick \emph{et al.}~\cite{eick2001decay} measure software decay. The change entropy metric is motivated by the work of Hassan~\cite{hassan2009predicting}, in which entropy is used to measure change complexity.
 
 
 
@@ -299,9 +304,9 @@ To measure the change churn, number of files and number of directories, we use d
 
 
 
-\begin{figure}[h]
+\begin{figure}[!hp]
 	\centering
-	\includegraphics[width=90mm]{figures/chapter3/churn_for_all_projects}
+	\includegraphics[width=100mm]{figures/chapter3/churn_for_all_projects}
 	\caption{Total number of lines modified per change (SATD vs. NSATD).}
 	\label{figure:tlcpc}
 \end{figure}
@@ -309,24 +314,24 @@ To measure the change churn, number of files and number of directories, we use d
 
 
 
-\begin{figure}[h]
+\begin{figure}[!hp]
 	\centering
-	\includegraphics[width=90mm]{figures/chapter3/number_of_files_changed_all_projects}
+	\includegraphics[width=100mm]{figures/chapter3/number_of_files_changed_all_projects}
 	\caption{Total number of files modified per change (SATD vs. NSATD).}
 	\label{figure:tfcpc}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[!hp]
 	\centering
-	\includegraphics[width=90mm]{figures/chapter3/number_of_directories}
+	\includegraphics[width=100mm]{figures/chapter3/number_of_directories}
 	\caption{Total number of modified directories per SATD and NSATD change.}
 	\label{figure:number_of_directories}
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[!hp]
 	\centering
-	\includegraphics[width=90mm]{figures/chapter3/entropy_for_all_projects}
+	\includegraphics[width=100mm]{figures/chapter3/entropy_for_all_projects}
 	\caption{Distribution of the change across the SATD and NSATD files.}
 	\label{figure:mtdocatdf}
 \end{figure}
@@ -340,7 +345,12 @@ As in Hassan \cite{hassan2009predicting}, the above entropy formula has been nor
 
 
 
-\noindent{\textbf{Results:}} Figures~\ref{figure:tlcpc},~\ref{figure:tfcpc},~\ref{figure:number_of_directories},~\ref{figure:mtdocatdf} reveal that for all difficulty measures, SATD changes have a higher value than non-SATD changes. We also find that the difference between the SATD and non-SATD changes is statistically significant, with a \textit{p}-value such that $p < 0.05$. Table~\ref{table:cliff_deltas_RQ3} shows the Cliff's delta effect size values for all projects studied. We observe that for all projects and all measures of difficulty, the effect size is either medium or large (Cf. Table~\ref{table:cliff_deltas_RQ3}), which indicates that SATD changes are more difficult than non-SATD changes.
+\noindent{\textbf{Results:}} Figures~\ref{figure:tlcpc},~\ref{figure:tfcpc},~\ref{figure:number_of_directories} and~\ref{figure:mtdocatdf} reveal that for all difficulty measures, SATD changes have a higher value than non-SATD changes. We also find that the difference between the SATD and non-SATD changes is statistically significant, with a \textit{p}-value such that $p < 0.05$. Table~\ref{table:cliff_deltas_RQ3} shows the Cliff's delta effect size values for all projects studied. We observe that for all projects and all measures of difficulty, the effect size is either medium or large (Cf. Table~\ref{table:cliff_deltas_RQ3}), which indicates that SATD changes are more difficult than non-SATD changes.
+
+\begin{myboxii}[RQ3 - Interim Summary]
+	SATD changes are more difficult to perform.
+\end{myboxii}
+
 
 In summary, we conclude that SATD changes are more difficult than non-SATD changes, provided that difficulty is measured using churn, the number of modified files, the number of modified directories and change entropy.
 
@@ -353,7 +363,7 @@ In summary, we conclude that SATD changes are more difficult than non-SATD chang
 \section{Threats to Validity}
 \label{chap3:sec:threats_to_validity}
 
-Threats  to {\bf  internal validity}  concern any factors that could have confounded our study results. To identify \SATD, we use source code comments. In some cases, though, developers may not add comments when they introduce technical debt. The opposite poses another threat, namely, that developers might introduce technical debt and subsequently remove it without removing the related comment. In both cases the code and comment change inconsistently. However, Potdar and Shihab~\cite{ICSM_PotdarS14} examined this phenomenon in Eclipse and found that in 97\% of cases code and comments change in tandem. As a means of locating SATD, we use the comments compiled by Potdar and Shihab~\cite{ICSM_PotdarS14}, yet there is a possibility that these patterns do not detect all SATD. Additionally, given that comments are written in natural language, Potdar and Shihab had to manually read and analyze them to determine those that would indicate SATD. Manual analysis is prone to subjectivity and errors and therefore we cannot guarantee that all considered patterns will be perceived as SATD indicators by other developers. To mitigate this threat, we manually examined each comment that we detected and verified that it contained one of the 62 patterns in \cite{ICSM_PotdarS14}. We performed this step, independently, for each of the five projects studied. We identify a change as an SATD change if it contains at least one SATD file. Alternatively, we could have defined SATD changes as only those for which all files have SATD. We elected to do it the former way because sometimes SATD in just one file can impact the rest of the change, e.g. it may cause many other files to be changed. When measuring the percentage of file defects after the introduction of SATD, it is difficult to distinguish the differences due to SATD from those attributed to natural evaluation of the files.
+Threats  to {\bf  internal validity}  concern any factors that could have confounded our study results. To identify \SATD, we use source code comments. In some cases, though, developers may not add comments when they introduce technical debt. The opposite poses another threat, namely, that developers might introduce technical debt and subsequently remove it without removing the related comment. In both cases the code and comment change inconsistently. However, Potdar and Shihab~\cite{ICSM_PotdarS14} examined this phenomenon in Eclipse and found that in between 70\% and 90\% of cases code and comments change in tandem. As a means of locating SATD, we use the comments compiled by Potdar and Shihab~\cite{ICSM_PotdarS14}, yet there is a possibility that these patterns do not detect all SATD. Additionally, given that comments are written in natural language, Potdar and Shihab had to manually read and analyze them to determine those that would indicate SATD. Manual analysis is prone to subjectivity and errors and therefore we cannot guarantee that all considered patterns will be perceived as SATD indicators by other developers. To mitigate this threat, we manually examined each comment that we detected and verified that it contained one of the 62 patterns in \cite{ICSM_PotdarS14}. We performed this step, independently, for each of the five projects studied. We identify a change as an SATD change if it contains at least one SATD file. Alternatively, we could have defined SATD changes as only those for which all files have SATD. We elected to do it the former way because sometimes SATD in just one file can impact the rest of the change, e.g. it may cause many other files to be changed. When measuring the percentage of file defects after the introduction of SATD, it is difficult to distinguish the differences due to SATD from those attributed to natural evaluation of the files.
 
 
 
@@ -366,12 +376,12 @@ Furthermore, we focused on SATD only, which means that we do not cover all techn
 
 
 
-\section{Conclusion and Future Work}
+\section{Conclusion}
 \label{chap3:sec:conclusion}
 
 
 
-Technical debt is intuitively recognized as bad practice by software companies and organizations. However, there is very little empirical evidence on the extent to which technical debt can impact software quality. Therefore, in this thesis we perform an empirical study, using five large open-source projects, to determine precisely how technical debt relates to software quality. We focus on self-admitted technical debt, which refers to  errors that might be introduced as part of intentional and temporary quick fixes. As in  \cite{ICSM_PotdarS14}, we leverage source code comments to identify such debt on the basis of recurring indicator patterns.
+Technical debt is intuitively recognized as bad practice by software companies and organizations. However, there is very little empirical evidence on the extent to which technical debt can impact software quality. Therefore, in this chapter we perform an empirical study, using five large open-source projects, to determine precisely how technical debt relates to software quality. We focus on self-admitted technical debt, which refers to  errors that might be introduced as part of intentional and temporary quick fixes. As in  \cite{ICSM_PotdarS14}, we leverage source code comments to identify such debt on the basis of recurring indicator patterns.
 
 
 We examined the relationship between self-admitted technical debt and software quality by investigating: (i) whether files with SATD have more defects compared to files without SATD, (ii) whether SATD changes introduce future defects and (iii) whether SATD-related changes tend to be more difficult. We measured the difficulty of a change in terms of amount of churn, number of files and modified modules and change entropy.
@@ -379,8 +389,8 @@ We examined the relationship between self-admitted technical debt and software q
 
 
 
-Our findings suggest that there is no reliable trend when it comes to defects and self-admitted technical debt. In some of the projects, self-admitted technical debt files had more bug-fixing changes, while in others, files without it had more defects. We also found that SATD changes are less correlated with future defects than non-SATD changes, but more difficult to perform. 
+Our findings suggest that there is no reliable trend when it comes to defects and SATD. In some of the projects, self-admitted technical debt files had more bug-fixing changes, while in others, files without it had more defects. We also found that SATD changes are less correlated with future defects than non-SATD changes, but more difficult to perform. 
 %\sultan{Our study demonstrates that although defects are not among the negative effects of technical debt, it can make the system more difficult to change in the future.}
 Our study demonstrates that although technical debt may have negative effects, its impact does not extend to defects, but rather to making the system more difficult to change in the future.
 
-We enlist empirical evidence in showcasing some of the drawbacks of technical debt that plague the software development process, in particular increases in system complexity. As a takeaway, practitioners would do well to keep technical debt in check and avoid its unwanted consequences. In the future, we intend to expound upon this research by studying the nature of defective SATD files more closely.
+%We enlist empirical evidence in showcasing some of the drawbacks of technical debt that plague the software development process, in particular increases in system complexity. As a takeaway, practitioners would do well to keep technical debt in check and avoid its unwanted consequences. In the future, we intend to expound upon this research by studying the nature of defective SATD files more closely.

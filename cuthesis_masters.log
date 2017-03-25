@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 FEB 2017 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAR 2017 01:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,60 +353,292 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count125
 \c@@ppsaveapp=\count126
 )
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... none found.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bclogo/bclogo.sty
+Package: bclogo 2016/01/10 v3.1
 
-(./cuthesis_masters.aux)
-\openout1 = `cuthesis_masters.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen153
-\scratchbox=\box32
-\nofMPsegments=\count128
-\nofMParguments=\count129
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen154
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
-\everyMPtoPDFconversion=\toks30
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
+\bc@invboxh=\skip58
+\bc@invboxd=\skip59
+\bc@titleLength=\skip60
+\logowidth=\skip61
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen153
+\pgfutil@tempdimb=\dimen154
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box32
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen155
+\pgf@y=\dimen156
+\pgf@xa=\dimen157
+\pgf@ya=\dimen158
+\pgf@xb=\dimen159
+\pgf@yb=\dimen160
+\pgf@xc=\dimen161
+\pgf@yc=\dimen162
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count127
+\c@pgf@countb=\count128
+\c@pgf@countc=\count129
+\c@pgf@countd=\count130
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count131
+\pgfsyssoftpath@bigbuffer@items=\count132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen163
+\pgfmath@count=\count133
+\pgfmath@box=\box33
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count134
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen164
+\pgf@picmaxx=\dimen165
+\pgf@picminy=\dimen166
+\pgf@picmaxy=\dimen167
+\pgf@pathminx=\dimen168
+\pgf@pathmaxx=\dimen169
+\pgf@pathminy=\dimen170
+\pgf@pathmaxy=\dimen171
+\pgf@xx=\dimen172
+\pgf@xy=\dimen173
+\pgf@yx=\dimen174
+\pgf@yy=\dimen175
+\pgf@zx=\dimen176
+\pgf@zy=\dimen177
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen178
+\pgf@path@lasty=\dimen179
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen180
+\pgf@shorten@start@additional=\dimen181
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box34
+\pgf@hbox=\box35
+\pgf@layerbox@main=\box36
+\pgf@picture@serial@count=\count135
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen182
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen183
+\pgf@pt@y=\dimen184
+\pgf@pt@temp=\dimen185
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen186
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen187
+\pgf@sys@shading@range@num=\count136
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box37
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box38
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen190
+\pgffor@skip=\dimen191
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count137
+\pgfplotmarksize=\dimen192
+)
+\tikz@lastx=\dimen193
+\tikz@lasty=\dimen194
+\tikz@lastxsaved=\dimen195
+\tikz@lastysaved=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box39
+\tikz@figbox@bg=\box40
+\tikz@tempbox=\box41
+\tikz@tempbox@bg=\box42
+\tikztreelevel=\count138
+\tikznumberofchildren=\count139
+\tikznumberofcurrentchild=\count140
+\tikz@fig@count=\count141
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count142
+\pgfmatrixcurrentcolumn=\count143
+\pgf@matrix@numberofcolumns=\count144
+)
+\tikz@expandcount=\count145
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -415,58 +647,490 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/05/18 v6512 L3 programming layer (loader) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/05/18 v6512 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/02/12 v6412 L3 Bootstrap code
+L3 Module: l3names 2016/03/11 v6433 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
+L3 Module: l3str 2016/03/24 v6441 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/03/24 v6441 L3 Integers
+\c_max_int=\count146
+\l_tmpa_int=\count147
+\l_tmpb_int=\count148
+\g_tmpa_int=\count149
+\g_tmpb_int=\count150
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count151
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2016/03/26 v6464 L3 Messages
+L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
+\l_iow_line_count_int=\count152
+\l__iow_target_count_int=\count153
+\l__iow_current_line_int=\count154
+\l__iow_current_word_int=\count155
+\l__iow_current_indentation_int=\count156
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen199
+\c_max_dim=\dimen256
+\l_tmpa_dim=\dimen257
+\l_tmpb_dim=\dimen258
+\g_tmpa_dim=\dimen259
+\g_tmpb_dim=\dimen260
+\c_zero_skip=\skip62
+\c_max_skip=\skip63
+\l_tmpa_skip=\skip64
+\l_tmpb_skip=\skip65
+\g_tmpa_skip=\skip66
+\g_tmpb_skip=\skip67
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count157
+\l_keys_choice_int=\count158
+L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
+\c__fp_leading_shift_int=\count159
+\c__fp_middle_shift_int=\count160
+\c__fp_trailing_shift_int=\count161
+\c__fp_big_leading_shift_int=\count162
+\c__fp_big_middle_shift_int=\count163
+\c__fp_big_trailing_shift_int=\count164
+\c__fp_Bigg_leading_shift_int=\count165
+\c__fp_Bigg_middle_shift_int=\count166
+\c__fp_Bigg_trailing_shift_int=\count167
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box43
+\l_tmpa_box=\box44
+\l_tmpb_box=\box45
+\g_tmpa_box=\box46
+\g_tmpb_box=\box47
+L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
+\l__coffin_internal_box=\box48
+\l__coffin_internal_dim=\dimen261
+\l__coffin_offset_x_dim=\dimen262
+\l__coffin_offset_y_dim=\dimen263
+\l__coffin_x_dim=\dimen264
+\l__coffin_y_dim=\dimen265
+\l__coffin_x_prime_dim=\dimen266
+\l__coffin_y_prime_dim=\dimen267
+\c_empty_coffin=\box49
+\l__coffin_aligned_coffin=\box50
+\l__coffin_aligned_internal_coffin=\box51
+\l_tmpa_coffin=\box52
+\l_tmpb_coffin=\box53
+\l__coffin_display_coffin=\box54
+\l__coffin_display_coord_coffin=\box55
+\l__coffin_display_pole_coffin=\box56
+\l__coffin_display_offset_dim=\dimen268
+\l__coffin_display_x_dim=\dimen269
+\l__coffin_display_y_dim=\dimen270
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen271
+\l__box_bottom_dim=\dimen272
+\l__box_left_dim=\dimen273
+\l__box_right_dim=\dimen274
+\l__box_top_new_dim=\dimen275
+\l__box_bottom_new_dim=\dimen276
+\l__box_left_new_dim=\dimen277
+\l__box_right_new_dim=\dimen278
+\l__box_internal_box=\box57
+\l__coffin_bounding_shift_dim=\dimen279
+\l__coffin_left_corner_dim=\dimen280
+\l__coffin_right_corner_dim=\dimen281
+\l__coffin_bottom_corner_dim=\dimen282
+\l__coffin_top_corner_dim=\dimen283
+\l__coffin_scaled_total_height_dim=\dimen284
+\l__coffin_scaled_width_dim=\dimen285
+L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count168
+\l__driver_tmp_box=\box58
+))
+Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count169
+\l__xparse_m_args_int=\count170
+\l__xparse_mandatory_args_int=\count171
+\l__xparse_processor_int=\count172
+\l__xparse_v_nesting_int=\count173
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2016/05/16 v2.25 Module abspage for zref (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2016/05/16 v2.25 Module base for zref (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+)
+\c@abspage=\count174
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip68
+\c@mdf@globalstyle@cnt=\count175
+\mdf@skipabove@length=\skip69
+\mdf@skipbelow@length=\skip70
+\mdf@leftmargin@length=\skip71
+\mdf@rightmargin@length=\skip72
+\mdf@innerleftmargin@length=\skip73
+\mdf@innerrightmargin@length=\skip74
+\mdf@innertopmargin@length=\skip75
+\mdf@innerbottommargin@length=\skip76
+\mdf@splittopskip@length=\skip77
+\mdf@splitbottomskip@length=\skip78
+\mdf@outermargin@length=\skip79
+\mdf@innermargin@length=\skip80
+\mdf@linewidth@length=\skip81
+\mdf@innerlinewidth@length=\skip82
+\mdf@middlelinewidth@length=\skip83
+\mdf@outerlinewidth@length=\skip84
+\mdf@roundcorner@length=\skip85
+\mdf@footenotedistance@length=\skip86
+\mdf@userdefinedwidth@length=\skip87
+\mdf@needspace@length=\skip88
+\mdf@frametitleaboveskip@length=\skip89
+\mdf@frametitlebelowskip@length=\skip90
+\mdf@frametitlerulewidth@length=\skip91
+\mdf@frametitleleftmargin@length=\skip92
+\mdf@frametitlerightmargin@length=\skip93
+\mdf@shadowsize@length=\skip94
+\mdf@extratopheight@length=\skip95
+\mdf@subtitleabovelinewidth@length=\skip96
+\mdf@subtitlebelowlinewidth@length=\skip97
+\mdf@subtitleaboveskip@length=\skip98
+\mdf@subtitlebelowskip@length=\skip99
+\mdf@subtitleinneraboveskip@length=\skip100
+\mdf@subtitleinnerbelowskip@length=\skip101
+\mdf@subsubtitleabovelinewidth@length=\skip102
+\mdf@subsubtitlebelowlinewidth@length=\skip103
+\mdf@subsubtitleaboveskip@length=\skip104
+\mdf@subsubtitlebelowskip@length=\skip105
+\mdf@subsubtitleinneraboveskip@length=\skip106
+\mdf@subsubtitleinnerbelowskip@length=\skip107
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box59
+\mdf@footnotebox=\box60
+\mdf@splitbox@one=\box61
+\mdf@splitbox@two=\box62
+\mdf@splitbox@save=\box63
+\mdfsplitboxwidth=\skip108
+\mdfsplitboxtotalwidth=\skip109
+\mdfsplitboxheight=\skip110
+\mdfsplitboxdepth=\skip111
+\mdfsplitboxtotalheight=\skip112
+\mdfframetitleboxwidth=\skip113
+\mdfframetitleboxtotalwidth=\skip114
+\mdfframetitleboxheight=\skip115
+\mdfframetitleboxdepth=\skip116
+\mdfframetitleboxtotalheight=\skip117
+\mdffootnoteboxwidth=\skip118
+\mdffootnoteboxtotalwidth=\skip119
+\mdffootnoteboxheight=\skip120
+\mdffootnoteboxdepth=\skip121
+\mdffootnoteboxtotalheight=\skip122
+\mdftotallinewidth=\skip123
+\mdfboundingboxwidth=\skip124
+\mdfboundingboxtotalwidth=\skip125
+\mdfboundingboxheight=\skip126
+\mdfboundingboxdepth=\skip127
+\mdfboundingboxtotalheight=\skip128
+\mdf@freevspace@length=\skip129
+\mdf@horizontalwidthofbox@length=\skip130
+\mdf@verticalmarginwhole@length=\skip131
+\mdf@horizontalspaceofbox=\skip132
+\mdfsubtitleheight=\skip133
+\mdfsubsubtitleheight=\skip134
+\c@mdfcountframes=\count176
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
+.................................................
+\mdf@envdepth=\count177
+\c@mdf@env@i=\count178
+\c@mdf@env@ii=\count179
+\c@mdf@zref@counter=\count180
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen286
+\pgfdecoratedremainingdistance=\dimen287
+\pgfdecoratedinputsegmentcompleteddistance=\dimen288
+\pgfdecoratedinputsegmentremainingdistance=\dimen289
+\pgf@decorate@distancetomove=\dimen290
+\pgf@decorate@repeatstate=\count181
+\pgfdecorationsegmentamplitude=\dimen291
+\pgfdecorationsegmentlength=\dimen292
+)
+\tikz@lib@dec@box=\box64
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+\c@bclogocompteur=\count182
+\bcval@epBarre=\skip135
+\bcval@framesep=\skip136
+\bcval@tailleOndu=\skip137
+\bcval@borderWidth=\skip138
+\bcval@margeG=\skip139
+\bcval@margeD=\skip140
+\bc@envbox=\box65
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count183
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2016/04/27 version 3.91 text color boxes
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks41
+\verbatim@line=\toks42
+\verbatim@in@stream=\read3
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box66
+\tcb@upperbox=\box67
+\tcb@lowerbox=\box68
+\tcb@phantombox=\box69
+\c@tcbbreakpart=\count184
+\c@tcblayer=\count185
+\tcolorbox@number=\count186
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
+\tcb@temp=\box73
+\tcb@out=\write5
+\tcb@record@out=\write6
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '3.91'
+\c@tcbrastercolumn=\count187
+\c@tcbrasterrow=\count188
+\c@tcbraster=\count189
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '3.91'
+\tcb@waterbox=\box74
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '3.91'
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '3.91'
+\tcb@testbox=\box75
+\tcb@totalupperbox=\box76
+\tcb@totallowerbox=\box77
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '3.91'
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '3.91'
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '3.91'
+\tcbfitdim=\dimen293
+\tcb@lowerfitdim=\dimen294
+\tcb@upperfitdim=\dimen295
+\tcb@cur@hbadness=\count190
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '3.91'
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tcboxverb with sig. ' O{} v ' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
+.................................................
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen296
+\captionmargin@=\dimen297
+\captionwidth=\dimen298
+\caption@tempdima=\dimen299
+\caption@indent=\dimen300
+\caption@parindent=\dimen301
+\caption@hangindent=\dimen302
+)
+\c@ContinuedFloat=\count191
+Package caption Info: subfigure package is loaded.
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
+(./cuthesis_masters.aux)
+\openout1 = `cuthesis_masters.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen303
+\scratchbox=\box78
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen304
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks44
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.mps,.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG
+,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box79
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 108.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/sc' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 
  []
 
 
-Overfull \hbox (45.97351pt too wide) in paragraph at lines 85--85
+Overfull \hbox (45.97351pt too wide) in paragraph at lines 108--108
 |  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
 
  []
 
@@ -483,19 +1147,19 @@ Missing character: There is no ™ in font cmti12!
 ] (./cuthesis_masters.toc [8
 
 ] [9])
-\tf@toc=\write4
-\openout4 = `cuthesis_masters.toc'.
+\tf@toc=\write7
+\openout7 = `cuthesis_masters.toc'.
 
  [10]
 (./cuthesis_masters.lof [11
 
 ])
-\tf@lof=\write5
-\openout5 = `cuthesis_masters.lof'.
+\tf@lof=\write8
+\openout8 = `cuthesis_masters.lof'.
 
  [12] (./cuthesis_masters.lot)
-\tf@lot=\write6
-\openout6 = `cuthesis_masters.lot'.
+\tf@lot=\write9
+\openout9 = `cuthesis_masters.lot'.
 
  [13
 
@@ -503,22 +1167,7 @@ Missing character: There is no ™ in font cmti12!
 Chapter 1.
 (./introduction.tex [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-[2] [3]) [4]
+] [2] [3] [4]) [5]
 Chapter 2.
 (./literature_review.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
@@ -535,65 +1184,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[5
+[6
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-[7] <figures/chapter2/technicalDebtQuadrant.png, id=72, 513.92pt x 385.44pt>
+[8] <figures/chapter2/technicalDebtQuadrant.png, id=103, 513.92pt x 385.44pt>
 File: figures/chapter2/technicalDebtQuadrant.png Graphic file (type png)
 
 <use figures/chapter2/technicalDebtQuadrant.png>
 Package pdftex.def Info: figures/chapter2/technicalDebtQuadrant.png used on inp
 ut line 37.
 (pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
- [8 <./figures/chapter2/technicalDebtQuadrant.png (PNG copy)>] [9]
+ [9] [10 <./figures/chapter2/technicalDebtQuadrant.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-[11]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[12] [13] [14]) [15] [16]
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+[15] [16]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+) [17]
 Chapter 3.
-(./chapter3.tex [17
+(./chapter3.tex [18
 
-] [18] [19] [20]
+] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
@@ -603,12 +1257,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-[21]
+[20]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter3/approach.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/chapter3/approach.pdf, id=117, 478.78876pt x 135.50626pt>
+<figures/chapter3/approach.pdf, id=142, 478.78876pt x 135.50626pt>
 File: figures/chapter3/approach.pdf Graphic file (type pdf)
 
 <use figures/chapter3/approach.pdf>
@@ -619,128 +1273,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[22 <./figures/chapter3/approach.pdf>] [23] [24] [25]
+[21 <./figures/chapter3/approach.pdf>] [22] [23] [24]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter3/bug-fixin
 g-change.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-<figures/chapter3/bug-fixing-change.pdf, id=139, 483.8075pt x 237.88875pt>
+<figures/chapter3/bug-fixing-change.pdf, id=163, 483.8075pt x 237.88875pt>
 File: figures/chapter3/bug-fixing-change.pdf Graphic file (type pdf)
 
 <use figures/chapter3/bug-fixing-change.pdf>
 Package pdftex.def Info: figures/chapter3/bug-fixing-change.pdf used on input l
-ine 156.
+ine 158.
 (pdftex.def)             Requested size: 426.79134pt x 209.8618pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26] <figures/chapter3/rq1_correction.pdf, id=144, 614.295pt x 794.97pt>
+[25] <figures/chapter3/rq1_correction.pdf, id=168, 614.295pt x 794.97pt>
 File: figures/chapter3/rq1_correction.pdf Graphic file (type pdf)
 
 <use figures/chapter3/rq1_correction.pdf>
 Package pdftex.def Info: figures/chapter3/rq1_correction.pdf used on input line
  174.
-(pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
- [27 <./figures/chapter3/bug-fixing-change.pdf>] [28 <./figures/chapter3/rq1_co
+(pdftex.def)             Requested size: 284.52756pt x 368.21373pt.
+ [26 <./figures/chapter3/bug-fixing-change.pdf>] [27 <./figures/chapter3/rq1_co
 rrection.pdf>]
-<figures/chapter3/rq1-2_correction.pdf, id=201, 614.295pt x 794.97pt>
+<figures/chapter3/rq1-2_correction.pdf, id=225, 614.295pt x 794.97pt>
 File: figures/chapter3/rq1-2_correction.pdf Graphic file (type pdf)
 
 <use figures/chapter3/rq1-2_correction.pdf>
 Package pdftex.def Info: figures/chapter3/rq1-2_correction.pdf used on input li
 ne 200.
-(pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
- [29] [30 <./figures/chapter3/rq1-2_correction.pdf>] [31]
-<figures/chapter3/bug_inducing_changes.pdf, id=265, 614.295pt x 794.97pt>
+(pdftex.def)             Requested size: 284.52756pt x 368.21373pt.
+
+
+LaTeX Warning: Reference `td' on page 28 undefined on input line 207.
+
+[28] [29 <./figures/chapter3/rq1-2_correction.pdf>] [30]
+<figures/chapter3/bug_inducing_changes.pdf, id=289, 614.295pt x 794.97pt>
 File: figures/chapter3/bug_inducing_changes.pdf Graphic file (type pdf)
 
 <use figures/chapter3/bug_inducing_changes.pdf>
 Package pdftex.def Info: figures/chapter3/bug_inducing_changes.pdf used on inpu
-t line 247.
-(pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
- [32]
-Overfull \hbox (11.32762pt too wide) in paragraph at lines 275--285
+t line 248.
+(pdftex.def)             Requested size: 284.52756pt x 368.21373pt.
+ [31] [32 <./figures/chapter3/bug_inducing_changes.pdf>]
+Overfull \hbox (11.32762pt too wide) in paragraph at lines 280--290
  [][] 
  []
 
-[33 <./figures/chapter3/bug_inducing_changes.pdf>] [34]
-<figures/chapter3/churn_for_all_projects.pdf, id=281, 614.295pt x 794.97pt>
+[33]
+<figures/chapter3/churn_for_all_projects.pdf, id=305, 614.295pt x 794.97pt>
 File: figures/chapter3/churn_for_all_projects.pdf Graphic file (type pdf)
 
 <use figures/chapter3/churn_for_all_projects.pdf>
 Package pdftex.def Info: figures/chapter3/churn_for_all_projects.pdf used on in
-put line 304.
-(pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
+put line 309.
+(pdftex.def)             Requested size: 284.52756pt x 368.21373pt.
 
-<figures/chapter3/number_of_files_changed_all_projects.pdf, id=282, 614.295pt x
+<figures/chapter3/number_of_files_changed_all_projects.pdf, id=306, 614.295pt x
  794.97pt>
 File: figures/chapter3/number_of_files_changed_all_projects.pdf Graphic file (t
 ype pdf)
  <use figures/chapter3/number_of_files_changed_all_projects.pdf>
 Package pdftex.def Info: figures/chapter3/number_of_files_changed_all_projects.
-pdf used on input line 314.
-(pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
+pdf used on input line 319.
+(pdftex.def)             Requested size: 284.52756pt x 368.21373pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/chapter3/number_of_directories.pdf, id=283, 614.295pt x 794.97pt>
+<figures/chapter3/number_of_directories.pdf, id=307, 614.295pt x 794.97pt>
 File: figures/chapter3/number_of_directories.pdf Graphic file (type pdf)
 
 <use figures/chapter3/number_of_directories.pdf>
 Package pdftex.def Info: figures/chapter3/number_of_directories.pdf used on inp
-ut line 321.
-(pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
+ut line 326.
+(pdftex.def)             Requested size: 284.52756pt x 368.21373pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/chapter3/entropy_for_all_projects.pdf, id=284, 614.295pt x 794.97pt>
+<figures/chapter3/entropy_for_all_projects.pdf, id=308, 614.295pt x 794.97pt>
 File: figures/chapter3/entropy_for_all_projects.pdf Graphic file (type pdf)
 
 <use figures/chapter3/entropy_for_all_projects.pdf>
 Package pdftex.def Info: figures/chapter3/entropy_for_all_projects.pdf used on 
-input line 329.
-(pdftex.def)             Requested size: 256.0748pt x 331.38629pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[35 <./figures/chapter3/churn_for_all_projects.pdf>] [36 <./figures/chapter3/nu
-mber_of_files_changed_all_projects.pdf>] [37 <./figures/chapter3/number_of_dire
-ctories.pdf>] [38 <./figures/chapter3/entropy_for_all_projects.pdf>] [39])
-[40]
+input line 334.
+(pdftex.def)             Requested size: 284.52756pt x 368.21373pt.
+ [34] [35 <./figures/chapter3/churn_for_all_projects.pdf>] [36 <./figures/chapt
+er3/number_of_files_changed_all_projects.pdf>] [37 <./figures/chapter3/number_o
+f_directories.pdf>] [38 <./figures/chapter3/entropy_for_all_projects.pdf>] [39]
+ [40]) [41]
 Chapter 4.
-(./chapter4.tex [41
+(./chapter4.tex [42
 
-] [42] [43] [44]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¤ in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¤ in font cmr12!
- [45]
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
-
- []
-
-
+] [43] [44]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/chapter4/approach.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<figures/chapter4/approach.pdf, id=499, 480.79625pt x 250.9375pt>
+<figures/chapter4/approach.pdf, id=523, 480.79625pt x 250.9375pt>
 File: figures/chapter4/approach.pdf Graphic file (type pdf)
 
 <use figures/chapter4/approach.pdf>
-Package pdftex.def Info: figures/chapter4/approach.pdf used on input line 60.
+Package pdftex.def Info: figures/chapter4/approach.pdf used on input line 57.
 (pdftex.def)             Requested size: 426.79134pt x 222.75548pt.
- [46] [47 <./figures/chapter4/approach.pdf>] [48]
+ [45 <./figures/chapter4/approach.pdf>]
+[46]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -749,9 +1383,9 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
 
 
-LaTeX Warning: Float too large for page by 17.97472pt on input line 114.
+LaTeX Warning: Float too large for page by 29.50816pt on input line 109.
 
-[49]
+[47]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
@@ -760,390 +1394,403 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
 
 
-LaTeX Warning: Float too large for page by 12.67293pt on input line 159.
+LaTeX Warning: Float too large for page by 24.20638pt on input line 154.
 
-[50] [51
-
-
+[48] [49
 
 
-] [52]
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
- []
+
+] [50] [51]
+
+LaTeX Warning: Float too large for page by 55.98866pt on input line 242.
+
+[52]
+
+LaTeX Warning: Float too large for page by 50.57317pt on input line 288.
 
 [53]
-
-LaTeX Warning: Float too large for page by 44.45522pt on input line 249.
-
-[54]
-
-LaTeX Warning: Float too large for page by 39.03972pt on input line 295.
-
-[55]
-Overfull \hbox (12.25095pt too wide) detected at line 319
+Overfull \hbox (12.25095pt too wide) detected at line 313
 \OML/cmm/m/it/12 GodClass\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 C\OT1/cmr/m/n/12 ) =
  []
  []
 
-[56
+[54
 
 
 
 
-] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+] [55] [56]
 
- []
+LaTeX Warning: Reference `td' on page 57 undefined on input line 373.
 
-[58] [59]
-<figures/chapter4/rq1_defectivness_distrubution.pdf, id=550, 701.62125pt x 623.
-32875pt>
-File: figures/chapter4/rq1_defectivness_distrubution.pdf Graphic file (type pdf
-)
- <use figures/chapter4/rq1_defectivness_distrubution.pdf>
-Package pdftex.def Info: figures/chapter4/rq1_defectivness_distrubution.pdf use
-d on input line 387.
-(pdftex.def)             Requested size: 398.33858pt x 353.89342pt.
+[57]
+<figures/chapter4/rq1_defectivness_distrubution_new.pdf, id=573, 623.32875pt x 
+456.70625pt>
+File: figures/chapter4/rq1_defectivness_distrubution_new.pdf Graphic file (type
+ pdf)
+ <use figures/chapter4/rq1_defectivness_distrubution_new.pdf>
+Package pdftex.def Info: figures/chapter4/rq1_defectivness_distrubution_new.pdf
+ used on input line 383.
+(pdftex.def)             Requested size: 398.33858pt x 291.85893pt.
 
+[58 <./figures/chapter4/rq1_defectivness_distrubution_new.pdf>] [59] [60]
+<figures/chapter4/rq2_new.pdf, id=590, 623.32875pt x 456.70625pt>
+File: figures/chapter4/rq2_new.pdf Graphic file (type pdf)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[60] [61 <./figures/chapter4/rq1_defectivness_distrubution.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
+<use figures/chapter4/rq2_new.pdf>
+Package pdftex.def Info: figures/chapter4/rq2_new.pdf used on input line 426.
+(pdftex.def)             Requested size: 398.33858pt x 291.85893pt.
+ [61 <./figures/chapter4/rq2_new.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 435--437
 
  []
 
+<figures/chapter4/rq3_churn.pdf, id=601, 623.32875pt x 456.70625pt>
+File: figures/chapter4/rq3_churn.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
+<use figures/chapter4/rq3_churn.pdf>
+Package pdftex.def Info: figures/chapter4/rq3_churn.pdf used on input line 448.
 
- []
+(pdftex.def)             Requested size: 341.43306pt x 250.1648pt.
 
-[62]
-<figures/chapter4/rq2_distrubtion_god_and_td.pdf, id=569, 701.62125pt x 623.328
-75pt>
-File: figures/chapter4/rq2_distrubtion_god_and_td.pdf Graphic file (type pdf)
- <use figures/chapter4/rq2_distrubtion_god_and_td.pdf>
-Package pdftex.def Info: figures/chapter4/rq2_distrubtion_god_and_td.pdf used o
-n input line 420.
-(pdftex.def)             Requested size: 398.33858pt x 353.89342pt.
- [63 <./figures/chapter4/rq2_distrubtion_god_and_td.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+<figures/chapter4/rq3_nf.pdf, id=602, 623.32875pt x 456.70625pt>
+File: figures/chapter4/rq3_nf.pdf Graphic file (type pdf)
 
- []
+<use figures/chapter4/rq3_nf.pdf>
+Package pdftex.def Info: figures/chapter4/rq3_nf.pdf used on input line 457.
+(pdftex.def)             Requested size: 341.43306pt x 250.1648pt.
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+<figures/chapter4/rq3_nd.pdf, id=603, 623.32875pt x 456.70625pt>
+File: figures/chapter4/rq3_nd.pdf Graphic file (type pdf)
 
- []
+<use figures/chapter4/rq3_nd.pdf>
+Package pdftex.def Info: figures/chapter4/rq3_nd.pdf used on input line 464.
+(pdftex.def)             Requested size: 341.43306pt x 250.1648pt.
 
+<figures/chapter4/rq3_entropy.pdf, id=604, 623.32875pt x 456.70625pt>
+File: figures/chapter4/rq3_entropy.pdf Graphic file (type pdf)
 
-<figures/chapter4/rq3_distribution_of_churn.pdf, id=582, 701.62125pt x 623.3287
-5pt>
-File: figures/chapter4/rq3_distribution_of_churn.pdf Graphic file (type pdf)
- <use figures/chapter4/rq3_distribution_of_churn.pdf>
-Package pdftex.def Info: figures/chapter4/rq3_distribution_of_churn.pdf used on
- input line 445.
-(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
-
-<figures/chapter4/rq3_distribution_of_nf.pdf, id=583, 701.62125pt x 623.32875pt
->
-File: figures/chapter4/rq3_distribution_of_nf.pdf Graphic file (type pdf)
- <use figures/chapter4/rq3_distribution_of_nf.pdf>
-Package pdftex.def Info: figures/chapter4/rq3_distribution_of_nf.pdf used on in
-put line 454.
-(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<figures/chapter4/rq3_distribution_of_nd.pdf, id=584, 701.62125pt x 623.32875pt
->
-File: figures/chapter4/rq3_distribution_of_nd.pdf Graphic file (type pdf)
- <use figures/chapter4/rq3_distribution_of_nd.pdf>
-Package pdftex.def Info: figures/chapter4/rq3_distribution_of_nd.pdf used on in
-put line 461.
-(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<figures/chapter4/rq3_distribution_of_entropy.pdf, id=585, 701.62125pt x 623.32
-875pt>
-File: figures/chapter4/rq3_distribution_of_entropy.pdf Graphic file (type pdf)
- <use figures/chapter4/rq3_distribution_of_entropy.pdf>
-Package pdftex.def Info: figures/chapter4/rq3_distribution_of_entropy.pdf used 
-on input line 469.
-(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[65 <./figures/chapter4/rq3_distribution_of_churn.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
+<use figures/chapter4/rq3_entropy.pdf>
+Package pdftex.def Info: figures/chapter4/rq3_entropy.pdf used on input line 47
+3.
+(pdftex.def)             Requested size: 341.43306pt x 250.1648pt.
+ [62] [63 <./figures/chapter4/rq3_churn.pdf> <./figures/chapter4/rq3_nf.pdf>] [
+64 <./figures/chapter4/rq3_nd.pdf> <./figures/chapter4/rq3_entropy.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 
  []
 
-[66 <./figures/chapter4/rq3_distribution_of_nf.pdf>] [67 <./figures/chapter4/rq
-3_distribution_of_nd.pdf>] [68 <./figures/chapter4/rq3_distribution_of_entropy.
-pdf>] [69] [70] [71]) [72] [73]
+[65] [66] [67] [68] [69] [70]) [71]
 Chapter 5.
-(./conclusion.tex [74
+(./conclusion.tex [72
 
-] [75]) (./appendix.tex [76]
+] [73]) (./appendix.tex [74]
 Appendix A.
-<figures/chapter4/RQ1_boxplots_god_1.pdf, id=649, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_god_1.pdf, id=671, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_god_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_god_1.pdf>
 Package pdftex.def Info: figures/chapter4/RQ1_boxplots_god_1.pdf used on input 
-line 5.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+line 6.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/RQ1_boxplots_god_2.pdf, id=650, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_god_2.pdf, id=672, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_god_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_god_2.pdf>
 Package pdftex.def Info: figures/chapter4/RQ1_boxplots_god_2.pdf used on input 
-line 6.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+line 7.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/RQ1_boxplots_td_1.pdf, id=651, 701.62125pt x 623.32875pt>
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 10.
+
+<figures/chapter4/RQ1_boxplots_td_1.pdf, id=673, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_td_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_td_1.pdf>
 Package pdftex.def Info: figures/chapter4/RQ1_boxplots_td_1.pdf used on input l
-ine 15.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+ine 16.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/RQ1_boxplots_td_2.pdf, id=652, 701.62125pt x 623.32875pt>
+<figures/chapter4/RQ1_boxplots_td_2.pdf, id=674, 701.62125pt x 623.32875pt>
 File: figures/chapter4/RQ1_boxplots_td_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/RQ1_boxplots_td_2.pdf>
 Package pdftex.def Info: figures/chapter4/RQ1_boxplots_td_2.pdf used on input l
-ine 16.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
- [77
+ine 17.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-] [78 <./figures/chapter4/RQ1_boxplots_god_1.pdf> <./figures/chapter4/RQ1_boxpl
-ots_god_2.pdf>] [79 <./figures/chapter4/RQ1_boxplots_td_1.pdf> <./figures/chapt
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 20.
+
+[75
+
+] [76 <./figures/chapter4/RQ1_boxplots_god_1.pdf> <./figures/chapter4/RQ1_boxpl
+ots_god_2.pdf>] [77 <./figures/chapter4/RQ1_boxplots_td_1.pdf> <./figures/chapt
 er4/RQ1_boxplots_td_2.pdf>]
 Appendix B.
-<figures/chapter4/rq2_god_boxplots_1.pdf, id=687, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_god_boxplots_1.pdf, id=708, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_god_boxplots_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_god_boxplots_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_god_boxplots_1.pdf used on input 
-line 26.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+line 29.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq2_god_boxplots_2.pdf, id=688, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_god_boxplots_2.pdf, id=709, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_god_boxplots_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_god_boxplots_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_god_boxplots_2.pdf used on input 
-line 27.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+line 30.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq2_boxplots_1.pdf, id=689, 701.62125pt x 623.32875pt>
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 33.
+
+<figures/chapter4/rq2_boxplots_1.pdf, id=710, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_boxplots_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_boxplots_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_boxplots_1.pdf used on input line
- 35.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+ 38.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq2_boxplots_2.pdf, id=690, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq2_boxplots_2.pdf, id=711, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq2_boxplots_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq2_boxplots_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq2_boxplots_2.pdf used on input line
- 36.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
- [80
+ 39.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-] [81 <./figures/chapter4/rq2_god_boxplots_1.pdf> <./figures/chapter4/rq2_god_b
-oxplots_2.pdf>] [82 <./figures/chapter4/rq2_boxplots_1.pdf> <./figures/chapter4
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 42.
+
+[78
+
+] [79 <./figures/chapter4/rq2_god_boxplots_1.pdf> <./figures/chapter4/rq2_god_b
+oxplots_2.pdf>] [80 <./figures/chapter4/rq2_boxplots_1.pdf> <./figures/chapter4
 /rq2_boxplots_2.pdf>]
 Appendix C.
 
-<figures/chapter4/rq3_god_churn_logged_1.pdf, id=724, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_god_churn_logged_1.pdf, id=746, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_god_churn_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_churn_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_god_churn_logged_1.pdf used on in
-put line 46.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+put line 51.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_god_churn_logged_2.pdf, id=725, 701.62125pt x 623.32875pt
+<figures/chapter4/rq3_god_churn_logged_2.pdf, id=747, 701.62125pt x 623.32875pt
 >
 File: figures/chapter4/rq3_god_churn_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_churn_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_god_churn_logged_2.pdf used on in
-put line 47.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+put line 52.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_td_churn_logged_1.pdf, id=726, 701.62125pt x 623.32875pt>
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 55.
+
+
+<figures/chapter4/rq3_td_churn_logged_1.pdf, id=748, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_churn_logged_1.pdf Graphic file (type pdf)
 <use figures/chapter4/rq3_td_churn_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_churn_logged_1.pdf used on inp
-ut line 55.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+ut line 60.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_td_churn_logged_2.pdf, id=727, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_churn_logged_2.pdf, id=749, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_churn_logged_2.pdf Graphic file (type pdf)
 <use figures/chapter4/rq3_td_churn_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_churn_logged_2.pdf used on inp
-ut line 56.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+ut line 61.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_god_nd_logged_1.pdf, id=728, 701.62125pt x 623.32875pt>
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 64.
+
+<figures/chapter4/rq3_god_nd_logged_1.pdf, id=750, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nd_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nd_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_god_nd_logged_1.pdf used on input
- line 64.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+ line 69.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_god_nd_logged_2.pdf, id=729, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nd_logged_2.pdf, id=751, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nd_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nd_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_god_nd_logged_2.pdf used on input
- line 65.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+ line 70.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_td_nd_logged_1.pdf, id=730, 701.62125pt x 623.32875pt>
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 73.
+
+<figures/chapter4/rq3_td_nd_logged_1.pdf, id=752, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nd_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nd_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_nd_logged_1.pdf used on input 
-line 73.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+line 78.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_td_nd_logged_2.pdf, id=731, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nd_logged_2.pdf, id=753, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nd_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nd_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_nd_logged_2.pdf used on input 
-line 74.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+line 79.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_god_nf_logged_1.pdf, id=732, 701.62125pt x 623.32875pt>
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 82.
+
+<figures/chapter4/rq3_god_nf_logged_1.pdf, id=754, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nf_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nf_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_god_nf_logged_1.pdf used on input
- line 83.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+ line 88.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_god_nf_logged_2.pdf, id=733, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_god_nf_logged_2.pdf, id=755, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_god_nf_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_god_nf_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_god_nf_logged_2.pdf used on input
- line 84.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+ line 89.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_td_nf_logged_1.pdf, id=734, 701.62125pt x 623.32875pt>
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 92.
+
+<figures/chapter4/rq3_td_nf_logged_1.pdf, id=756, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nf_logged_1.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nf_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_nf_logged_1.pdf used on input 
-line 92.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+line 97.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_td_nf_logged_2.pdf, id=735, 701.62125pt x 623.32875pt>
+<figures/chapter4/rq3_td_nf_logged_2.pdf, id=757, 701.62125pt x 623.32875pt>
 File: figures/chapter4/rq3_td_nf_logged_2.pdf Graphic file (type pdf)
 
 <use figures/chapter4/rq3_td_nf_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_nf_logged_2.pdf used on input 
-line 93.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+line 98.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_god_entropy_logged_1.pdf, id=736, 701.62125pt x 623.32875
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 101.
+
+
+<figures/chapter4/rq3_god_entropy_logged_1.pdf, id=758, 701.62125pt x 623.32875
 pt>
 File: figures/chapter4/rq3_god_entropy_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_entropy_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_god_entropy_logged_1.pdf used on 
-input line 101.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+input line 106.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_god_entropy_logged_2.pdf, id=737, 701.62125pt x 623.32875
+<figures/chapter4/rq3_god_entropy_logged_2.pdf, id=759, 701.62125pt x 623.32875
 pt>
 File: figures/chapter4/rq3_god_entropy_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_god_entropy_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_god_entropy_logged_2.pdf used on 
-input line 102.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+input line 107.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_td_entropy_logged_1.pdf, id=738, 701.62125pt x 623.32875p
+
+LaTeX Warning: Float too large for page by 8.52017pt on input line 110.
+
+
+<figures/chapter4/rq3_td_entropy_logged_1.pdf, id=760, 701.62125pt x 623.32875p
 t>
 File: figures/chapter4/rq3_td_entropy_logged_1.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_td_entropy_logged_1.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_entropy_logged_1.pdf used on i
-nput line 110.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
+nput line 115.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-<figures/chapter4/rq3_td_entropy_logged_2.pdf, id=739, 701.62125pt x 623.32875p
+<figures/chapter4/rq3_td_entropy_logged_2.pdf, id=761, 701.62125pt x 623.32875p
 t>
 File: figures/chapter4/rq3_td_entropy_logged_2.pdf Graphic file (type pdf)
  <use figures/chapter4/rq3_td_entropy_logged_2.pdf>
 Package pdftex.def Info: figures/chapter4/rq3_td_entropy_logged_2.pdf used on i
-nput line 111.
-(pdftex.def)             Requested size: 284.52756pt x 252.77965pt.
-) (./cuthesis_masters.bbl
-[83
+nput line 116.
+(pdftex.def)             Requested size: 341.43306pt x 303.3413pt.
 
-] [84 <./figures/chapter4/rq3_god_churn_logged_1.pdf> <./figures/chapter4/rq3_g
-od_churn_logged_2.pdf>] [85 <./figures/chapter4/rq3_td_churn_logged_1.pdf> <./f
-igures/chapter4/rq3_td_churn_logged_2.pdf>] [86 <./figures/chapter4/rq3_god_nd_
-logged_1.pdf> <./figures/chapter4/rq3_god_nd_logged_2.pdf>] [87 <./figures/chap
-ter4/rq3_td_nd_logged_1.pdf> <./figures/chapter4/rq3_td_nd_logged_2.pdf>]
-[88 <./figures/chapter4/rq3_god_nf_logged_1.pdf> <./figures/chapter4/rq3_god_nf
-_logged_2.pdf>] [89 <./figures/chapter4/rq3_td_nf_logged_1.pdf> <./figures/chap
-ter4/rq3_td_nf_logged_2.pdf>] [90 <./figures/chapter4/rq3_god_entropy_logged_1.
-pdf> <./figures/chapter4/rq3_god_entropy_logged_2.pdf>] [91 <./figures/chapter4
-/rq3_td_entropy_logged_1.pdf> <./figures/chapter4/rq3_td_entropy_logged_2.pdf>]
-[92
 
-] [93] [94] [95] [96] [97]) [98] (./cuthesis_masters.aux) ) 
+LaTeX Warning: Float too large for page by 8.52017pt on input line 119.
+
+) (./cuthesis_masters.bbl [81
+
+] [82 <./figures/chapter4/rq3_god_churn_logged_1.pdf> <./figures/chapter4/rq3_g
+od_churn_logged_2.pdf>] [83 <./figures/chapter4/rq3_td_churn_logged_1.pdf> <./f
+igures/chapter4/rq3_td_churn_logged_2.pdf>]
+[84 <./figures/chapter4/rq3_god_nd_logged_1.pdf> <./figures/chapter4/rq3_god_nd
+_logged_2.pdf>] [85 <./figures/chapter4/rq3_td_nd_logged_1.pdf> <./figures/chap
+ter4/rq3_td_nd_logged_2.pdf>] [86 <./figures/chapter4/rq3_god_nf_logged_1.pdf> 
+<./figures/chapter4/rq3_god_nf_logged_2.pdf>] [87 <./figures/chapter4/rq3_td_nf
+_logged_1.pdf> <./figures/chapter4/rq3_td_nf_logged_2.pdf>] [88 <./figures/chap
+ter4/rq3_god_entropy_logged_1.pdf> <./figures/chapter4/rq3_god_entropy_logged_2
+.pdf>] [89 <./figures/chapter4/rq3_td_entropy_logged_1.pdf> <./figures/chapter4
+/rq3_td_entropy_logged_2.pdf>] [90
+
+]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+ [91] [92]
+Underfull \hbox (badness 1668) in paragraph at lines 160--164
+[]\OT1/cmr/m/n/12 R. Mari-nescu.  Mea-sure-ment and qual-ity in object-oriented
+ de-
+ []
+
+[93] [94] [95] [96])
+
+Package caption Warning: Unused \captionsetup[figure] on input line 314.
+See the caption package documentation for explanation.
+
+[97] (./cuthesis_masters.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6071 strings out of 493014
- 93364 string characters out of 6133351
- 189085 words of memory out of 5000000
- 9409 multiletter control sequences out of 15000+600000
+ 28789 strings out of 493014
+ 598151 string characters out of 6133351
+ 770166 words of memory out of 5000000
+ 31805 multiletter control sequences out of 15000+600000
  12800 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,2062b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cuthesis_masters.pdf (111 pages, 8605534 bytes).
+ 62i,11n,93p,10491b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on cuthesis_masters.pdf (110 pages, 8523348 bytes).
 PDF statistics:
- 944 PDF objects out of 1000 (max. 8388607)
- 650 compressed objects within 7 object streams
+ 972 PDF objects out of 1000 (max. 8388607)
+ 662 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

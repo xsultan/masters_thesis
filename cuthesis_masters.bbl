@@ -1,310 +1,327 @@
-\begin{thebibliography}{10}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DLDPO11}
 
-\bibitem{alves2014towards}
-N.~S. Alves, L.~F. Ribeiro, V.~Caires, T.~S. Mendes, and R.~O. Spinola.
+\bibitem[ARC{\etalchar{+}}14]{alves2014towards}
+Nicolli~SR Alves, Leilane~F Ribeiro, Vivyane Caires, Thiago~S Mendes, and
+  Rodrigo~O Spinola.
 \newblock Towards an ontology of terms on technical debt.
 \newblock In {\em Managing Technical Debt (MTD), 2014 Sixth International
   Workshop on}, pages 1--7. IEEE, 2014.
 
-\bibitem{bavota2016large}
-G.~Bavota and B.~Russo.
+\bibitem[BK95]{Bieman:1995:CRO:223427.211856}
+James~M. Bieman and Byung-Kyoo Kang.
+\newblock Cohesion and reuse in an object-oriented system.
+\newblock {\em SIGSOFT Softw. Eng. Notes}, 20(SI):259--262, August 1995.
+
+\bibitem[BR16]{bavota2016large}
+Gabriele Bavota and Barbara Russo.
 \newblock A large-scale empirical study on self-admitted technical debt.
 \newblock In {\em Proceedings of the 13th International Conference on Mining
   Software Repositories}, pages 315--326. ACM, 2016.
 
-\bibitem{Bieman:1995:CRO:223427.211856}
-J.~M. Bieman and B.-K. Kang.
-\newblock Cohesion and reuse in an object-oriented system.
-\newblock {\em SIGSOFT Softw. Eng. Notes}, 20(SI):259--262, Aug. 1995.
-
-\bibitem{Chidamber_Kemerer_94}
+\bibitem[CK94]{Chidamber_Kemerer_94}
 S.~R. Chidamber and C.~F. Kemerer.
 \newblock A metrics suite for object oriented design.
 \newblock {\em IEEE Transactions on Software Engineering}, 20(6):476--493, Jun
   1994.
 
-\bibitem{cunningham1993wycash}
-W.~Cunningham.
+\bibitem[Cun93]{cunningham1993wycash}
+Ward Cunningham.
 \newblock The wycash portfolio management system.
 \newblock {\em ACM SIGPLAN OOPS Messenger}, 4(2):29--30, 1993.
 
-\bibitem{cloc}
-A.~Danial.
+\bibitem[Dan]{cloc}
+Al~Danial.
 \newblock Cloc - count lines of code.
 
-\bibitem{DeLucia2011}
+\bibitem[DLDPO11]{DeLucia2011}
 A.~De~Lucia, M.~Di~Penta, and R.~Oliveto.
 \newblock Improving source code lexicon via traceability and information
   retrieval.
 \newblock {\em IEEE Transactions on Software Engineering}, 37(2):205--227,
   2011.
 
-\bibitem{eick2001decay}
-S.~G. Eick, T.~L. Graves, A.~F. Karr, J.~S. Marron, and A.~Mockus.
+\bibitem[EGK{\etalchar{+}}01]{eick2001decay}
+Stephen~G Eick, Todd~L Graves, Alan~F Karr, J~Steve Marron, and Audris Mockus.
 \newblock Does code decay? assessing the evidence from change management data.
 \newblock {\em Software Engineering, IEEE Transactions on}, 27(1):1--12, 2001.
 
-\bibitem{fluri2007code}
-B.~Fluri, M.~Wursch, and H.~C. Gall.
+\bibitem[FB99]{fowler1999refactoring}
+M.~Fowler and K.~Beck.
+\newblock {\em Refactoring: Improving the Design of Existing Code}.
+\newblock Component software series. Addison-Wesley, 1999.
+
+\bibitem[Fow07]{fowler}
+Martin Fowler.
+\newblock Technical debt quadrant, 2007.
+
+\bibitem[FWG07]{fluri2007code}
+Beat Fluri, Michael Wursch, and Harald~C Gall.
 \newblock Do code and comments co-evolve? on the relation between source code
   and comment changes.
 \newblock In {\em Reverse Engineering, 2007. WCRE 2007. 14th Working Conference
   on}, pages 70--79. IEEE, 2007.
 
-\bibitem{fontana2013code}
-F.~A. Fontana, M.~Zanoni, A.~Marino, and M.~V. Mantyla.
+\bibitem[FZMM13]{fontana2013code}
+Francesca~Arcelli Fontana, Marco Zanoni, Alessandro Marino, and Mika~V Mantyla.
 \newblock Code smell detection: Towards a machine learning-based approach.
 \newblock In {\em Software Maintenance (ICSM), 2013 29th IEEE International
   Conference on}, pages 396--399. IEEE, 2013.
 
-\bibitem{fowler}
-M.~Fowler.
-\newblock Technical debt quadrant, 2007.
-
-\bibitem{fowler1999refactoring}
-M.~Fowler and K.~Beck.
-\newblock {\em Refactoring: Improving the Design of Existing Code}.
-\newblock Component software series. Addison-Wesley, 1999.
-
-\bibitem{Cliff:2005}
-R.~J. Grissom and J.~J. Kim.
+\bibitem[GK05a]{Cliff:2005}
+Robert~J. Grissom and John~J. Kim.
 \newblock {\em Effect sizes for research: A broad practical approach}.
 \newblock Lawrence Earlbaum Associates, 2nd edition edition, 2005.
 
-\bibitem{GuoSGCTSSS11}
-Y.~Guo, C.~B. Seaman, R.~Gomes, A.~L.~O. Cavalcanti, G.~Tonin, F.~Q.~B.
-  da~Silva, A.~L.~M. Santos, and C.~de~Siebra.
+\bibitem[GK05b]{grissom2005effect}
+Robert~J Grissom and John~J Kim.
+\newblock {\em Effect sizes for research: A broad practical approach.}
+\newblock Lawrence Erlbaum Associates Publishers, 2005.
+
+\bibitem[GSG{\etalchar{+}}11]{GuoSGCTSSS11}
+Yuepu Guo, Carolyn~B. Seaman, Rebeka Gomes, Antonio L.~O. Cavalcanti, Graziela
+  Tonin, Fabio Q.~B. da~Silva, André Luis~M. Santos, and Clauirton de~Siebra.
 \newblock Tracking technical debt - an exploratory case study.
 \newblock In {\em ICSM}, pages 528--531, 2011.
 
-\bibitem{hassan2009predicting}
-A.~E. Hassan.
+\bibitem[Has09]{hassan2009predicting}
+Ahmed~E Hassan.
 \newblock Predicting faults using the complexity of code changes.
 \newblock In {\em Proceedings of the 31st International Conference on Software
   Engineering}, pages 78--88. IEEE Computer Society, 2009.
 
-\bibitem{Jiang-promise-2008}
-Y.~Jiang, B.~Cuki, T.~Menzies, and N.~Bartlow.
+\bibitem[JCMB08]{Jiang-promise-2008}
+Yue Jiang, Bojan Cuki, Tim Menzies, and Nick Bartlow.
 \newblock Comparing design and code metrics for software quality prediction.
 \newblock In {\em Proceedings of the 4th International Workshop on Predictor
   Models in Software Engineering}, PROMISE '08, pages 11--18, 2008.
 
-\bibitem{Kamei-tse-2013}
-Y.~Kamei, E.~Shihab, B.~Adams, A.~E. Hassan, A.~Mockus, A.~Sinha, and
-  N.~Ubayashi.
+\bibitem[KNO12]{Kruchten_td_IEEE}
+P.~Kruchten, R.~L. Nord, and I.~Ozkaya.
+\newblock Technical debt: From metaphor to theory and practice.
+\newblock {\em IEEE Software}, 29(6):18--21, Nov 2012.
+
+\bibitem[KNOF13]{kruchten2013technical}
+Philippe Kruchten, Robert~L Nord, Ipek Ozkaya, and Davide Falessi.
+\newblock Technical debt: towards a crisper definition report on the 4th
+  international workshop on managing technical debt.
+\newblock {\em ACM SIGSOFT Software Engineering Notes}, 38(5):51--54, 2013.
+
+\bibitem[KSA{\etalchar{+}}13]{Kamei-tse-2013}
+Yasutaka Kamei, Emad Shihab, Bram Adams, Ahmed~E. Hassan, Audris Mockus, Anand
+  Sinha, and Naoyasu Ubayashi.
 \newblock A large-scale empirical study of just-in-time quality assurance.
 \newblock {\em IEEE Trans. Software Eng.}, 39(6):757--773, 2013.
 
-\bibitem{Khamis:2010}
-N.~Khamis, R.~Witte, and J.~Rilling.
+\bibitem[KWR10]{Khamis:2010}
+Ninus Khamis, Ren{\'e} Witte, and Juergen Rilling.
 \newblock Automatic quality assessment of source code comments: The
   javadocminer.
 \newblock In {\em Proceedings of the 15th International Conference on
   Applications of Natural Language to Information Systems}, pages 68--79, 2010.
 
-\bibitem{Kim-tse-2008}
-S.~Kim, E.~J. Whitehead, Jr., and Y.~Zhang.
+\bibitem[KWZ08]{Kim-tse-2008}
+Sunghun Kim, E.~James Whitehead, Jr., and Yi~Zhang.
 \newblock Classifying software changes: Clean or buggy?
 \newblock {\em IEEE Trans. Softw. Eng.}, 34(2):181--196, 2008.
 
-\bibitem{Kruchten_td_IEEE}
-P.~Kruchten, R.~L. Nord, and I.~Ozkaya.
-\newblock Technical debt: From metaphor to theory and practice.
-\newblock {\em IEEE Software}, 29(6):18--21, Nov 2012.
-
-\bibitem{kruchten2013technical}
-P.~Kruchten, R.~L. Nord, I.~Ozkaya, and D.~Falessi.
-\newblock Technical debt: towards a crisper definition report on the 4th
-  international workshop on managing technical debt.
-\newblock {\em ACM SIGSOFT Software Engineering Notes}, 38(5):51--54, 2013.
-
-\bibitem{lanza2007object}
+\bibitem[LDM07]{lanza2007object}
 M.~Lanza, S.~Ducasse, and R.~Marinescu.
 \newblock {\em Object-Oriented Metrics in Practice: Using Software Metrics to
   Characterize, Evaluate, and Improve the Design of Object-Oriented Systems}.
 \newblock Springer Berlin Heidelberg, 2007.
 
-\bibitem{lawrie2006leveraged}
-D.~J. Lawrie, H.~Feild, and D.~Binkley.
+\bibitem[LFB06]{lawrie2006leveraged}
+Dawn~J Lawrie, Henry Feild, and David Binkley.
 \newblock Leveraged quality assessment using information retrieval techniques.
 \newblock In {\em Program Comprehension, 2006. ICPC 2006. 14th IEEE
   International Conference on}, pages 149--158. IEEE, 2006.
 
-\bibitem{lim2012balancing}
-E.~Lim, N.~Taksande, and C.~Seaman.
+\bibitem[LTS12]{lim2012balancing}
+Erin Lim, Nitin Taksande, and Carolyn Seaman.
 \newblock A balancing act: what software practitioners have to say about
   technical debt.
 \newblock {\em Software, IEEE}, 29(6):22--27, 2012.
 
-\bibitem{MTD15p9}
-E.~Maldonado and E.~Shihab.
-\newblock Detecting and quantifying different types of self-admitted technical
-  debt.
-\newblock In {\em Proc.\ MTD}, pages 9--15. IEEE, 2015.
-
-\bibitem{malik2008understanding}
-H.~Malik, I.~Chowdhury, H.-M. Tsou, Z.~M. Jiang, and A.~E. Hassan.
-\newblock Understanding the rationale for updating a functions comment.
-\newblock In {\em Software Maintenance, 2008. ICSM 2008. IEEE International
-  Conference on}, pages 167--176. IEEE, 2008.
-
-\bibitem{mann1947test}
-H.~B. Mann and D.~R. Whitney.
-\newblock On a test of whether one of two random variables is stochastically
-  larger than the other.
-\newblock {\em The annals of mathematical statistics}, pages 50--60, 1947.
-
-\bibitem{mantyla2003taxonomy}
-M.~Mantyla, J.~Vanhanen, and C.~Lassenius.
-\newblock A taxonomy and an initial empirical study of bad smells in code.
-\newblock In {\em Software Maintenance, 2003. ICSM 2003. Proceedings.
-  International Conference on}, pages 381--384. IEEE, 2003.
-
-\bibitem{mantyla2004bad}
-M.~V. Mantyla, J.~Vanhanen, and C.~Lassenius.
-\newblock Bad smells-humans as code critics.
-\newblock In {\em Software Maintenance, 2004. Proceedings. 20th IEEE
-  International Conference on}, pages 399--408. IEEE, 2004.
-
-\bibitem{Marinescu_ICETOOLS}
+\bibitem[Mar01]{Marinescu_ICETOOLS}
 R.~Marinescu.
 \newblock Detecting design flaws via metrics in object-oriented systems.
 \newblock In {\em Proceedings 39th International Conference and Exhibition on
   Technology of Object-Oriented Languages and Systems. TOOLS 39}, pages
   173--182, 2001.
 
-\bibitem{marinescu2004detection}
-R.~Marinescu.
+\bibitem[Mar04]{marinescu2004detection}
+Radu Marinescu.
 \newblock Detection strategies: Metrics-based rules for detecting design flaws.
 \newblock In {\em Software Maintenance, 2004. Proceedings. 20th IEEE
   International Conference on}, pages 350--359. IEEE, 2004.
 
-\bibitem{Marinescu_PhD}
+\bibitem[Mar05]{Marinescu_PhD}
 R.~Marinescu.
 \newblock Measurement and quality in object-oriented design.
 \newblock In {\em 21st IEEE International Conference on Software Maintenance
   (ICSM'05)}, pages 701--704, Sept 2005.
 
-\bibitem{Marinescu_IBM_JRD}
+\bibitem[Mar12]{Marinescu_IBM_JRD}
 R.~Marinescu.
 \newblock Assessing technical debt by identifying design flaws in software
   systems.
 \newblock {\em IBM Journal of Research and Development}, 56(5):9:1--9:13, Sept
   2012.
 
-\bibitem{McCabe_1976}
-T.~J. McCabe.
+\bibitem[McC76]{McCabe_1976}
+Thomas~J. McCabe.
 \newblock A complexity measure.
 \newblock In {\em Proceedings of the 2Nd International Conference on Software
   Engineering}, ICSE '76, pages 407--, Los Alamitos, CA, USA, 1976. IEEE
   Computer Society Press.
 
-\bibitem{mcconnell}
-S.~McConnell.
+\bibitem[McC07]{mcconnell}
+Steve McConnell.
 \newblock Technical debt, 2007.
 
-\bibitem{Moser-icse-2008}
-R.~Moser, W.~Pedrycz, and G.~Succi.
+\bibitem[MCT{\etalchar{+}}08]{malik2008understanding}
+Haroon Malik, Istehad Chowdhury, Hsiao-Ming Tsou, Zhen~Ming Jiang, and Ahmed~E
+  Hassan.
+\newblock Understanding the rationale for updating a functions comment.
+\newblock In {\em Software Maintenance, 2008. ICSM 2008. IEEE International
+  Conference on}, pages 167--176. IEEE, 2008.
+
+\bibitem[MPS08]{Moser-icse-2008}
+Raimund Moser, Witold Pedrycz, and Giancarlo Succi.
 \newblock A comparative analysis of the efficiency of change metrics and static
   code attributes for defect prediction.
 \newblock In {\em Proceedings of the 30th International Conference on Software
   Engineering}, ICSE '08, pages 181--190, 2008.
 
-\bibitem{Nagappan-icse-2005}
-N.~Nagappan and T.~Ball.
+\bibitem[MS15]{MTD15p9}
+ES~Maldonado and Emad Shihab.
+\newblock Detecting and quantifying different types of self-admitted technical
+  debt.
+\newblock In {\em Proc.\ MTD}, pages 9--15. IEEE, 2015.
+
+\bibitem[MST17]{Maldonado_TSE2017}
+Everton Maldonado, Emad Shihab, and Nikolaos Tsantalis.
+\newblock Using natural language processing to automatically detect
+  self-admitted technical debt.
+\newblock {\em IEEE Transactions on Software Engineering (TSE)}, page To
+  Appear, 2017.
+
+\bibitem[MVL03]{mantyla2003taxonomy}
+Mika Mantyla, Jari Vanhanen, and Casper Lassenius.
+\newblock A taxonomy and an initial empirical study of bad smells in code.
+\newblock In {\em Software Maintenance, 2003. ICSM 2003. Proceedings.
+  International Conference on}, pages 381--384. IEEE, 2003.
+
+\bibitem[MVL04]{mantyla2004bad}
+Mika~V Mantyla, Jari Vanhanen, and Casper Lassenius.
+\newblock Bad smells-humans as code critics.
+\newblock In {\em Software Maintenance, 2004. Proceedings. 20th IEEE
+  International Conference on}, pages 399--408. IEEE, 2004.
+
+\bibitem[MW47]{mann1947test}
+Henry~B Mann and Donald~R Whitney.
+\newblock On a test of whether one of two random variables is stochastically
+  larger than the other.
+\newblock {\em The annals of mathematical statistics}, pages 50--60, 1947.
+
+\bibitem[NB05]{Nagappan-icse-2005}
+Nachiappan Nagappan and Thomas Ball.
 \newblock Use of relative code churn measures to predict system defect density.
 \newblock In {\em Proceedings of the 27th International Conference on Software
   Engineering}, pages 284--292, 2005.
 
-\bibitem{ICSM_PotdarS14}
-A.~Potdar and E.~Shihab.
+\bibitem[PS14]{ICSM_PotdarS14}
+Aniket Potdar and Emad Shihab.
 \newblock An exploratory study on self-admitted technical debt.
 \newblock In {\em Software Maintenance and Evolution (ICSME), 2014 IEEE
   International Conference on}, pages 91--100. IEEE, 2014.
 
-\bibitem{Rahman-icse-2013}
-F.~Rahman and P.~Devanbu.
+\bibitem[RD13]{Rahman-icse-2013}
+Foyzur Rahman and Premkumar Devanbu.
 \newblock How, and why, process metrics are better.
 \newblock In {\em Proceedings of the 2013 International Conference on Software
   Engineering}, ICSE '13, pages 432--441, 2013.
 
-\bibitem{seaman2015technical}
-C.~Seaman, R.~L. Nord, P.~Kruchten, and I.~Ozkaya.
+\bibitem[SNKO15]{seaman2015technical}
+Carolyn Seaman, Robert~L Nord, Philippe Kruchten, and Ipek Ozkaya.
 \newblock Technical debt: Beyond definition to understanding report on the
   sixth international workshop on managing technical debt.
 \newblock {\em ACM SIGSOFT Software Engineering Notes}, 40(2):32--34, 2015.
 
-\bibitem{Sliwerski-fse-2005}
-J.~\'{S}liwerski, T.~Zimmermann, and A.~Zeller.
-\newblock When do changes induce fixes?
-\newblock {\em SIGSOFT Softw. Eng. Notes}, 30(4):1--5, May 2005.
-
-\bibitem{sliwerski-msr-2005}
-J.~{\'S}liwerski, T.~Zimmermann, and A.~Zeller.
-\newblock When do changes induce fixes?
-\newblock {\em ACM sigsoft software engineering notes}, 30(4):1--5, 2005.
-
-\bibitem{spinola2013investigating}
-R.~O. Sp{\'\i}nola, N.~Zazworka, A.~Vetr{\`o}, C.~Seaman, and F.~Shull.
-\newblock Investigating technical debt folklore: Shedding some light on
-  technical debt opinion.
-\newblock In {\em Proceedings of the 4th International Workshop on Managing
-  Technical Debt}, pages 1--7. IEEE Press, 2013.
-
-\bibitem{sterling2010managing}
-C.~Sterling.
-\newblock {\em Managing Software Debt: Building for Inevitable Change}.
-\newblock Pearson Education, 2010.
-
-\bibitem{Storey:2008}
-M.-A. Storey, J.~Ryall, R.~I. Bull, D.~Myers, and J.~Singer.
+\bibitem[SRB{\etalchar{+}}08]{Storey:2008}
+Margaret-Anne Storey, Jody Ryall, R.~Ian Bull, Del Myers, and Janice Singer.
 \newblock Todo or to bug: Exploring how task annotations play a role in the
   work practices of software developers.
 \newblock In {\em Proceedings of the 30th International Conference on Software
   Engineering}, pages 251--260, 2008.
 
-\bibitem{TakangGM96}
-A.~A. Takang, P.~A. Grubb, and R.~D. Macredie.
+\bibitem[Ste10]{sterling2010managing}
+C.~Sterling.
+\newblock {\em Managing Software Debt: Building for Inevitable Change}.
+\newblock Pearson Education, 2010.
+
+\bibitem[SZV{\etalchar{+}}13]{spinola2013investigating}
+Rodrigo~O Sp{\'\i}nola, Nico Zazworka, Antonio Vetr{\`o}, Carolyn Seaman, and
+  Forrest Shull.
+\newblock Investigating technical debt folklore: Shedding some light on
+  technical debt opinion.
+\newblock In {\em Proceedings of the 4th International Workshop on Managing
+  Technical Debt}, pages 1--7. IEEE Press, 2013.
+
+\bibitem[SZZ05a]{Sliwerski-fse-2005}
+Jacek \'{S}liwerski, Thomas Zimmermann, and Andreas Zeller.
+\newblock When do changes induce fixes?
+\newblock {\em SIGSOFT Softw. Eng. Notes}, 30(4):1--5, May 2005.
+
+\bibitem[{\'S}ZZ05b]{sliwerski-msr-2005}
+Jacek {\'S}liwerski, Thomas Zimmermann, and Andreas Zeller.
+\newblock When do changes induce fixes?
+\newblock {\em ACM sigsoft software engineering notes}, 30(4):1--5, 2005.
+
+\bibitem[TGM96]{TakangGM96}
+Armstrong~A. Takang, Penny~A. Grubb, and Robert~D. Macredie.
 \newblock The effects of comments and identifier names on program
   comprehensibility: an experimental investigation.
 \newblock {\em J. Prog. Lang.}, 4(3):143--167, 1996.
 
-\bibitem{tan07icomment}
-L.~Tan, D.~Yuan, G.~Krishna, and Y.~Zhou.
-\newblock /* i{C}omment: {B}ugs or bad comments? */.
-\newblock In {\em Proceedings of the 21st ACM Symposium on Operating Systems
-  Principles (SOSP07)}, October 2007.
-
-\bibitem{acomment}
-L.~Tan, Y.~Zhou, and Y.~Padioleau.
-\newblock {aComment}: {M}ining annotations from comments and code to detect
-  interrupt-related concurrency bugs.
-\newblock In {\em Proceedings of the 33rd International Conference on Software
-  Engineering (ICSE11)}, May 2011.
-
-\bibitem{tcomment}
-S.~H. Tan, D.~Marinov, L.~Tan, and G.~T. Leavens.
+\bibitem[TMTL12]{tcomment}
+Shin~Hwei Tan, Darko Marinov, Lin Tan, and Gary~T. Leavens.
 \newblock {@tComment}: {T}esting javadoc comments to detect comment-code
   inconsistencies.
 \newblock In {\em Proceedings of the 5th International Conference on Software
   Testing, Verification and Validation (ICST)}, April 2012.
 
-\bibitem{zazworka2011investigating}
-N.~Zazworka, M.~A. Shaw, F.~Shull, and C.~Seaman.
+\bibitem[TYKZ07]{tan07icomment}
+Lin Tan, Ding Yuan, Gopal Krishna, and Yuanyuan Zhou.
+\newblock /* i{C}omment: {B}ugs or bad comments? */.
+\newblock In {\em Proceedings of the 21st ACM Symposium on Operating Systems
+  Principles (SOSP07)}, October 2007.
+
+\bibitem[TZP11]{acomment}
+Lin Tan, Yuanyuan Zhou, and Yoann Padioleau.
+\newblock {aComment}: {M}ining annotations from comments and code to detect
+  interrupt-related concurrency bugs.
+\newblock In {\em Proceedings of the 33rd International Conference on Software
+  Engineering (ICSE11)}, May 2011.
+
+\bibitem[ZNZ08]{Zimmerman2008Springer}
+Thomas Zimmermann, Nachiappan Nagappan, and Andreas Zeller.
+\newblock {\em Predicting Bugs from History}, chapter Predicting Bugs from
+  History, pages 69--88.
+\newblock Springer, February 2008.
+
+\bibitem[ZSSS11]{zazworka2011investigating}
+Nico Zazworka, Michele~A Shaw, Forrest Shull, and Carolyn Seaman.
 \newblock Investigating the impact of design debt on software quality.
 \newblock In {\em Proceedings of the 2nd Workshop on Managing Technical Debt},
   pages 17--23. ACM, 2011.
 
-\bibitem{Zazworka:2013}
-N.~Zazworka, R.~O. Sp\'{\i}nola, A.~Vetro', F.~Shull, and C.~Seaman.
+\bibitem[ZSV{\etalchar{+}}13]{Zazworka:2013}
+Nico Zazworka, Rodrigo~O. Sp\'{\i}nola, Antonio Vetro', Forrest Shull, and
+  Carolyn Seaman.
 \newblock A case study on effectively identifying technical debt.
 \newblock In {\em Proceedings of the 17th International Conference on
   Evaluation and Assessment in Software Engineering}, pages 42--47, 2013.
-
-\bibitem{Zimmerman2008Springer}
-T.~Zimmermann, N.~Nagappan, and A.~Zeller.
-\newblock {\em Predicting Bugs from History}, chapter Predicting Bugs from
-  History, pages 69--88.
-\newblock Springer, February 2008.
 
 \end{thebibliography}
