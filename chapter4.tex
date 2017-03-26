@@ -3,13 +3,13 @@
 \label{chap4:sec:introduction}
 \setlength\parindent{24pt} 
 
-In the previous chapter, we studied the impact of \SATD on software quality and found that the presence of SATD leads to more difficult changes in the future. Supplementing these comment-based indicators with the metric-based indicators used in earlier work \todo{cite} (God Classes), we replicate the study conducted in chapter 3 on a larger scale in order to compare the impact of comment- and metric-based technical debt on quality. Of the foregoing studies that have covered how metric-based technical debt affects software quality, few have done so in sufficient depth. We remedy this on the one hand by integrating both comment- and metric-based approaches, as mentioned, and on the other by introducing a more granular analysis on the file and change levels. Empirically examining the impact of both approaches on software quality will provide researchers and practitioners with a more global understanding of technical debt, warn them of its future risks and raise awareness of the challenges it can pose.
+In the previous chapter, we studied the impact of \SATD on software quality and found that the presence of SATD leads to more difficult changes in the future. Supplementing these comment-based indicators with the metric-based indicators used in earlier work \cite{zazworka2011investigating} (God Classes), we replicate the study conducted in chapter 3 on a larger scale in order to compare the impact of comment- and metric-based technical debt on quality. Of the foregoing studies that have covered how metric-based technical debt affects software quality, few have done so in sufficient depth. We remedy this on the one hand by integrating both comment- and metric-based approaches, as mentioned, and on the other by introducing a more granular analysis on the file and change levels. Empirically examining the impact of both approaches on software quality will provide researchers and practitioners with a more global understanding of technical debt, warn them of its future risks and raise awareness of the challenges it can pose.
 
 Predictably, as technical debt has become a more popular strategy at developers' disposal, numerous advances have been made in detecting it, some metric-based and others comment-based. The former includes Marinescu's \cite{marinescu2004detection} methodology, which detects \textit{God Class} code smells according to sets of rules and thresholds defined on various object-oriented metrics. The latter, advocated by Potdar and Shihab's \cite{ICSM_PotdarS14} methodology in recent work, flags recurring source code comment patterns that correlate with incidence of \textit{self-admitted technical debt} (SATD). Moreover, the nature of the comments that developers leave has allowed occurrences of SATD to be sub-categorized and analyzed accordingly.
 
-Without access to research that spells out the disadvantages of technical debt from all angles, developers will be misinformed as to the costs and benefits of technical debt and unequipped to decide responsibly whether it should be assumed in a given scenario---not to mention lacking effective strategies for keeping it in check once assumed. Our work closes this gap as we study 40 open-source projects that bring into focus the empirical links between both \SATD and god classes and software quality. If our results are true for a larger number of projects, then they are more likely to generalize to others. 
+Without access to research that treats technical debt from all angles, developers will be misinformed as to the costs and benefits of technical debt and unequipped to decide responsibly whether it should be assumed in a given scenario---not to mention lacking effective strategies for keeping it in check once assumed. Our work closes this gap as we study 40 open-source projects that bring into focus the empirical links between both \SATD and god classes and software quality. If our results are true for a larger number of projects, then they are even more likely to generalize to others. 
 
-Our inquiry pursues: (i) whether god class and SATD-ridden files contribute more defects than files free of god classes and SATD, (ii) whether emerging defects can be traced to god and SATD changes, (iii) whether god- and SATD-related changes are associated with greater difficulty and (iv) to what extent the comment- and metric-based approaches identify the same instances of technical debt. As in the previous chapter, amount of churn, quantity of affected files and modified modules and change entropy all factor into the change difficulty calculations. In the end we observed that: (i) no straightforward correlation exists between incidence of SATD or god files and incidence of defects, (ii) more future defects surfaced after performing god and SATD changes than non-god and non-SATD changes and (iii) god and SATD changes are more difficult to perform than non-god and non-SATD changes. Preliminarily, (i)-(iii) concede that the downsides of god classes and \SATD are increases in future defect density and change difficulty. Yet the two approaches were found to reinforce each other in that (iv) between 11\% and 34\% of technical debt sources were identified by both the comment- and metric-based approaches.
+Our inquiry pursues: (i) whether god class and SATD files contribute more defects than files free of god classes and SATD, (ii) whether emerging defects can be traced to god and SATD changes, (iii) whether god- and SATD-related changes are associated with greater difficulty and (iv) to what extent the comment- and metric-based approaches identify the same instances of technical debt. As in the previous chapter, amount of churn, quantity of affected files and modified modules and change entropy all factor into the change difficulty calculations. In the end we observed that: (i) no straightforward correlation exists between incidence of SATD or god files and incidence of defects, (ii) more future defects surfaced after performing god and SATD changes than non-god and non-SATD changes and (iii) god and SATD changes are more difficult to perform than non-god and non-SATD changes. Preliminarily, (i)-(iii) concede that the downsides of god classes and \SATD are increases in future defect density and change difficulty. Yet the two approaches were found to reinforce each other in that (iv) between 11\% and 34\% of technical debt sources were identified by both the comment- and metric-based approaches.
 
 
 %\section{Related Work}
@@ -37,7 +37,7 @@ Our inquiry pursues: (i) whether god class and SATD-ridden files contribute more
 
 \section{Approach}
 \label{chap4:sec:approach}
-As we persevere in studying the interplay between \SATD and metric-based debt (god files) and software quality, the third must be made amenable to objective quantification \cite{Kamei-tse-2013,Kim-tse-2008,sliwerski-msr-2005}. The precedent in accomplishing this task has been to count the defects in SATD files and calculate the rate of future defect introduction among SATD changes, expressed as a percentage. Deferring to the technical debt metaphor and its concept of accruing ``interest" to be paid in the long run, we also measure software quality in terms of SATD change difficulty, which we calculate as stipulated earlier. With these metrics standardized, we entertain the research questions that follow:
+As we persevere in studying the interplay between \SATD and metric-based debt (God Classes) and software quality, the third must be made amenable to objective quantification \cite{Kamei-tse-2013,Kim-tse-2008,sliwerski-msr-2005}. The precedent in accomplishing this task has been to count the defects in SATD files and calculate the rate of future defect introduction among SATD changes, expressed as a percentage. Deferring to the technical debt metaphor and its concept of accruing ``interest" to be paid in the long run, we also measure software quality in terms of SATD change difficulty, which we calculate as stipulated earlier. With these metrics standardized, we entertain the research questions that follow:
 
 \begin{itemize}
 	\vspace{0.1cm}
@@ -50,7 +50,7 @@ As we persevere in studying the interplay between \SATD and metric-based debt (g
 	\item {\bf RQ4:} Is there an overlap between comment- and metric-based technical debt? 
 \end{itemize}
 
-We devised a suitable method of operation, visualized in Figure \ref{fig:CH4_Process_overview}, in order to guide our inquiry into these questions. We initiated the process by mining the source code repositories and pulling source code files on a project-by-project basis (steps 1-2). Afterwards the source code files were parsed and comments extracted (step 3). We then identify all instances of \SATD and count defects file-wide and isolate defect-inducing changes by means of the SZZ algorithm (steps 4-5).
+We devised a suitable methodology, visualized in Figure \ref{fig:CH4_Process_overview}, to guide our inquiry into these questions. We initiate the process by mining the source code repositories and pulling source code files on a project-by-project basis (steps 1-2). Afterwards the source code files are parsed and comments extracted (step 3). We then identify all instances of \SATD, count defects file-wide and isolate defect-inducing changes by means of the SZZ algorithm (steps 4-5).
 
 \begin{figure}[h]
 	\centering
@@ -62,7 +62,7 @@ We devised a suitable method of operation, visualized in Figure \ref{fig:CH4_Pro
 
 \subsection{Data Extraction}
 
-To generalize the scope of this study, we relied on certain criteria in selecting the 40 open-source software projects: (i) well-commented source code, (ii) varying numbers of LOC, (iii) different numbers of contributors, (iv) different development domains, (v) mature development history and (vi) issue tracking system capability. The first criterion is a prerequisite for Potdar and Shihab's SATD detection technique; the last is essential to accurately study the introduction of future defects.
+To generalize the scope of this study, we relied on certain criteria in selecting the 40 open-source software projects: (i) well-commented source code, (ii) varying numbers of lines of code (LOC), (iii) different numbers of contributors, (iv) different development domains, (v) mature development history and (vi) issue tracking system capability. The first criterion is a prerequisite for Potdar and Shihab's SATD detection technique; the last is essential to accurately study the introduction of future defects.
 
 Given the extent to which our approach to locating \SATD relies on source code comments, we downloaded the most recent versions of the relevant systems, filtered this input to generate source code and excluded all files lacking source code comments (\eg{} CSS, XML, JSON). As for comments suspected of indicating no SATD, e.g. license comments, commented source code, Javadoc comments, etc., four filtering heuristics were deployed to remove them from the results.
 
@@ -178,7 +178,7 @@ Comment type matters insofar as cumbersome comments stitched together from singl
 Commented source code does not indicate \SATD in our experience, but rather either code not used at all or code used exclusively for debugging. To eliminate this distractor, we use a regular expression to remove typical Java code structures, i.e., public, private, for, exception, etc.\par
 
 
-Most IDEs auto-generate comments when creating a method, constructor, try catch, etc. Due to the nature of the auto-generation of these comments, their SATD content is nonexistent. The majority of Javadoc comments also fail to mention SATD, and those that do are annotated with at least one task (i.e., ``TODO:", ``FIXME:", ``XXX:"). This criterion allows our heuristic to determine which Javadoc comments should be salvaged versus ignored, while no distinction is necessary for auto-generated comments. We designed a regular expression to apply the criterion by checking for task annotations before omitting the comment.\par
+Most IDEs auto-generate comments when creating a method, constructor, try catch, etc. Due to the nature of the auto-generation of these comments, there is no SATD content. The majority of Javadoc comments also fail to mention SATD, and those that do are annotated with at least one task (i.e., ``TODO:", ``FIXME:", ``XXX:"). This criterion allows our heuristic to determine which Javadoc comments should be salvaged versus ignored, while no distinction is necessary for auto-generated comments. We designed a regular expression to apply the criterion by checking for task annotations before omitting the comment.\par
 
 
 
@@ -198,7 +198,7 @@ We emulated Potdar and Shihab \cite{ICSM_PotdarS14} in identifying \SATD on the 
 
 
 \noindent\textbf{SATD changes:}
-At the change level, all the files touched by the same change are checked for evidence of \SATD. If any one of them is determined to be an SATD file, the whole change is classified as an SATD change. Alternatively, if none of the files touched by a change is an SATD file, the whole change falls into the non-SATD change category. In general, the more SATD files a system contains, the more likely it is to have a higher number of SATD changes. SATD comments are shown to account for less than 6.10\% and SATD files for somewhere between 1.37\% and 25.03\% of the respective totals for all systems in Table~\ref{table:projects_satd_god_percentage} and \ref{table:projects_satd_god_percentage2}, where each system's proportions are listed separately for comparison.
+At the change level, all the files touched by the same change are checked for evidence of \SATD. If any one of them is determined to be an SATD file, the whole change is classified as an SATD change. Alternatively, if none of the files touched by a change is an SATD file, the whole change falls into the non-SATD change category. In general, the more SATD files a system contains, the more likely it is to have a higher number of SATD changes. SATD comments are shown to account for less than 6.10\% and SATD files for somewhere between 1.37\% and 25.03\% of the respective totals for all systems in Tables~\ref{table:projects_satd_god_percentage} and \ref{table:projects_satd_god_percentage2}, where each system's percentages are listed separately for comparison.
 
 \begin{landscape}
 	
@@ -206,7 +206,7 @@ At the change level, all the files touched by the same change are checked for ev
 	\begin{table}[htbp]
 		\small
 		\centering
-		\caption{Percentage of SATD and god of the analyzed projects.}
+		\caption{Percentage of SATD and God of the analyzed projects.}
 		\begin{adjustbox}{width=1.0\textwidth}
 			
 			
@@ -252,7 +252,7 @@ At the change level, all the files touched by the same change are checked for ev
 	\begin{table}[htbp]
 		\small
 		\centering
-		\caption{Percentage of SATD and god of the analyzed projects.}
+		\caption{Percentage of SATD and God of the analyzed projects.}
 		\begin{adjustbox}{width=1.0\textwidth}
 			
 			
@@ -299,7 +299,7 @@ God classes are classes that combine trivial class workloads and generally avoid
 To perform our analysis, we need to identify god classes at the same two levels as \SATD: (i) the file level and (ii) the change level.
 
 \noindent\textbf{God files:} To identify god classes, we followed the methodology outlined by Marinescu \cite{marinescu2004detection}, who proposed an approach to specify and detect
-code smells, specifically \textit{god classes}. Their technique leverages metric-based heuristics that identify god classes according to sets of rules and thresholds defined on various object-oriented metrics. The formula provided below in Figure \ref{equation:1} operates on three metrics---namely, weighted method count (WMC), tight class cohesion (TCC) and access to foreign data (ATFD)---and generates one of two outputs. If the output is 1, then the class to which the formula is applied is a god class; if 0, it is a non-god class.
+code smells, specifically \textit{God Classes}. Their technique leverages metric-based heuristics that identify god classes according to sets of rules and thresholds defined on various object-oriented metrics. The formula provided below in Figure \ref{equation:1} operates on three metrics---namely, weighted method count (WMC), tight class cohesion (TCC) and access to foreign data (ATFD)---and generates one of two outputs. If the output is 1, then the class to which the formula is applied is a god class; if 0, it is a non-god class.
 
 \noindent\textbf{God changes:}
 To study the impact of god classes at the change level, we must first identify which classes are god classes and which are non-god classes. By analogy with the technique used to identify SATD and non-SATD changes, we consider any change containing at least one god file to be a god change and those containing no god files to be non-god changes. 
@@ -328,25 +328,20 @@ The equation in Figure~\ref{equation:1} above describes how we detect a god clas
 \subsection{Identifying Defects in God Files and God Changes}
 \label{ch4_bugs_td}
 
-According to Sliwersky \textit{et al.} \cite{sliwerski-msr-2005}, expressions denoting defect identifiers, e.g. ``\textit{fixed issue, bug ID, fix, defect, patch, crash, freeze, breaks, wrong, glitch, properly, proper}," ordinarily certify that an earlier mistake has been corrected when recorded in control system change logs. Other work has proposed comparable methodologies for tracking fault-inducing changes until repaired \cite{Kamei-tse-2013, Kim-tse-2008, sliwerski-msr-2005}. Next we pull each defect report from its corresponding issue tracking system, i.e., Bugzilla \footnote{https://www.bugzilla.org} or JIRA \footnote{https://www.atlassian.com/software/jira}, and comb for all pertinent details.
-
-
-Once the god files and god changes have been separated, we go about determining the number of file defects and identifying any defect-inducing changes in the same way foregoing research has ~\cite{Kamei-tse-2013, Kim-tse-2008, sliwerski-msr-2005}.
+According to Sliwersky \textit{et al.} \cite{sliwerski-msr-2005}, expressions denoting defect identifiers, e.g. ``\textit{fixed issue, bug ID, fix, defect, patch, crash, freeze, breaks, wrong, glitch, properly, proper}," ordinarily certify that an earlier mistake has been corrected when recorded in control system change logs. Other work has proposed comparable methodologies for tracking fault-inducing changes until repaired \cite{Kamei-tse-2013, Kim-tse-2008, sliwerski-msr-2005}. Next we pull each defect report from its corresponding issue tracking system, i.e., Bugzilla~\footnote{https://www.bugzilla.org} or JIRA~\footnote{https://www.atlassian.com/software/jira}, and comb for all pertinent details. Once the god files and god changes have been separated, we go about determining the number of file defects and identifying any defect-inducing changes in the same way foregoing research has ~\cite{Kamei-tse-2013, Kim-tse-2008, sliwerski-msr-2005}.
 
 \noindent\textbf{Defects in files:}
-A file defect count is a prerequisite to any defectiveness comparison between god and non-god files. With this in mind, we first view a file's history and extract all the changes that have touched it. The list this produces is then shortened as change log searches return only results consistent with keywords indicating corrective changes. \ref{ch4_bugs_td}
+A file defect count is a prerequisite to any defectiveness comparison between god and non-god files. With this in mind, we first view a file's history and extract all the changes that have touched it. The list this produces is then shortened as change log searches return only results consistent with keywords indicating corrective changes.
 Examples of these keywords can be found in subsection \ref{ch3_bugs}, along with the steps we take to rule out false positives.
 
 
 \noindent \textbf{Defect-inducing changes:}
-Along the same lines, we search the commit messages using regular expressions that convey defect fixes as a means of establishing whether a given change is corrective. The keywords used to identify corrective changes are given in subsection \ref{ch3_bugs}, where the procedure for identifying defect-inducing changes is enumerated.
+Along the same lines, we search the commit messages using regular expressions that convey defect fixes as a means of establishing whether a given change is corrective. The keywords used to identify corrective changes are given in subsection \ref{ch3_bugs}, where the procedure for identifying defect-inducing changes is presented.
 
 \section{Case Study Results}
 \label{chap4:sec:case_study_results}
 
-In this section, we present the empirical outcomes of our inquiry into the correlation between both self-admitted technical debt and god classes and software quality. Statistics and results are listed for all individual projects, accompanied by cross-project comparisons.
-
-Each of the three research questions is restated below, where we summarize its motivation, our approach in treating it and the conclusions we reached as a result.
+In this section, we present the empirical outcomes of our inquiry into the correlation between both self-admitted technical debt and god classes and software quality. Each of the three research questions is restated below, where we summarize its motivation, our approach in treating it and the conclusions we reached. Statistics and results are listed for all individual projects, accompanied by cross-project comparisons.
 
 %\sultan{stopped here}
 \subsection*{\chapterIVrqI}
@@ -354,25 +349,23 @@ Each of the three research questions is restated below, where we summarize its m
 
 \noindent{\textbf{Motivation:}}
 Reluctance to resort to code smells and technical debt suggests that most developers believe these adversely affect software quality, and what research has been conducted supports this conviction~\cite{zazworka2011investigating}. %\sultan{I'm not sure how to incorporate god classes in this case since there has been a lot of work that studied their impact on software quality}
- The potential drawbacks of SATD, meanwhile, have remained unexplored despite its research-affirmed ubiquity in software projects \cite{ICSM_PotdarS14}.
-
-Researchers and developers should be better equipped to negotiate the long-term risks of SATD and have empirical evidence in hand that identifies concrete issues its use can bring about and raises SATD literacy within the community at large.
+The potential drawbacks of SATD, meanwhile, have remained unexplored despite its research-affirmed ubiquity in software projects \cite{ICSM_PotdarS14}. Researchers and developers should be better equipped to negotiate the long-term risks of SATD and have empirical evidence in hand that identifies concrete issues its use can bring about, raising SATD literacy within the community at large.
 
 
 \noindent{\textbf{Approach:}}
-We compare god files versus non-god files and SATD files versus non-SATD files in terms of defect-proneness as we take up RQ1.
+We compare god files versus non-god files and SATD files versus non-SATD files in terms of defect-proneness.
 
 
 \noindent\textbf{Comparing god and non-god files:}
-The God Class Detection Equation proposed by \cite{marinescu2004detection} provides a way to identify god classes using object-oriented metrics. Files are fed to the equation and depending on the output are labeled either god or non-god files. We calculate the percentage of defect-fixing changes for each file in both categories based on $\frac{\left (\frac{\#~of~fixing~changes}{total~\#~changes} \right )}{SLOC}$. We normalize our data since files can have different amounts of changes and apply a test designed to measure whether the differences between the categories are statistically significant.
+The God Class Detection Equation proposed by \cite{marinescu2004detection} provides a way to identify god classes using object-oriented metrics. Files are fed to the equation and are labeled either god or non-god files, depending on the output. We calculate the percentage of defect-fixing changes for each file in both categories based on $\frac{\left (\frac{\#~of~fixing~changes}{total~\#~changes} \right )}{SLOC}$. We normalize our data since files can have different amounts of changes and apply a test designed to measure whether the differences between the categories are statistically significant.
 
-In case this distribution is non-normal, we use the non-parametric Mann-Whitney~\cite{mann1947test} test because, unlike the parametric alternatives, it is capable of handling such distributions. A \textit{p}-value such that $p <= 0.05$ indicates that the difference between the samples is statistically significant.
+In case this distribution is non-normal, we use the non-parametric Mann-Whitney~\cite{mann1947test} test because, unlike the parametric alternatives, it is capable of handling such distributions. A \textit{p}-value such that $p \le 0.05$ indicates that the difference between the samples is statistically significant.
 
 
 \noindent\textbf{Comparing SATD and non-SATD files:}
-We identify SATD files in accordance with the procedure detailed in section~\ref{td}, labeling files containing any number of SATD comments as SATD files and all others non-SATD files. These two file categories (SATD and non-SATD) undergo calculations yielding the percentage of defect-fixing changes, $\frac{\left (\frac{\#~of~fixing~changes}{total~\#~changes} \right )}{SLOC}$ , which, unlike pure counts, standardizes the metric across files hosting different numbers of changes. Afterwards the defect distribution is plotted for SATD and non-SATD files and a test is performed to uncover any statistical trends.
+We identify SATD files in accordance with the procedure detailed in section~\ref{ch3_td}, labeling files containing any number of SATD comments as SATD files and all others non-SATD files. These two file categories (SATD and non-SATD) undergo calculations yielding the percentage of defect-fixing changes, $\frac{\left (\frac{\#~of~fixing~changes}{total~\#~changes} \right )}{SLOC}$ , which, unlike pure counts, standardizes the metric across files hosting different numbers of changes. Afterwards the defect distribution is plotted for SATD and non-SATD files and a test is performed to uncover any statistical trends.
 
-We elected to conduct the non-parametric Mann-Whitney~\cite{mann1947test} test to decide whether a statistical difference exists between the SATD and non-SATD groups rather than a parametric substitute, which could not accommodate non-normal distribution (the distribution of our data turns out to be one such example). A statistically significant difference returns a \textit{p}-value of at most 0.05 ($p <= 0.05$).
+Again, we elected to conduct the non-parametric Mann-Whitney~\cite{mann1947test} test to decide whether a statistical difference exists between the SATD and non-SATD groups rather than a parametric substitute, which could not accommodate non-normal distribution. A statistically significant difference returns a \textit{p}-value of at most 0.05 ($p \le 0.05$).
 
 
 \noindent{\textbf{Results - Defects in god files vs. non-god files and SATD files vs. non-SATD files:}}
@@ -381,7 +374,7 @@ We elected to conduct the non-parametric Mann-Whitney~\cite{mann1947test} test t
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=140mm]{figures/chapter4/rq1_defectivness_distrubution_new}
-	\caption{Percentage of defect-fixing changes for SATD and NSATD files.}
+	\caption{Percentage of defect-fixing changes for (i) God vs. non-God files and (ii) SATD vs. NSATD files.}
 	\label{figure:ch4_number_of_fixing_changes_TD_vs_NTD}
 \end{figure}
 
@@ -392,9 +385,9 @@ The dotted lines represent the overall mean taking data from both groups into ac
 	Neither god files nor \SATD files trend with defects.
 \end{myboxii}
 
-Figure~\ref{figure:percentage_of_defects_god_vs_ngod} shows boxplots for the individual projects which compare the distribution of defectiveness rates for god and non-god files. We can see that the rate is higher for non-god files than god files within each project and that this difference is statistically significant such that $p < 0.05$, which holds when all project medians are consolidated in the distribution in Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD}.
+Figure~\ref{figure:percentage_of_defects_god_vs_ngod} (in the appendix) shows boxplots for the individual projects which compare the distribution of defectiveness rates for god and non-god files. We can see that the rate is higher for non-god files than god files within each project and that this difference is statistically significant such that $p < 0.05$, which holds when all project medians are consolidated in the distribution in Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD}.
 
-Although Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD} indicates that non-SATD files have a higher median defectiveness rate than SATD files, this trend is not borne out in every individual project. In Figure \ref{figure:percentage_of_defects_td_vs_ntd}, we observe that projects OpenNLP, Curator and Tiles constitute exceptions where the defectiveness rate is higher among SATD files.
+Although Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD} indicates that non-SATD files have a higher median defectiveness rate than SATD files, this trend is not borne out in every individual project. In Figure \ref{figure:percentage_of_defects_td_vs_ntd}, we observe that OpenNLP, Curator and Tiles constitute exceptions where the defectiveness rate is higher among SATD files.
 
 
 \subsection*{\chapterIVrqII}
@@ -404,17 +397,14 @@ Although Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD} indicates th
 Having looked at how god and non-god and SATD and non-SATD compare at the file level, we turn our sights to the question of whether god and SATD changes introduce future defects at a higher rate than non-god and non-SATD changes. Before, entire files were the objects of our analysis; now we require an analysis tailored to assess individual changes.
 
 
-To investigate how change category relates to introduction of future defects and the duration of the ``grace period" before god and SATD changes impact software quality, we should first determine to what extent god classes and SATD are predisposed to introduce future defects. If a god or SATD change causes a defect to be introduced in the change right after, then the delay is minimal and the impact on quality cannot be put off for very long. Our conjecture is that god and SATD changes introduce future defects at a higher rate than non-god and non-SATD changes.
+To investigate how change category relates to introduction of future defects and the duration of the ``grace period" before god and SATD changes impact software quality, we should first determine to what extent god classes and SATD are predisposed to introduce future defects. Our conjecture is that god and SATD changes introduce future defects at a higher rate than non-god and non-SATD changes. Further, we expect that if a god or SATD change causes a defect to be introduced in the change right after, then the delay is minimal and the impact on quality cannot be put off for very long.
 
 
 \noindent{\textbf{Approach:}}
-We identify defect-inducing changes utilizing the SZZ algorithm~\cite{sliwerski-msr-2005} and subdivide the results it generates into four categories depending on whether the changes contain god classes or not (god versus non-god defect-inducing changes) and whether they contain SATD or not (SATD versus non-SATD defect-inducing changes). We then apply the Mann-Whitney test \cite{mann1947test} to evaluate the statistical significance of the difference between god versus non-god defect-inducing changes and SATD versus non-SATD defect-inducing changes (from the same respective data sets). If the resulting \textit{p}-value is such that $p <= 0.05$, then the difference is not attributable to chance but rather statistically significant, and generalizes to other data sets.
+We identify defect-inducing changes utilizing the SZZ algorithm~\cite{sliwerski-msr-2005} and subdivide the results it generates into four categories depending on whether the changes contain god classes or not (god versus non-god defect-inducing changes) and whether they contain SATD or not (SATD versus non-SATD defect-inducing changes). We then apply the Mann-Whitney test \cite{mann1947test} to evaluate the statistical significance of the difference between god versus non-god defect-inducing changes and SATD versus non-SATD defect-inducing changes (from the same respective data sets). If the resulting \textit{p}-value is such that $p \le 0.05$, then the difference is not attributable to chance but rather statistically significant, and generalizes to other data sets.
 
 
-\noindent{\textbf{Results:}}
-
-
-God and non-god distributions of defect-inducing change rates in each project share a common \textit{y}-axis in the first plot in Figure \ref{figure:ch4_bug_inducing_changes}, as do SATD and non-SATD defect-inducing change rate distributions in the second. For each plot, the distribution median (i.e., the median of the individual project medians) is higher for the god and SATD changes than for the non-god and non-SATD changes). This indicates that god and SATD changes have more of a tendency to induce future defects than their non-god and non-SATD counterparts. We also find that the differences between god versus non-god and SATD versus non-SATD defect-inducing changes are both statistically significant with $p=2.2\ast 10^{-16}$.
+\noindent{\textbf{Results:} God and non-god distributions of defect-inducing change rates in each project share a common vertical axis in the first plot in Figure \ref{figure:ch4_bug_inducing_changes}, as do SATD and non-SATD defect-inducing change rate distributions in the second. We observe that the distribution median (i.e., the median of the individual project medians) is higher for the god and SATD changes than for the non-god and non-SATD changes. This indicates that god and SATD changes have more of a tendency to induce future defects than their non-god and non-SATD counterparts. We also find that the differences between god versus non-god and SATD versus non-SATD defect-inducing changes are both statistically significant with $p=2.2\ast 10^{-16}$.
 
 
 \begin{myboxii}[RQ2 - Interim Summary]
@@ -424,11 +414,11 @@ God and non-god distributions of defect-inducing change rates in each project sh
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=140mm]{figures/chapter4/rq2_new}
-	\caption{Percentage of defect-inducing changes for GOD vs. NGOD and SATD vs. NSATD.}
+	\caption{Percentage of defect-inducing changes for (i) God vs. non-God and (ii) SATD vs. NSATD.}
 	\label{figure:ch4_bug_inducing_changes}
 \end{figure}
 
-As a general rule, what is true of the distribution medians is also true of individual project medians, though exceptions exist---among them Apache Hbase, Apache Kafka, Apache Mina, Apache Shiro, Apache Oozie, Apache Flink, Apache Deltaspike and Apache curator in Figures \ref{figure:percentage_of_bug_inducing_god_vs_ngod} and \ref{figure:percentage_of_bug_inducing_td_vs_ntd}---in which the non-god and non-SATD changes appeared to induce more future defects than the god and SATD changes. These isolated counterexamples, while in conflict with the trend observed in Figure \ref{figure:ch4_bug_inducing_changes}, are compatible with our findings in chapter 3, where we report that SATD changes have less of a tendency to induce future defects.
+As a general rule, what is true of the distribution medians is also true of individual project medians, though exceptions exist---among them Apache Hbase, Apache Kafka, Apache Mina, Apache Shiro, Apache Oozie, Apache Flink, Apache Deltaspike and Apache curator in Figures \ref{figure:percentage_of_bug_inducing_god_vs_ngod} and \ref{figure:percentage_of_bug_inducing_td_vs_ntd}. In these projects, the non-god and non-SATD changes appeared to induce more future defects than the god and SATD changes. These isolated counterexamples, while in conflict with the trend observed in Figure \ref{figure:ch4_bug_inducing_changes}, are compatible with our findings in chapter 3, where we report that SATD changes have less of a tendency to induce future defects.
 
 \subsection*{\chapterIVrqIII}
 
@@ -436,7 +426,7 @@ As a general rule, what is true of the distribution medians is also true of indi
 Up to this point, we have been concentrating on the interplay between both god classes and SATD and defects lowering software quality. As we know from previous research \cite{marinescu2004detection}, god classes violate object-oriented design principles and have negative long-term implications for system maintainability. Likewise, if we recall the ramifications of the technical debt metaphor, we see that the short-term payoff should come at an increased cost later on in development. The deferred consequences of god classes and technical debt are measured in terms of increasing difficulty, which has yet to be fully examined after detecting god classes and introducing technical debt. Verifying that god classes and SATD do increase change difficulty will better portray their implications for future changes and software projects and in the end enable developers to see the full picture when deciding whether or not to refactor god classes or introduce \SATD. \\
 
 \noindent{\textbf{Approach:}}
-We recognize god, non-god, SATD and non-SATD change categories and compare the difficulty of effecting changes from each category. We reuse the four metrics from chapter 3 to determine change difficulty: churn (i.e., the total number of modified lines), the number of modified directories, the number of modified files and the entropy of the change. For a slightly different purpose, Eick \emph{et al.}~\cite{eick2001decay} chose the first three to measure decay; Hassan~\cite{hassan2009predicting} utilized the last metric to measure change complexity. As in RQ2, we use the Mann-Whitney test \cite{mann1947test} to determine whether the differences between god and non-god changes and between SATD and non-SATD changes are statistically significant, with respect to the complexity metric categories. 
+We recognize god, non-god, SATD and non-SATD change categories and compare the difficulty of executing changes from each category. We reuse the four metrics from chapter 3 to determine change difficulty: churn, the number of modified directories, the number of modified files and the entropy of the change. For a slightly different purpose, Eick \emph{et al.}~\cite{eick2001decay} chose the first three to measure decay; Hassan~\cite{hassan2009predicting} utilized the last metric to measure change complexity. As in RQ2, we use the Mann-Whitney test \cite{mann1947test} to determine whether the differences between god and non-god changes and between SATD and non-SATD changes are statistically significant, this time with respect to the complexity metric categories. 
 
 
 %To measure the change churn, number of files and number of directories, we extract these metrics from the change log. To calculate churn for a whole change, we add up the number of lines inserted and deleted in each individual file touched by the change. To count the files and directories touched by a change, we extract the list of files from the change log. We consider a directory to be \textbf{ND} and a file to be \textbf{NF} when measuring the number of modified directories and files. Thus, if a change involves the modification of a file having the path ``src/os/unix/ngx\_alloc.h," then the directory is \textit{src/os/unix} and the file is \textit{ngx\_alloc.h}.\\
@@ -446,7 +436,7 @@ We recognize god, non-god, SATD and non-SATD change categories and compare the d
 \begin{figure}[!hp]
 	\centering
 	\includegraphics[width=120mm]{figures/chapter4/rq3_churn}
-	\caption{Total number of lines modified per change for (i) God vs. non-God and (ii) SATD vs. NSATD).}
+	\caption{Total number of lines modified per change for (i) God vs. non-God and (ii) SATD vs. NSATD.}
 	\label{figure:ch4_tlcpc}
 \end{figure}
 
@@ -455,14 +445,14 @@ We recognize god, non-god, SATD and non-SATD change categories and compare the d
 \begin{figure}[!hp]
 	\centering
 	\includegraphics[width=120mm]{figures/chapter4/rq3_nf}
-	\caption{Total number of files modified per change for (i) God vs. non-God and (ii) SATD vs. NSATD).}
+	\caption{Total number of files modified per change for (i) God vs. non-God and (ii) SATD vs. NSATD.}
 	\label{figure:ch4_tfcpc}
 \end{figure}
 
 \begin{figure}[!hp]
 	\centering
 	\includegraphics[width=120mm]{figures/chapter4/rq3_nd}
-	\caption{Total number of modified directories per (i) God and non-God changes and (ii) SATD and NSATD changes.}
+	\caption{Total number of modified directories per change for (i) God vs. non-God and (ii) SATD vs. NSATD.}
 	\label{figure:ch4_number_of_directories}
 \end{figure}
 
@@ -471,7 +461,7 @@ We recognize god, non-god, SATD and non-SATD change categories and compare the d
 \begin{figure}[!hp]
 	\centering
 	\includegraphics[width=120mm]{figures/chapter4/rq3_entropy}
-	\caption{Distribution of the change across (i) God and non-God files and (ii) SATD and NSATD files.}
+	\caption{Distribution of the change across files for (i) God vs. non-God and (ii) SATD vs. NSATD.}
 	\label{figure:ch4_mtdocatdf}
 \end{figure}
 
@@ -482,17 +472,13 @@ We recognize god, non-god, SATD and non-SATD change categories and compare the d
 %The maximum entropy $log_{2}n$ has normalized the entropy formula presented above following Hassan~\cite{hassan2009predicting} so that entropy can be compared for changes touching different numbers of files. The higher the normalized entropy, the more difficult it is to make the change.\\
 
 \noindent{\textbf{Results:}}
-
-
-In each one of Figures~\ref{figure:ch4_tlcpc},~\ref{figure:ch4_tfcpc},~\ref{figure:ch4_number_of_directories} and~\ref{figure:ch4_mtdocatdf}, a distribution is compiled for god and non-god and SATD and non-SATD changes by plotting the median values obtained from a different difficulty measure for each project. Juxtaposition of the \textit{distribution medians} demonstrates that regardless of the metric employed to quantify change difficulty (i.e., number of modified files, number of directories, amount of churn or entropy), god and SATD changes are consistently more difficult to perform than non-god and non-SATD changes. Moreover, the Mann-Whitney test \cite{mann1947test} yielded $p=2.2\ast 10^{-16}$, indicating that the differences are statistically significant.\\
+In each one of Figures~\ref{figure:ch4_tlcpc},~\ref{figure:ch4_tfcpc},~\ref{figure:ch4_number_of_directories} and~\ref{figure:ch4_mtdocatdf}, a distribution is compiled for god and non-god and SATD and non-SATD changes by plotting the median values obtained from a different difficulty measure for each project. Juxtaposition of the \textit{distribution medians} demonstrates that regardless of the metric employed to quantify change difficulty, god and SATD changes are consistently more difficult to perform than non-god and non-SATD changes. Moreover, the Mann-Whitney test \cite{mann1947test} yields $p=2.2\ast 10^{-16}$, indicating that the differences are statistically significant.\\
 
 \begin{myboxii}[RQ3 - Interim Summary]
 	God changes and SATD changes are more difficult to perform than non-god and non-SATD changes.
 \end{myboxii}
 
-Upon inspection of the boxplots in Figures~\ref{figure:total_number_of_lines_changed_god_vs_ngod},~\ref{figure:total_number_of_lines_changed_td_vs_ntd},~\ref{figure:total_nd_changed_god_vs_ngod},~\ref{figure:total_nd_changed_td_vs_ntd},~\ref{figure:total_files_god_vs_ngod},~\ref{figure:total_files_td_vs_ntd},~\ref{figure:total_entropy_god_vs_ngod} and~\ref{figure:total_entropy_td_vs_ntd} (in appendix), we find that the distribution median and distribution mean inequalities remain unchanged for all projects for all difficulty measures except for OpenNLP for number of directories, where non-god and non-SATD change medians are still not greater than those of god and SATD changes but about equal.
-
-In summary, effecting god and SATD changes is more difficult than effecting non-god and non-SATD changes by all difficulty measures (i.e., number of modified files, number of directories, amount of churn and entropy).
+Upon inspection of the boxplots in Figures~\ref{figure:total_number_of_lines_changed_god_vs_ngod},~\ref{figure:total_number_of_lines_changed_td_vs_ntd},~\ref{figure:total_nd_changed_god_vs_ngod},~\ref{figure:total_nd_changed_td_vs_ntd},~\ref{figure:total_files_god_vs_ngod},~\ref{figure:total_files_td_vs_ntd},~\ref{figure:total_entropy_god_vs_ngod} and~\ref{figure:total_entropy_td_vs_ntd} (in appendix), we find that the distribution median and distribution mean inequalities remain unchanged for all projects for all difficulty measures except for number of directories in OpenNLP, where non-god and non-SATD change medians are still not greater than those of god and SATD changes, but about equal. In summary, then, performing god and SATD changes is more difficult than performing non-god and non-SATD changes by all difficulty measures.
 
 
 \subsection*{\chapterIVrqIV}
@@ -505,7 +491,7 @@ Thus far, we have compared the impact of technical debt identified by comment- a
 
 
 \noindent{\textbf{Approach:}}
-To address RQ4, we take the list of \SATD files generated by the comment-based approach and the list of god files generated by the metric-based approach and isolate the files that made both lists. We count how many of these files meet the criteria for both approaches and then divide by the total number of files in both lists. The result represents the share of comment-based technical debt that complements metric-based technical debt (overlap), expressed as a percentage.
+We take the list of \SATD files generated by the comment-based approach and the list of god files generated by the metric-based approach and isolate the files that made both lists. We count how many of these files meet the criteria for both approaches and then divide by the total number of files in both lists. The result represents the share of comment-based technical debt that complements metric-based technical debt (overlap), expressed as a percentage.
 
 
 \noindent{\textbf{Results:}}
@@ -562,10 +548,9 @@ To address RQ4, we take the list of \SATD files generated by the comment-based a
 		\textbf{Apache Kylin}      &    22.54     \\ \hline
 		\textbf{Apache Flink}      &    15.37     \\ \hline
 	\end{tabular}
-	\caption{Percentage of overlap between god and SATD files of the analyzed projects.}
+	\caption{Percentage of overlap between God and SATD files of the analyzed projects.}
 	\label{ch4_amount_of_overlap}
 \end{table}
-
 Table~\ref{ch4_amount_of_overlap} displays the percentage overlap by project. We see that the values range from 11\% to 34\%. Our findings confirm that the comment-based approach, which uses source code comment patterns to detect technical debt, complements the metric-based approach, which relies on thresholds of object-oriented metrics. In other work, Moldonado \textit{et al.} \cite{Maldonado_TSE2017} studied the overlap between \SATD and several types of code smells extracted by a static analysis tool for 10 open-source projects. For \SATD and god classes specifically, they found an average overlap of 44.2\%, which, though higher than the overlap we found, is based on a smaller sample size. Despite considerable overlap, each of the comment- and metric-based approaches identifies some additional sources of technical debt that the other fails to detect.
 
 \begin{myboxii}[RQ4 - Interim Summary]
