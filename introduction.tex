@@ -1,9 +1,10 @@
 % -*- root: cuthesis_masters.tex -*-  
 
 % What TD is
+
 Software companies and organizations have a common goal when developing software projects---to deliver high-quality, useful software in a timely manner. However, in most practical settings developers and development companies are saddled with deadlines, urging them to release earlier than the ideal date in terms of product quality. Such situations are all too common and in many cases force developers to take shortcuts \cite{kruchten2013technical} \cite{seaman2015technical}. Recently, the term \emph{technical debt} was coined to represent the phenomenon of ``doing something that is beneficial in the short term but will incur a cost later on''~\cite{cunningham1993wycash}. Prior work has shown that there are many different reasons why practitioners assume technical debt. These include: a rush to deliver a software product given a tight schedule, deadlines to incorporate with a partner product before release, time-to-market pressure, as well as incentives to satisfy customer demands in a time-sensitive industry~\cite{lim2012balancing}.
 
-Studies over the years have proposed different approaches to measure technical debt. Zazworka \textit{et al.} \cite{zazworka2011investigating}, for instance, recommend combining automated technical debt detection tools with manual detection strategies. For his part, Marinescu \cite{marinescu2004detection} has proposed a technique to detect code smells, specifically god classes, based on sets of thresholds defined on various object-oriented metrics.
+\revision Studies over the years have proposed different approaches to measure technical debt. Zazworka \textit{et al.} \cite{zazworka2011investigating}, for instance, recommend combining automated technical debt detection tools with manual detection strategies. For his part, Marinescu \cite{marinescu2004detection} has proposed a technique to detect code smells, specifically god classes, based on sets of thresholds defined on various object-oriented metrics.
 
 % People studied different aspects of TD
 More recently, a study by Potdar and Shihab \cite{ICSM_PotdarS14} introduced a new way to identify technical debt through source code comments, referred to as self-admitted technical debt (SATD). SATD is technical debt that developers themselves report through source code comments. Prior work \cite{MTD15p9} has demonstrated that accrual of SATD is commonplace in software projects, where implementing comment-based approaches can identify different types of technical debt (e.g. design, defect, and requirement debt).\par
@@ -16,7 +17,7 @@ Therefore, in chapter 3 of this thesis, we empirically investigate the relations
 Having studied the impact of comment-based technical debt on software quality, we now expand our study to include another measure of technical debt (metric-based technical debt). Such a study is important for providing researchers and practitioners with different observations of technical debt; comparing the new approach to the traditional approach on their impact on software quality and advancing the state of the art in understanding and mitigating technical debt.\par
 
 
-Therefore, in chapter 4 of this thesis, we apply the comment- and metric-based approaches to 40 open-source systems in order to compare: (i) the defects of god and SATD files versus non-god and non-SATD files, (ii) the future defect introduction of god and SATD changes versus non-god and non-SATD changes and (iii) the difficulty of god and SATD changes versus non-god and non-SATD changes. In addition, we measure (iv) the overlap between metric- and comment-based technical debt files.
+\revision Therefore, in chapter 4 of this thesis, we apply the comment- and metric-based approaches to 40 open-source systems in order to compare: (i) the defects of god and SATD files versus non-god and non-SATD files, (ii) the future defect introduction of god and SATD changes versus non-god and non-SATD changes and (iii) the difficulty of god and SATD changes versus non-god and non-SATD changes. In addition, we measure (iv) the overlap between metric- and comment-based technical debt files.
 
 
 
@@ -24,7 +25,7 @@ Therefore, in chapter 4 of this thesis, we apply the comment- and metric-based a
 \section{Research Hypothesis}
 Prior research has led us to the formation of our research hypothesis. We believe that:
 
-\conclusionbox{Though the impact of metric-based technical debt, identified by static analysis tools, has been studied extensively, little research has been done to determine the impact of comment-based technical debt (\SATD) on software quality.  We hypothesize that comment-based technical debt impacts software quality negatively and complements metric-based technical debt. Since metric-based identification of technical debt requires expensive and in-depth analysis, we believe that it would be worthwhile to confirm sources of technical debt via a comment-based approach in order to minimize metric-based false positives.}
+\conclusionbox{\revision Though the impact of metric-based technical debt, identified by static analysis tools, has been studied extensively, little research has been done to determine the impact of comment-based technical debt (\SATD) on software quality.  We hypothesize that comment-based technical debt impacts software quality negatively and complements metric-based technical debt. Since metric-based identification of technical debt requires expensive and in-depth analysis, we believe that it would be worthwhile to confirm sources of technical debt via a comment-based approach in order to minimize metric-based false positives.}
  
 \section{Thesis Overview}
 
@@ -37,8 +38,8 @@ Prior research has led us to the formation of our research hypothesis. We believ
 \section{Thesis Contributions}
 The major contributions of this thesis are as follows:
 \begin{itemize}
-	\item A comprehensive review of the state of the art in the technical debt field, noting empirical gaps in the theory that enable interested researchers to focus on the main challenges.
-	\item Enhancing knowledge of the technical debt phenomenon by presenting a large-scale empirical study on comment- and metric-based approaches.
-	\item Preventing uninformed assumption of technical debt by exposing the risks associated with the practice.
+	\item \revision A comprehensive review of the state of the art in the technical debt field, noting empirical gaps in the theory that enable interested researchers to focus on the main challenges.
+	\item \revision Enhancing knowledge of the technical debt phenomenon by presenting a large-scale empirical study on comment- and metric-based approaches.
+	\item \revision Preventing uninformed assumption of technical debt by exposing the risks associated with the practice.
 
 \end{itemize}
