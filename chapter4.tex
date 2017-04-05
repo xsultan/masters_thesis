@@ -74,7 +74,7 @@ Tables \ref{table:ch4_projects_statistics} and \ref{table:ch4_projects_statistic
 \begin{table}[htbp]
 	\small
 	\centering
-	\caption{Characteristics of the studied projects.}
+	\caption{Characteristics of the studied projects (part 1).}
 	\begin{adjustbox}{width=1.3\textwidth}
 
 
@@ -119,7 +119,7 @@ Tables \ref{table:ch4_projects_statistics} and \ref{table:ch4_projects_statistic
 	\begin{table}[htbp]
 		\small
 		\centering
-		\caption{Characteristics of the studied projects.}
+		\caption{Characteristics of the studied projects (part 2).}
 		\begin{adjustbox}{width=1.3\textwidth}
 			
 			
@@ -206,7 +206,7 @@ At the change level, all the files touched by the same change are checked for ev
 	\begin{table}[htbp]
 		\small
 		\centering
-		\caption{Percentage of SATD and God of the analyzed projects.}
+		\caption{Percentage of SATD and God of the analyzed projects (part 1).}
 		\begin{adjustbox}{width=1.0\textwidth}
 			
 			
@@ -252,7 +252,7 @@ At the change level, all the files touched by the same change are checked for ev
 	\begin{table}[htbp]
 		\small
 		\centering
-		\caption{Percentage of SATD and God of the analyzed projects.}
+		\caption{Percentage of SATD and God of the analyzed projects  (part 2).}
 		\begin{adjustbox}{width=1.0\textwidth}
 			
 			
@@ -385,7 +385,7 @@ The dotted lines represent the overall mean taking data from both groups into ac
 	Neither god files nor \SATD files trend with defects.
 \end{myboxii}
 
-Figure~\ref{figure:percentage_of_defects_god_vs_ngod} (in the appendix) shows boxplots for the individual projects which compare the distribution of defectiveness rates for god and non-god files. We can see that the rate is higher for non-god files than god files within each project and that this difference is statistically significant \revision such that $p < 0.05$, which holds when all project medians are consolidated in the distribution in Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD}.
+Figure~\ref{figure:percentage_of_defects_god_vs_ngod} (in the appendix) shows boxplots for the individual projects which compare the distribution of defectiveness rates for god and non-god files. We can see that the rate is higher for non-god files than god files within each project and that this difference is statistically significant \revision such that $p \le 0.05$, which holds when all project medians are consolidated in the distribution in Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD}.
 
 Although Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD} indicates that non-SATD files have a higher median defectiveness rate than SATD files, this trend is not borne out in every individual project. In Figure \ref{figure:percentage_of_defects_td_vs_ntd}, we observe that OpenNLP, Curator and Tiles constitute exceptions where the defectiveness rate is higher among SATD files.
 
@@ -404,7 +404,7 @@ To investigate how change category relates to introduction of future defects and
 We identify defect-inducing changes utilizing the SZZ algorithm~\cite{sliwerski-msr-2005} and subdivide the results it generates into four categories depending on whether the changes contain god classes or not (god versus non-god defect-inducing changes) and whether they contain SATD or not (SATD versus non-SATD defect-inducing changes). \revision We then apply the Mann-Whitney test \cite{mann1947test} to evaluate the statistical significance of the difference between god versus non-god defect-inducing changes and SATD versus non-SATD defect-inducing changes (from the same respective data sets). If the resulting \textit{p}-value is such that $p \le 0.05$, then the difference is not attributable to chance but rather statistically significant, and generalizes to other data sets.
 
 
-\noindent{\textbf{Results:} God and non-god distributions of defect-inducing change rates in each project share a common vertical axis in the first plot in Figure \ref{figure:ch4_bug_inducing_changes}, as do SATD and non-SATD defect-inducing change rate distributions in the second. We observe that the distribution median (i.e., the median of the individual project medians) is higher for the god and SATD changes than for the non-god and non-SATD changes. This indicates that god and SATD changes have more of a tendency to induce future defects than their non-god and non-SATD counterparts. \revision We also find that the differences between god versus non-god and SATD versus non-SATD defect-inducing changes are both statistically significant with $p=2.2\ast 10^{-16}$.
+\noindent{\textbf{Results:} God and non-god distributions of defect-inducing change rates in each project share a common vertical axis in the first plot in Figure \ref{figure:ch4_bug_inducing_changes}, as do SATD and non-SATD defect-inducing change rate distributions in the second. We observe that the distribution median (i.e., the median of the individual project medians) is higher for the god and SATD changes than for the non-god and non-SATD changes. This indicates that god and SATD changes have more of a tendency to induce future defects than their non-god and non-SATD counterparts. \revision We also find that the differences between god versus non-god and SATD versus non-SATD defect-inducing changes are both statistically significant with $p \le 0.05$.
 
 
 \begin{myboxii}[RQ2 - Interim Summary]
@@ -426,7 +426,7 @@ As a general rule, what is true of the distribution medians is also true of indi
 Up to this point, we have been concentrating on the interplay between both god classes and SATD and defects lowering software quality. As we know from previous research \cite{marinescu2004detection}, god classes violate object-oriented design principles and have negative long-term implications for system maintainability. Likewise, if we recall the ramifications of the technical debt metaphor, we see that the short-term payoff should come at an increased cost later on in development. The deferred consequences of god classes and technical debt are measured in terms of increasing difficulty, which has yet to be fully examined after detecting god classes and introducing technical debt. Verifying that god classes and SATD do increase change difficulty will better portray their implications for future changes and software projects and in the end enable developers to see the full picture when deciding whether or not to refactor god classes or introduce \SATD. \\
 
 \noindent{\textbf{Approach:}}
-We recognize god, non-god, SATD and non-SATD change categories and compare the difficulty of executing changes from each category. We reuse the four metrics from chapter 3 to determine change difficulty: churn, the number of modified directories, the number of modified files and the entropy of the change. For a slightly different purpose, Eick \emph{et al.}~\cite{eick2001decay} chose the first three to measure decay; Hassan~\cite{hassan2009predicting} utilized the last metric to measure change complexity. As in RQ2, we use the Mann-Whitney test \cite{mann1947test} to determine whether the differences between god and non-god changes and between SATD and non-SATD changes are statistically significant, this time with respect to the complexity metric categories. 
+We recognize god, non-god, SATD and non-SATD change categories and compare the difficulty of executing changes from each category. We reuse the four metrics from chapter 3 to determine change difficulty: churn, the number of modified directories, the number of modified files and the entropy of the change. For a slightly different purpose, Eick \emph{et al.}~\cite{eick2001decay} chose the first three to measure decay; Hassan~\cite{hassan2009predicting} utilized the last metric to measure change complexity. As in RQ2, we use the Mann-Whitney test \cite{mann1947test} to determine whether the differences between god and non-god changes and between SATD and non-SATD changes are statistically significant and measure the effect size using Cliff's delta \cite{Cliff:2005}, this time with respect to the complexity metric categories. 
 
 
 %To measure the change churn, number of files and number of directories, we extract these metrics from the change log. To calculate churn for a whole change, we add up the number of lines inserted and deleted in each individual file touched by the change. To count the files and directories touched by a change, we extract the list of files from the change log. We consider a directory to be \textbf{ND} and a file to be \textbf{NF} when measuring the number of modified directories and files. Thus, if a change involves the modification of a file having the path ``src/os/unix/ngx\_alloc.h," then the directory is \textit{src/os/unix} and the file is \textit{ngx\_alloc.h}.\\
@@ -472,7 +472,173 @@ We recognize god, non-god, SATD and non-SATD change categories and compare the d
 %The maximum entropy $log_{2}n$ has normalized the entropy formula presented above following Hassan~\cite{hassan2009predicting} so that entropy can be compared for changes touching different numbers of files. The higher the normalized entropy, the more difficult it is to make the change.\\
 
 \noindent{\textbf{Results:}}
-In each one of Figures~\ref{figure:ch4_tlcpc},~\ref{figure:ch4_tfcpc},~\ref{figure:ch4_number_of_directories} and~\ref{figure:ch4_mtdocatdf}, a distribution is compiled for god and non-god and SATD and non-SATD changes by plotting the median values obtained from a different difficulty measure for each project. Juxtaposition of the \textit{distribution medians} demonstrates that regardless of the metric employed to quantify change difficulty, god and SATD changes are consistently more difficult to perform than non-god and non-SATD changes. Moreover, the Mann-Whitney test \cite{mann1947test} yields $p=2.2\ast 10^{-16}$, indicating that the differences are statistically significant.\\
+In each one of Figures~\ref{figure:ch4_tlcpc},~\ref{figure:ch4_tfcpc},~\ref{figure:ch4_number_of_directories} and~\ref{figure:ch4_mtdocatdf}, a distribution is compiled for god and non-god and SATD and non-SATD changes by plotting the median values obtained from a different difficulty measure for each project. Juxtaposition of the \textit{distribution medians} demonstrates that regardless of the metric employed to quantify change difficulty, god and SATD changes are consistently more difficult to perform than non-god and non-SATD changes. Moreover, the Mann-Whitney test \cite{mann1947test} yields $p \le 0.05$, indicating that the differences are statistically significant. Tables~\ref{table:cliff_deltas_RQ4_God} and ~\ref{table:cliff_deltas_RQ4_TD} show the Cliff's delta ~\cite{Cliff:2005} effect size values for all projects studied for both god and SATD changes. We observe that for most projects and all measures of difficulty, the effect size is either medium or large, except for \textit{Hbase, Hama, Deltaspike, Calcite and Stanbol} for god changes and \textit{Hbase and Deltaspike} for SATD changes, which have a small effect size.\\
+
+\begin{landscape}
+	\begin{table}[!htbp]
+
+	\small
+	\centering
+
+
+	
+	\begin{tabular}{l|c|c|c|c}
+		\hline
+		\textbf{Project}   & {\bf NF}    & {\bf E} & {\bf C} & {\bf ND}    \\ \hline
+\textbf{Apache openNLP} & 0.31 & 0.30 & 0.35 & 0.36\\ \hline
+\textbf{Apache Camel} & 0.42 & 0.41 & 0.39 & 0.37\\ \hline
+\textbf{Apache Hbase} & 0.23 & 0.24 & 0.29 & 0.22\\ \hline
+\textbf{Apache Groovy} & 0.36 & 0.33 & 0.34 & 0.40\\ \hline
+\textbf{Apache Oltu} & 0.49 & 0.47 & 0.43 & 0.48\\ \hline
+\textbf{Apache Maven} & 0.35 & 0.34 & 0.33 & 0.33\\ \hline
+\textbf{Apache Karaf} & 0.29 & 0.26 & 0.36 & 0.27\\ \hline
+\textbf{Apache Hama} & 0.27 & 0.25 & 0.32 & 0.22\\ \hline
+\textbf{Apache Tomee} & 0.36 & 0.34 & 0.36 & 0.35\\ \hline
+\textbf{Apache Deltaspike} & 0.30 & 0.28 & 0.29 & 0.29\\ \hline
+\textbf{Apache Curator} & 0.22 & 0.33 & 0.45 & 0.33\\ \hline
+\textbf{Apache Calcite} & 0.22 & 0.24 & 0.23 & 0.27\\ \hline
+\textbf{Apache Poi} & 0.44 & 0.42 & 0.36 & 0.49\\ \hline
+\textbf{Apache Zeppelin} & 0.44 & 0.42 & 0.44 & 0.46\\ \hline
+\textbf{Apache Ant} & 0.47 & 0.45 & 0.43 & 0.49\\ \hline
+\textbf{Apache Stanbol} & 0.27 & 0.25 & 0.30 & 0.24\\ \hline
+\textbf{Apache Kafka} & 0.35 & 0.34 & 0.33 & 0.35\\ \hline
+\textbf{Apache Tika} & 0.35 & 0.33 & 0.33 & 0.36\\ \hline
+\textbf{Apache Felix} & 0.37 & 0.35 & 0.34 & 0.30\\ \hline
+\textbf{Apache Phoenix} & 0.50 & 0.45 & 0.47 & 0.54\\ \hline
+\end{tabular}
+\quad \quad \quad 
+	\begin{tabular}{l|c|c|c|c}
+	\hline
+	\textbf{Project}   & {\bf NF}    & {\bf E} & {\bf C} & {\bf ND}    \\ \hline
+
+\textbf{Apache Wicket} & 0.58 & 0.58 & 0.55 & 0.53\\ \hline
+\textbf{Apache Aurora} & 0.50 & 0.49 & 0.45 & 0.57\\ \hline
+\textbf{Apache Ignite} & 0.52 & 0.39 & 0.52 & 0.53\\ \hline
+\textbf{Apache Helix} & 0.45 & 0.42 & 0.47 & 0.43\\ \hline
+\textbf{Apache Archiva} & 0.39 & 0.39 & 0.38 & 0.30\\ \hline
+\textbf{Apache Struts} & 0.40 & 0.48 & 0.43 & 0.43\\ \hline
+\textbf{Apache Derby} & 0.54 & 0.53 & 0.52 & 0.52\\ \hline
+\textbf{Apache Ambari} & 0.34 & 0.32 & 0.41 & 0.33\\ \hline
+\textbf{Apache Nifi} & 0.40 & 0.37 & 0.43 & 0.44\\ \hline
+\textbf{Apache Tiles} & 0.30 & 0.29 & 0.29 & 0.36\\ \hline
+\textbf{Apache Shiro} & 0.36 & 0.34 & 0.38 & 0.39\\ \hline
+\textbf{Apache Usergrid} & 0.50 & 0.43 & 0.46 & 0.52\\ \hline
+\textbf{Apache Nutch} & 0.32 & 0.34 & 0.31 & 0.40\\ \hline
+\textbf{Apache Zookeeper} & 0.31 & 0.26 & 0.27 & 0.45\\ \hline
+\textbf{Apache Mina} & 0.42 & 0.39 & 0.40 & 0.43\\ \hline
+\textbf{Apache Cxf} & 0.56 & 0.54 & 0.56 & 0.55\\ \hline
+\textbf{Apache Cloudstack} & 0.37 & 0.34 & 0.36 & 0.44\\ \hline
+\textbf{Apache Oozie} & 0.52 & 0.47 & 0.47 & 0.60\\ \hline
+\textbf{Apache Kylin} & 0.36 & 0.30 & 0.35 & 0.38\\ \hline
+\textbf{Apache Flink} & 0.53 & 0.51 & 0.57 & 0.59\\ \hline
+
+
+
+	\end{tabular}
+		\caption{Cliff's delta for the change difficulty measures across the projects for God Changes.}
+		\label{table:cliff_deltas_RQ4_God}
+\end{table}
+\end{landscape}
+
+
+\begin{landscape}
+	\begin{table}[!htbp]
+		
+		\small
+		\centering
+		
+		
+		
+		\begin{tabular}{l|c|c|c|c}
+			\hline
+			\textbf{Project}   & {\bf NF}    & {\bf E} & {\bf C} & {\bf ND}    \\ \hline
+			\textbf{Apache openNLP} & 0.34 & 0.33 & 0.36 & 0.39\\ \hline
+			\textbf{Apache Camel} & 0.44 & 0.42 & 0.38 & 0.40
+\\ \hline
+			\textbf{Apache Hbase} & 0.26 & 0.27 & 0.29 & 0.24
+\\ \hline
+			\textbf{Apache Groovy} & 0.35 & 0.32 & 0.33 & 0.39
+\\ \hline
+			\textbf{Apache Oltu} & 0.36 & 0.33 & 0.41 & 0.35\\ \hline
+			\textbf{Apache Maven} & 0.40 & 0.39 & 0.37 & 0.38
+\\ \hline
+			\textbf{Apache Karaf} & 0.35 & 0.32 & 0.40 & 0.34
+\\ \hline
+			\textbf{Apache Hama} & 0.34 & 0.31 & 0.37 & 0.28
+\\ \hline
+			\textbf{Apache Tomee} & 0.35 & 0.33 & 0.34 & 0.34
+\\ \hline
+			\textbf{Apache Deltaspike} & 0.31 & 0.29 & 0.29 & 0.26
+\\ \hline
+			\textbf{Apache Curator} & 0.40 & 0.30 & 0.51 & 0.40
+\\ \hline
+			\textbf{Apache Calcite} & 0.30 & 0.31 & 0.29 & 0.35
+\\ \hline
+			\textbf{Apache Poi} & 0.48 & 0.47 & 0.37 & 0.51\\ \hline
+			\textbf{Apache Zeppelin} & 0.59 & 0.57 & 0.56 & 0.59
+\\ \hline
+			\textbf{Apache Ant} & 0.41 & 0.49 & 0.47 & 0.49
+\\ \hline
+			\textbf{Apache Stanbol} & 0.33 & 0.30 & 0.34 & 0.39
+\\ \hline
+			\textbf{Apache Kafka} & 0.40 & 0.39 & 0.39 & 0.40
+\\ \hline
+			\textbf{Apache Tika} & 0.37 & 0.33 & 0.30 & 0.38\\ \hline
+			\textbf{Apache Felix} & 0.30 & 0.38 & 0.36 & 0.33
+\\ \hline
+			\textbf{Apache Phoenix} & 0.52 & 0.47 & 0.44 & 0.56\\ \hline
+		\end{tabular}
+		\quad \quad \quad 
+		\begin{tabular}{l|c|c|c|c}
+			\hline
+			\textbf{Project}   & {\bf NF}    & {\bf E} & {\bf C} & {\bf ND}    \\ \hline
+			
+			\textbf{Apache Wicket} & 0.47 & 0.47 & 0.40 & 0.43
+\\ \hline
+			\textbf{Apache Aurora} & 0.52 & 0.51 & 0.48 & 0.59
+\\ \hline
+			\textbf{Apache Ignite} & 0.53 & 0.60 & 0.53 & 0.56
+\\ \hline
+			\textbf{Apache Helix} & 0.53 & 0.51 & 0.50 & 0.49
+\\ \hline
+			\textbf{Apache Archiva} & 0.30 & 0.39 & 0.39 & 0.40
+\\ \hline
+			\textbf{Apache Struts} & 0.37 & 0.39 & 0.39 & 0.34
+\\ \hline
+			\textbf{Apache Derby} & 0.37 & 0.36 & 0.32 & 0.34
+\\ \hline
+			\textbf{Apache Ambari} & 0.38 & 0.36 & 0.44 & 0.38
+\\ \hline
+			\textbf{Apache Nifi} & 0.57 & 0.55 & 0.53 & 0.59
+\\ \hline
+			\textbf{Apache Tiles} & 0.57 & 0.56 & 0.43 & 0.52
+\\ \hline
+			\textbf{Apache Shiro} & 0.35 & 0.39 & 0.35 & 0.36
+\\ \hline
+			\textbf{Apache Usergrid} & 0.51 & 0.44 & 0.47 & 0.52
+\\ \hline
+			\textbf{Apache Nutch} & 0.49 & 0.51 & 0.43 & 0.54
+\\ \hline
+			\textbf{Apache Zookeeper} & 0.39 & 0.35 & 0.33 & 0.47
+\\ \hline
+			\textbf{Apache Mina} & 0.54 & 0.49 & 0.47 & 0.51
+\\ \hline
+			\textbf{Apache Cxf} & 0.36 & 0.34 & 0.31 & 0.35 \\ \hline
+			\textbf{Apache Cloudstack} & 0.40 & 0.37 & 0.29 & 0.46
+\\ \hline
+			\textbf{Apache Oozie} & 0.53 & 0.50 & 0.45 & 0.57
+\\ \hline
+			\textbf{Apache Kylin} & 0.57 & 0.52 & 0.53 & 0.59
+\\ \hline
+			\textbf{Apache Flink} & 0.47 & 0.44 & 0.39 & 0.49 \\ \hline
+			
+			
+			
+		\end{tabular}
+		\caption{Cliff's delta for the change difficulty measures across the projects for SATD Changes.}
+		\label{table:cliff_deltas_RQ4_TD}
+	\end{table}
+\end{landscape}
 
 \begin{myboxii}[RQ3 - Interim Summary]
 	God changes and SATD changes are more difficult to perform than non-god and non-SATD changes.
@@ -495,6 +661,13 @@ We take the list of \SATD files generated by the comment-based approach and the 
 
 
 \noindent{\textbf{Results:}}
+
+Table~\ref{ch4_amount_of_overlap} displays the percentage overlap by project. We see that the values range from 11\% to 34\%. Our findings confirm that the comment-based approach, which uses source code comment patterns to detect technical debt, complements the metric-based approach, which relies on thresholds of object-oriented metrics. \revision In other work, Moldonado \textit{et al.} \cite{Maldonado_TSE2017} studied the overlap between \SATD and several types of code smells extracted by a static analysis tool for 10 open-source projects. For \SATD and god classes specifically, they found an average overlap of 44.2\%, which, though higher than the overlap we found, is based on a smaller sample size. Despite considerable overlap, each of the comment- and metric-based approaches identifies some additional sources of technical debt that the other fails to detect.
+
+\begin{myboxii}[RQ4 - Interim Summary]
+	The comment-based approach complements the metric-based approach with an overlap ranging from 11\% to 34\%.
+\end{myboxii}
+
 	\begin{table}[!htbp]
 	\small
 	\centering
@@ -551,13 +724,6 @@ We take the list of \SATD files generated by the comment-based approach and the 
 	\caption{Percentage of overlap between God and SATD files of the analyzed projects.}
 	\label{ch4_amount_of_overlap}
 \end{table}
-Table~\ref{ch4_amount_of_overlap} displays the percentage overlap by project. We see that the values range from 11\% to 34\%. Our findings confirm that the comment-based approach, which uses source code comment patterns to detect technical debt, complements the metric-based approach, which relies on thresholds of object-oriented metrics. \revision In other work, Moldonado \textit{et al.} \cite{Maldonado_TSE2017} studied the overlap between \SATD and several types of code smells extracted by a static analysis tool for 10 open-source projects. For \SATD and god classes specifically, they found an average overlap of 44.2\%, which, though higher than the overlap we found, is based on a smaller sample size. Despite considerable overlap, each of the comment- and metric-based approaches identifies some additional sources of technical debt that the other fails to detect.
-
-\begin{myboxii}[RQ4 - Interim Summary]
-	The comment-based approach complements the metric-based approach with an overlap ranging from 11\% to 34\%.
-\end{myboxii}
-
-
 
 \pagebreak
 

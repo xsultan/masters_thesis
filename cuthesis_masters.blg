@@ -4,23 +4,23 @@ The top-level auxiliary file: cuthesis_masters.aux
 The style file: alpha.bst
 Database file #1: bibliography.bib.bib
 Warning--entry type for "mcconnell" isn't style-file defined
---line 338 of file bibliography.bib.bib
+--line 352 of file bibliography.bib.bib
 Warning--entry type for "fowler" isn't style-file defined
---line 346 of file bibliography.bib.bib
+--line 360 of file bibliography.bib.bib
 Warning--entry type for "cloc" isn't style-file defined
---line 725 of file bibliography.bib.bib
+--line 739 of file bibliography.bib.bib
 You've used 54 entries,
             2543 wiz_defined-function locations,
-            882 strings with 14800 characters,
-and the built_in function-call counts, 25735 in all, are:
-= -- 2607
+            882 strings with 14740 characters,
+and the built_in function-call counts, 25689 in all, are:
+= -- 2588
 > -- 1244
 < -- 40
-+ -- 452
++ -- 453
 - -- 439
-* -- 1800
-:= -- 4013
-add.period$ -- 175
+* -- 1805
+:= -- 4004
+add.period$ -- 173
 call.type$ -- 54
 change.case$ -- 368
 chr.to.int$ -- 52
@@ -28,26 +28,26 @@ cite$ -- 54
 duplicate$ -- 1079
 empty$ -- 1886
 format.name$ -- 496
-if$ -- 5476
+if$ -- 5466
 int.to.chr$ -- 3
 int.to.str$ -- 0
 missing$ -- 57
 newline$ -- 271
 num.names$ -- 162
-pop$ -- 417
+pop$ -- 418
 preamble$ -- 1
 purify$ -- 427
 quote$ -- 0
-skip$ -- 935
+skip$ -- 938
 stack$ -- 0
-substring$ -- 1431
+substring$ -- 1420
 swap$ -- 314
 text.length$ -- 40
 text.prefix$ -- 11
 top$ -- 0
 type$ -- 408
 warning$ -- 0
-while$ -- 255
+while$ -- 252
 width$ -- 59
-write$ -- 709
+write$ -- 707
 (There were 3 warnings)

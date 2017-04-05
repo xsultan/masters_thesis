@@ -25,10 +25,10 @@ S.~R. Chidamber and C.~F. Kemerer.
 \newblock {\em IEEE Transactions on Software Engineering}, 20(6):476--493, Jun
   1994.
 
-\bibitem[Cun93]{cunningham1993wycash}
+\bibitem[Cun92]{cunningham1993wycash}
 Ward Cunningham.
 \newblock The wycash portfolio management system.
-\newblock {\em ACM SIGPLAN OOPS Messenger}, 4(2):29--30, 1993.
+\newblock {\em SIGPLAN OOPS Mess.}, 4(2):29--30, December 1992.
 
 \bibitem[Dan]{cloc}
 Al~Danial.
@@ -42,9 +42,10 @@ A.~De~Lucia, M.~Di~Penta, and R.~Oliveto.
   2011.
 
 \bibitem[EGK{\etalchar{+}}01]{eick2001decay}
-Stephen~G Eick, Todd~L Graves, Alan~F Karr, J~Steve Marron, and Audris Mockus.
+S.~G. Eick, T.~L. Graves, A.~F. Karr, J.~S. Marron, and A.~Mockus.
 \newblock Does code decay? assessing the evidence from change management data.
-\newblock {\em Software Engineering, IEEE Transactions on}, 27(1):1--12, 2001.
+\newblock {\em IEEE Transactions on Software Engineering}, 27(1):1--12, Jan
+  2001.
 
 \bibitem[FB99]{fowler1999refactoring}
 M.~Fowler and K.~Beck.
@@ -56,17 +57,17 @@ Martin Fowler.
 \newblock Technical debt quadrant, 2007.
 
 \bibitem[FWG07]{fluri2007code}
-Beat Fluri, Michael Wursch, and Harald~C Gall.
+B.~Fluri, M.~Wursch, and H.~C. Gall.
 \newblock Do code and comments co-evolve? on the relation between source code
   and comment changes.
-\newblock In {\em Reverse Engineering, 2007. WCRE 2007. 14th Working Conference
-  on}, pages 70--79. IEEE, 2007.
+\newblock In {\em 14th Working Conference on Reverse Engineering (WCRE 2007)},
+  pages 70--79, Oct 2007.
 
 \bibitem[FZMM13]{fontana2013code}
-Francesca~Arcelli Fontana, Marco Zanoni, Alessandro Marino, and Mika~V Mantyla.
+F.~A. Fontana, M.~Zanoni, A.~Marino, and M.~V. Mäntylä.
 \newblock Code smell detection: Towards a machine learning-based approach.
-\newblock In {\em Software Maintenance (ICSM), 2013 29th IEEE International
-  Conference on}, pages 396--399. IEEE, 2013.
+\newblock In {\em 2013 IEEE International Conference on Software Maintenance},
+  pages 396--399, Sept 2013.
 
 \bibitem[GK05a]{Cliff:2005}
 Robert~J. Grissom and John~J. Kim.
@@ -79,10 +80,11 @@ Robert~J Grissom and John~J Kim.
 \newblock Lawrence Erlbaum Associates Publishers, 2005.
 
 \bibitem[GSG{\etalchar{+}}11]{GuoSGCTSSS11}
-Yuepu Guo, Carolyn~B. Seaman, Rebeka Gomes, Antonio L.~O. Cavalcanti, Graziela
-  Tonin, Fabio Q.~B. da~Silva, André Luis~M. Santos, and Clauirton de~Siebra.
-\newblock Tracking technical debt - an exploratory case study.
-\newblock In {\em ICSM}, pages 528--531, 2011.
+Y.~Guo, C.~Seaman, R.~Gomes, A.~Cavalcanti, G.~Tonin, F.~Q. B.~Da Silva,
+  A.~L.~M. Santos, and C.~Siebra.
+\newblock An exploratory case study tracking technical debt.
+\newblock In {\em 2011 27th IEEE International Conference on Software
+  Maintenance (ICSM)}, pages 528--531, Sept 2011.
 
 \bibitem[Has09]{hassan2009predicting}
 Ahmed~E Hassan.
@@ -141,7 +143,7 @@ Dawn~J Lawrie, Henry Feild, and David Binkley.
 Erin Lim, Nitin Taksande, and Carolyn Seaman.
 \newblock A balancing act: what software practitioners have to say about
   technical debt.
-\newblock {\em Software, IEEE}, 29(6):22--27, 2012.
+\newblock {\em IEEE Software}, 29(6):22--27, 2012.
 
 \bibitem[Mar01]{Marinescu_ICETOOLS}
 R.~Marinescu.
@@ -195,10 +197,11 @@ Raimund Moser, Witold Pedrycz, and Giancarlo Succi.
   Engineering}, ICSE '08, pages 181--190, 2008.
 
 \bibitem[MS15]{MTD15p9}
-ES~Maldonado and Emad Shihab.
+Everton da~S Maldonado and Emad Shihab.
 \newblock Detecting and quantifying different types of self-admitted technical
   debt.
-\newblock In {\em Proc.\ MTD}, pages 9--15. IEEE, 2015.
+\newblock In {\em IEEE 7th International Workshop on Managing Technical Debt
+  (MTD), 2015}, pages 9--15. IEEE, 2015.
 
 \bibitem[MST17]{Maldonado_TSE2017}
 Everton Maldonado, Emad Shihab, and Nikolaos Tsantalis.
