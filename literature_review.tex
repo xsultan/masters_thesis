@@ -2,19 +2,23 @@
 
 
 
-
 In this chapter we present the key contributions of selected publications pertaining to technical debt, which puts the state of the art in focus and contextualizes the aims of this thesis.  The studies we present first are concerned primarily with laying out the technical debt metaphor and establishing which cases such an analogy accurately describes, particularly in dealing with those less versed in software development jargon.  These studies elaborate on the criteria that characterize sub-varieties of technical debt and how it is currently being implemented.  Another collection of studies, presented second, discusses the issue of identifying technical debt in the source code.\\
 
-For the most part, this literature review incorporates prior work that centers on technical debt generally; information specific to the studies under discussion will accompany their respective chapters.
+For the most part, this section incorporates prior work that centers on technical debt generally; information specific to the studies under discussion will accompany their respective chapters.
 
 
-\section{The Popularization of the Technical Debt Metaphor}
+In section~\ref{background}, we provide background information on technical debt generally; section~\ref{related_work}  provides a cursory summary of related work divided into six subsections: Leveraging Source Code and Static Analysis Tools, Source Code Comments, Leveraging Source Code Comments (Self-Admitted Technical Debt), Technical Debt, Software Quality and Identifying and Detecting Code Smells.
 
-In the early days of technical debt, blogs curated by industry professionals circulated the most up-to-date information, but this medium largely left those outside the industry in the dark. \revision In the time since, however, a greater emphasis on collaboration and information sharing has spurred extensive research, undertaken by both the industrial and academic fronts, on what exactly is subsumed under the technical debt metaphor, which includes more and more as its usage gains traction.\\
+
+\iffalse \section{The Popularization of the Technical Debt Metaphor} \fi
+\section{Background}
+\label{background}
+
+In the early days of technical debt, blogs curated by industry professionals circulated the most up-to-date information, but this medium largely left those outside the industry in the dark. In the time since, however, a greater emphasis on collaboration and information sharing has spurred extensive research, undertaken by both the industrial and academic fronts, on what exactly is subsumed under the technical debt metaphor, which includes more and more as its usage gains traction.\\
 
 Ward Cunningham \cite{cunningham1993wycash} originated the technical debt metaphor over twenty years ago as a means of negotiating a common language for the software developers and non-technical staff assigned to the same project. His original conception likened the additional effort incurred to maintain a project in the long term to the interest accrued on debt, such as a loan. Temporary fixes initially accelerate development and thus confer the short-term advantage of meeting deadlines otherwise unreasonable, yet if sufficient debt accumulates, the project grinds to a halt under the burden of incurred interest. It is the metaphor's financial familiarity that makes it effective in explaining how temporarily functional portions of code eventually become unsustainable.\\
 
-Steve McConnell \cite{mcconnell} popularized the metaphor in his taxonomy, as did Martin Fowler \cite{fowler} in devising the four quadrants outlined in Figure~\ref{fig:technical_debt_quadrant}.  \revision Due to the effectiveness of these two methods of explaining technical debt to the software engineering community, we devote the two subsections that follow to examining each in turn.
+Steve McConnell \cite{mcconnell} popularized the metaphor in his taxonomy, as did Martin Fowler \cite{fowler} in devising the four quadrants outlined in Figure~\ref{fig:technical_debt_quadrant}. Due to the effectiveness of these two methods of explaining technical debt to the software engineering community, we devote the two subsections that follow to examining each in turn.
 
 
 \subsection{Intentionally vs. Unintentionally Incurred Technical Debt}
@@ -51,12 +55,13 @@ In the same study, the authors speculate that the technical debt metaphor's comp
 
 Alves \textit{et al.}~\cite{alves2014towards} have introduced a specialized vocabulary intended to disambiguate the subtleties that an all-purpose term such as \textit{technical debt} overlooks, by sorting concepts extracted from a systematic literature mapping that combed 100 studies published between 2010 and 2014. Their undertaking identified 15 categories of technical debt but remained flexible enough to account for instantiations of technical debt that belonged in multiple categories: design debt, documentation debt, code debt, requirements debt, people debt, process debt, service debt, versioning debt, usability debt, build debt, test automation debt, infrastructure debt, defect debt, test debt and architecture debt. The work of Alves \textit{et al.} and others who have monitored trends in the application of the technical debt metaphor and devised schemata relaying its latest interpretations has allowed developers and their stakeholders to make sense of the dynamic interplay between holdover solutions and deferred expense.
 
-\section{Technical Debt Indicators and Ramifications}
-
+\iffalse \section{Technical Debt Indicators and Ramifications} \fi
+\section{Related Work}
+\label{related_work}
 
 \subsection{Leveraging Source Code and Static Analysis Tools}
 
-Lately, there has been a lot of incentive to engineer better strategies for detecting and managing technical debt. Technical debt often gets out of hand and reaches unsustainable levels because a developer fails to realize how quickly it accumulates. \revision Static analysis tools can efficiently pinpoint violations of object-oriented design principles and source code anomalies outside the pre-specified ranges quantifying code quality. Such outliers constitute ``bad smells," which fall under the category of design debt.\\
+Lately, there has been a lot of incentive to engineer better strategies for detecting and managing technical debt. Technical debt often gets out of hand and reaches unsustainable levels because a developer fails to realize how quickly it accumulates. Static analysis tools can efficiently pinpoint violations of object-oriented design principles and source code anomalies outside the pre-specified ranges quantifying code quality. Such outliers constitute ``bad smells," which fall under the category of design debt.\\
 
 In a study probing the effects of god classes (another manifestation of design debt) on project maintainability, Zazworka \textit{et al.}~\cite{zazworka2011investigating} examined two commercial applications released by a development company and concluded that god classes are more liable to be defective, and thus higher-maintenance, than non-god classes. For this reason, it is worthwhile for developers to monitor and, where appropriate, mitigate the effect of technical debt on product quality, at all stages in the process.\\
 
@@ -106,7 +111,7 @@ Other studies have opted to focus on change-level prediction of defects. Sliwers
 Our study leverages the SZZ algorithm and some of the techniques presented in the aforementioned change-level work to study the defect-proneness of SATD-related commits. Moreover, our study complements existing work by taking up the hypothesized correlation between SATD and software defects.
 
 \subsection{Identifying and Detecting Code Smells}
-\revision Fowler and Beck \cite{fowler1999refactoring} originated the term \textit{code smell} to designate various indicators of object-oriented design flaws that can undermine software maintenance. Code smells respond to the internal and external properties of the system elements they monitor. Though manual code smell detection warns developers of potential vulnerabilities, Marinescu \cite{Marinescu_ICETOOLS} observes that it is time-consuming, non-repeatable and non-scalable. Apart from this, the more familiar the software system is to a developer, the higher the risk of a subjective appraisal of its efficiencies and shortcomings, according to Mäntylä \cite{mantyla2003taxonomy, mantyla2004bad}, and one important corollary of this is that a developer's chances of overlooking design flaws increase. In order to surmount these drawbacks, Marinescu recommends enlisting code metrics to detect system volatilities, and in this spirit, several implementations of this alternative to manual detection have been devised \cite{lanza2007object, marinescu2004detection, Marinescu_PhD, Marinescu_IBM_JRD}.
+Fowler and Beck \cite{fowler1999refactoring} originated the term \textit{code smell} to designate various indicators of object-oriented design flaws that can undermine software maintenance. Code smells respond to the internal and external properties of the system elements they monitor. Though manual code smell detection warns developers of potential vulnerabilities, Marinescu \cite{Marinescu_ICETOOLS} observes that it is time-consuming, non-repeatable and non-scalable. Apart from this, the more familiar the software system is to a developer, the higher the risk of a subjective appraisal of its efficiencies and shortcomings, according to Mäntylä \cite{mantyla2003taxonomy, mantyla2004bad}, and one important corollary of this is that a developer's chances of overlooking design flaws increase. In order to surmount these drawbacks, Marinescu recommends enlisting code metrics to detect system volatilities, and in this spirit, several implementations of this alternative to manual detection have been devised \cite{lanza2007object, marinescu2004detection, Marinescu_PhD, Marinescu_IBM_JRD}.
 
 %\incomplete{you need much better organization here}
 %\incomplete{you need to highlight the uniqueness of the thesis}

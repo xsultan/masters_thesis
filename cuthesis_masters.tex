@@ -54,7 +54,7 @@
 \linespread{1.6}
 
 \author{Sultan Wehaibi}
-\title {The Impact of Self-Admitted Technical Debt}
+\title {On The Impact of Self-Admitted Technical Debt}
 \degree{Master of Applied Science in Software Engineering}
 \dept  {Computer Science and Software Engineering}
 
@@ -87,7 +87,7 @@
 \newcommand{\emad}[1]{\textcolor{ForestGreen}{{\it [Emad: #1]}}}
 \newcommand{\todo}[1]{\textcolor{WildStrawberry}{\textbf{[#1]}}}
 \newcommand{\incomplete}[1]{\textcolor{dartmouthgreen}{\textbf{[#1]}}}
-\newcommand{\revision}{\textbf{\colorbox{pink}{[REVISED]}}}
+\newcommand{\revision}{\textbf{\colorbox{white}{}}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -113,12 +113,11 @@
 
 Developers settle for a non-optimal solution under pressure to meet deadlines and quotas despite the potential pitfalls that might ensue at later stages in development, which has been referred to as ``technical debt." And like its financial analogue, if not carefully monitored and mediated, technical debt can compromise the very project it was intended to expedite. Several approaches have been proposed to aid developers in tracking the technical debt they incur. Traditionally, developers have relied on metric-based approaches, but another technique, pioneered in a recent study, leverages source code comments to detect (self-admitted) technical debt. Therefore, in this thesis we use empirical studies to examine the impact of self-admitted technical debt and code smells (God Classes) on software quality.
 
-First, we examine the impact of \SATD on software quality for five open-source projects. To measure this, we take into account three criteria commonly associated with quality: (i) on the file level, the relationship between defects and \SATD (SATD); (ii) on the change level, the potential of SATD to introduce future defects and (iii) the complexity SATD changes impose on the system. The results of our study indicate that: (i) SATD and defects exhibit no correlation at the file level and (ii) SATD changes make the system less susceptible to future defects than non-SATD changes do, though (iii) SATD changes are more difficult to execute.
+Preliminarily, we examine the impact of \SATD on software quality for five open-source projects. To measure this, we take into account three criteria commonly associated with quality: (i) on the file level, the relationship between defects and \SATD (SATD); (ii) on the change level, the potential of SATD to introduce future defects and (iii) the complexity SATD changes impose on the system. The results of our study indicate that: (i) SATD and defects exhibit no correlation at the file level and (ii) SATD changes make the system less susceptible to future defects than non-SATD changes do, though (iii) SATD changes are more difficult to execute.
 
-\revision Second, we expand the scope of our investigation to include another measure of technical debt---code smells, specifically god classes. We assess the impact of god classes (metric-based approach) and \SATD (comment-based approach) on software quality by determining: (i) whether god and SATD files have more defects than non-god and non-SATD files, (ii) whether god and SATD changes induce future defects at a higher rate than non-god and non-SATD changes, (iii) whether god and SATD changes are more difficult to perform than non-god and non-SATD changes and (iv) how much the metric- and comment-based approaches to technical debt file identification overlap. Our results indicate that: (i) neither god nor SATD files are correlated with defects, (ii) introduction of future defects is higher for god- and SATD-related changes, (iii) god- and SATD-related changes are more difficult to perform and (iv) the metric-comment technical debt file overlap ranges from 11\% to 34\%.
+Until the advent of SATD, god classes were used to detect technical debt, and though others have studied the impact of metric-based approaches on software quality, this work has been limited to a small number of systems. Therefore, we conduct an extensive investigation that compares the impact of both approaches on a larger number of projects. We assess the impact of code smells---in particular, god classes (metric-based approach)---and SATD (comment-based approach) on software quality by determining: (i) whether god and SATD files have more defects than non-god and non-SATD files, (ii) whether god and SATD changes induce future defects at a higher rate than non-god and non-SATD changes, (iii) whether god and SATD changes are more difficult to perform than non-god and non-SATD changes and (iv) how much the metric- and comment-based approaches to technical debt file identification overlap. Our results indicate that: (i) neither god nor SATD files are correlated with defects, (ii) introduction of future defects is higher for god- and SATD-related changes, (iii) god- and SATD-related changes are more difficult to perform and (iv) the metric-comment technical debt file overlap ranges from 11\% to 34\%.
 
-Overall, our study indicates that although technical debt may have negative effects, these do not include file-level defects. Rather, the detriments of technical debt are its tendencies to introduce future defects at an elevated rate and to make the system more difficult to change in the future.
-
+Overall, our study indicates that although technical debt---whether measured by the SATD or god classes---may have negative effects, these do not include file-level defects. Rather, the detriments of technical debt are its tendencies to introduce future defects at an elevated rate and to make the system more difficult to change in the future.
 
 
 \end{abstract}
@@ -158,7 +157,7 @@ The following publications are related to this thesis:
 \label{introduction}
 \input{introduction.tex}
 
-\chapter{Literature Review}
+\chapter{Background \& Related Work}
 \label{literature_review}
 \input{literature_review.tex}
 
