@@ -357,13 +357,13 @@ We compare god files versus non-god files and SATD files versus non-SATD files i
 
 
 \noindent\textbf{Comparing god and non-god files:}
-The God Class Detection Equation proposed by \cite{marinescu2004detection} provides a way to identify god classes using object-oriented metrics. Files are fed to the equation and are labeled either god or non-god files, depending on the output. We calculate the percentage of defect-fixing changes for each file in both categories based on $\frac{\left (\frac{\#~of~fixing~changes}{total~\#~changes} \right )}{SLOC}$. We normalize our data since files can have different amounts of changes and apply a test designed to measure whether the differences between the categories are statistically significant.
+The God Class Detection Equation proposed by \cite{marinescu2004detection} provides a way to identify god classes using object-oriented metrics. Files are fed to the equation and are labeled either god or non-god files, depending on the output. We calculate the percentage of defect-fixing changes for each file in both categories based on $\frac{ \#~of~fixing~changes}{SLOC}$. We normalize our data since files can have different amounts of changes and apply a test designed to measure whether the differences between the categories are statistically significant.
 
 In case this distribution is non-normal, we use the non-parametric Mann-Whitney~\cite{mann1947test} test because, unlike the parametric alternatives, it is capable of handling such distributions. A \textit{p}-value such that $p \le 0.05$ indicates that the difference between the samples is statistically significant.
 
 
 \noindent\textbf{Comparing SATD and non-SATD files:}
-We identify SATD files in accordance with the procedure detailed in section~\ref{ch3_td}, labeling files containing any number of SATD comments as SATD files and all others non-SATD files. These two file categories (SATD and non-SATD) undergo calculations yielding the percentage of defect-fixing changes, $\frac{\left (\frac{\#~of~fixing~changes}{total~\#~changes} \right )}{SLOC}$ , which, unlike pure counts, standardizes the metric across files hosting different numbers of changes. Afterwards the defect distribution is plotted for SATD and non-SATD files and a test is performed to uncover any statistical trends.
+We identify SATD files in accordance with the procedure detailed in section~\ref{ch3_td}, labeling files containing any number of SATD comments as SATD files and all others non-SATD files. These two file categories (SATD and non-SATD) undergo calculations yielding the percentage of defect-fixing changes, $\frac{ \#~of~fixing~changes}{SLOC}$ , which, unlike pure counts, standardizes the metric across files hosting different numbers of changes. Afterwards the defect distribution is plotted for SATD and non-SATD files and a test is performed to uncover any statistical trends.
 
 Again, we elected to conduct the non-parametric Mann-Whitney~\cite{mann1947test} test to decide whether a statistical difference exists between the SATD and non-SATD groups rather than a parametric substitute, which could not accommodate non-normal distribution. A statistically significant difference returns a \textit{p}-value of at most 0.05 ($p \le 0.05$).
 
@@ -373,12 +373,12 @@ Again, we elected to conduct the non-parametric Mann-Whitney~\cite{mann1947test}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=140mm]{figures/chapter4/rq1_defectivness_distrubution_new}
+	\includegraphics[width=140mm]{figures/chapter4/rq1_defectivness_distrubution_new2}
 	\caption{Percentage of defect-fixing changes for (i) God vs. non-God files and (ii) SATD vs. NSATD files.}
 	\label{figure:ch4_number_of_fixing_changes_TD_vs_NTD}
 \end{figure}
 
-Beanplots are a convenient way to present and compare univariate data for two groups. Those in Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD} display the distribution of \textit{median corrective change rates}, based on $\frac{\left (\frac{\#~of~fixing~changes}{total~\#~changes} \right )}{SLOC}$, for god files versus non-god files and SATD files versus non-SATD files \textit{in each project}. %These rates represent the number of bug-fixing changes over the number of total changes.
+Beanplots are a convenient way to present and compare univariate data for two groups. Those in Figure \ref{figure:ch4_number_of_fixing_changes_TD_vs_NTD} display the distribution of \textit{median corrective change rates}, based on $\frac{ \#~of~fixing~changes}{SLOC}$, for god files versus non-god files and SATD files versus non-SATD files \textit{in each project}. %These rates represent the number of bug-fixing changes over the number of total changes.
 The dotted lines represent the overall mean taking data from both groups into account; for this reason, the dotted lines mark the same value on both sides of each beanplot. The solid lines, in contrast, mark the median value for each group and thus differ from one side to the other. A comparison of \textit{distribution medians} indicates that the defectiveness rates for god and SATD files are lower than the corresponding rates for non-god and non-SATD files.
 
 \begin{myboxii}[RQ1 - Interim Summary]
