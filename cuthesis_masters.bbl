@@ -52,6 +52,11 @@ M.~Fowler and K.~Beck.
 \newblock {\em Refactoring: Improving the Design of Existing Code}.
 \newblock Component software series. Addison-Wesley, 1999.
 
+\bibitem[Fit96]{fitzpatrick1996software}
+Ronan Fitzpatrick.
+\newblock Software quality: definitions and strategic issues.
+\newblock {\em Reports}, page~1, 1996.
+
 \bibitem[Fow07]{fowler}
 Martin Fowler.
 \newblock Technical debt quadrant, 2007.
